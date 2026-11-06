@@ -16,6 +16,22 @@ deb https://n900-resurrection.github.io/n900-repository fremantle main
 ```
 and run `apt-get update`. The repository is **not signed yet**, apt prints `Ign ... Release.gpg` and asks for `--force-yes`.
 
+## Install file for the Application Manager
+[n900-repository.install](n900-repository.install) adds the catalogue to the built-in Application Manager and offers `apt-transport-curl`
+(open it from the file manager, or run `dbus-send ... hildon_application_manager.mime_open`). Syntax of a Maemo 5 install file:
+```
+[install]
+catalogues = n900          # section name(s) below that describe the repositories
+package = apt-transport-curl
+
+[n900]
+name = N900 Resurrection   # name in the catalogue list
+uri = https://n900-resurrection.github.io/n900-repository
+dist = fremantle
+components = main
+```
+The Application Manager reads the repository with the apt of the phone, so over HTTPS this works only after `apt-transport-curl` is installed.
+
 ## Layout
 ```
 pool/main/*.deb
