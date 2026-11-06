@@ -89,6 +89,71 @@ Description: Bonsai tree generator for the terminal
  Upstream: https://gitlab.com/jallbrit/cbonsai
 Xb-Maemo-Display-Name: cbonsai
 
+Package: cbonsai
+Version: 1.4.2-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 300
+Depends: libc6 (>= 2.5)
+Filename: pool/main/cbonsai_1.4.2-1maemo2_armel.deb
+Size: 110392
+MD5sum: 61e8a5e6e2e39355e3b795272906a16d
+SHA1: b8cc2e0ad6ca7d07a5cd28f02137c72ce19efdfd
+SHA256: a356274fd56b2d196a3b537e7948b53a5a2bcb61faa8df1c48001c291526b293
+Section: user/other
+Priority: optional
+Description: Bonsai tree generator for the terminal
+ cbonsai grows a random bonsai tree in the terminal. Run cbonsai -l to watch it grow,
+ cbonsai-live for an endless forest, cbonsai -h for the other options.
+ Built for Maemo 5 (armel, glibc 2.5) with ncursesw linked statically.
+ Upstream: https://gitlab.com/jallbrit/cbonsai
+Xb-Maemo-Display-Name: cbonsai
+Xb-Maemo-Icon-26:
+ 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
+ uOpC438BgfyQvHf6fEkAAAAASUVORK5CYII=
+
 Package: cmatrix
 Version: 2.0-1maemo1
 Architecture: armel
@@ -108,6 +173,73 @@ Description: Matrix-style falling characters in the terminal
  Built for Maemo 5 (armel, glibc 2.5), dynamically linked against the system libncurses5.
  Upstream: https://github.com/abishekvashok/cmatrix
 Xb-Maemo-Display-Name: CMatrix
+
+Package: cmatrix
+Version: 2.0-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 164
+Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
+Filename: pool/main/cmatrix_2.0-1maemo2_armel.deb
+Size: 38386
+MD5sum: 2973849209c504f8ae14a3b0e6f46232
+SHA1: c89a5785483ab9a1808cc7217064dded21e7fe8d
+SHA256: db30fcf2c31fd7018e1bb361de681781e9741e5b95d1bd0f0d6c8e0d86c5c633
+Section: user/other
+Priority: optional
+Description: Matrix-style falling characters in the terminal
+ cmatrix shows scrolling characters like in the movie The Matrix. Press q to quit.
+ Options: -b bold, -C <colour>, -s screensaver mode (any key quits), -u <0-10> speed.
+ Built for Maemo 5 (armel, glibc 2.5), dynamically linked against the system libncurses5.
+ Upstream: https://github.com/abishekvashok/cmatrix
+Xb-Maemo-Display-Name: CMatrix
+Xb-Maemo-Icon-26:
+ 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
+ ST2JRQAAAABJRU5ErkJggg==
 
 Package: curl
 Version: 8.23.0-1maemo1
@@ -187,6 +319,26 @@ Description: A podcast aggregator for the Nokia N900
  Upstream: http://gpodder.org/
 Xb-Maemo-Display-Name: gPodder Podcast Client
 
+Package: gpodder
+Version: 2.20.3-2maemo4
+Architecture: armel
+Maintainer: elPytel (build of upstream gPodder by Thomas Perl)
+Installed-Size: 2760
+Depends: python (>= 2.5), python-gobject, python-gtk2 (>= 2.12.1-6maemo10), python-hildon (>= 0.9.0-1maemo12), python-feedparser (>= 5.0.1), python-dbus, python-osso, python-simplejson, python-mygpoclient (>= 1.4), python-conic, curl, quickjs
+Filename: pool/main/gpodder_2.20.3-2maemo4_armel.deb
+Size: 631204
+MD5sum: 17e27d7f5753a2c476a32f9daf078d9e
+SHA1: 539acb639ad8c0237d4dfa163b91fb4d697fc472
+SHA256: df405b1de5d1b9491ba5390fec687027e957b6723aa6d2d444651b5d5ca33440
+Section: user/multimedia
+Priority: optional
+Description: A podcast aggregator for the Nokia N900
+ gPodder is a podcast receiver/catcher with a specialized UI that has been optimized for Maemo 5 and the N900.
+ Podcasts are like short radio shows that you can download from the Internet and subscribe to like blogs or news feeds.
+ Version 2.20.3 "The Odd Pod" built from the upstream git tag obsolete/maemo5, with HTTPS through curl and YouTube through yt-dlp.
+ Upstream: http://gpodder.org/
+Xb-Maemo-Display-Name: gPodder Podcast Client
+
 Package: htop3
 Version: 3.5.3-1maemo1
 Architecture: armel
@@ -205,6 +357,51 @@ Description: Interactive process viewer (htop 3.x)
  /opt/htop3 next to the system htop 0.8.3. Start it with htop3 (refresh interval 5 s by default).
  Upstream: https://github.com/htop-dev/htop
 Xb-Maemo-Display-Name: htop 3
+
+Package: htop3
+Version: 3.5.3-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 528
+Depends: libc6 (>= 2.5)
+Filename: pool/main/htop3_3.5.3-1maemo2_armel.deb
+Size: 224330
+MD5sum: bee67e8e4cdca130e33b9ea79ea228bb
+SHA1: 2b59890aa2f04e9fe29cd3300a1a0de677478bad
+SHA256: d08f3874610707e6325f3b2d35ca97d701fbfd494431d38d38a628bc840a40b7
+Section: user/system
+Priority: optional
+Description: Interactive process viewer (htop 3.x)
+ htop is an interactive process viewer. This is htop 3.x built for Maemo 5, installed in
+ /opt/htop3 next to the system htop 0.8.3. Start it with htop3 (refresh interval 5 s by default).
+ Upstream: https://github.com/htop-dev/htop
+Xb-Maemo-Display-Name: htop 3
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfqCwYWKS0wguDV
+ AAAE/klEQVRIx5WVTWxUVRTHf+e+58hAlRZrW0ottJHP2gQVoUQxGk1cuDdRXPgZ3agkLt1CWGlM
+ XGKiC6MrF26MiUaFBBEUlBQkFUlalM4MTPtmpm8+3n3v3ePiTUuBMZazeS/n3nP/95z7/58jBz84
+ eBRlQzqQfm0ft3tRjgCPAilwCngdeAGYOjR8iOX23uX3ALYCnwNHgN3OiPfOR+HxfEtf+6pv7YmZ
+ fO5ZgSt+pVLZbDB/2357ISyELwDdwACQtP83Ajk6WKlYor22sb23PzX4hULYnY901EjySbV7zQTO
+ bfbDMBRx8uvc+rnjUhUBlBXaQnXhFl/qQa22oLblZGulcvzY2OgDBh32YxsjKpLYBHGyUgwAEpt0
+ BIpthLGKp5DEsYgqfhzHKiokUQIOEG5F+48c4yjOfpZFOCPYyCKR4qkjjmNEVf0kTsChsY0XM1px
+ 6Tpl5DzBRhFiFU+VOE7UqOK3mq3UpW5XejI9H22PdNn9/reO9bB+s0ucERphKK7l9NRA72PNemOX
+ EVI/CIJJQQZbs63Rcnf5AkpZRGbI6F0GpoBWJ6BioUh7bQooK8ykHl5QuFpe1XQX/u7pur9areZF
+ dVL2v7p/SBDP3mubwXiwBqgIks9qqE2U7t7+3uLuvbv9NE0t4C9WzvO83KkTp5JyqTzgOSrj55N8
+ aoSnfwybOZt2fzc6VL98d9dqURJ/+9j2j1D604H0e7vP7kL5DHiEjBq/Ac8r+uG18rV3gc+Ah9tA
+ p4EXR7aMvD+yZfTAnVa/OHAyfNB54ulufjHK/tn+tb+szueeMlD0gyDYYzDTUX80ExbCN1G+B7aR
+ CbYEPATcA+wEviPrBABX2r57gIdylqOFYrgl9fCBfwR2GeyX1Z4ucG7Cr4d1QfltfnD+pNRWJFjt
+ 5MhZZWGhRmpARBSQbbXayWM7RnYa1RE/47lIEt0qWEURZOnbGTUjqrEOG0U47/q+jN6xGFX82GaC
+ jaMlHd1ee2hHGKtYa3GGm4EwblGwii5rQSsW7HIzsWIji/NuBEpsrEbBbzabqaY6kZxIpqIdKxJs
+ R3/OKo1abRFIAP15oPeJRr0x4YmkfhAEZwQZbBVag+We8lmUEvAXGb1LwKSIBMA54CpwqX32VeCc
+ QqDoZM5qKSiULqWeeEDJqJ690tM1VK1WVVTPyJsH3hgWjG/7bKOys9KFMg+sab9zE6Fn7urc7Lmz
+ 5+70jNdS9I7syhInuFXP+VuibWbdoEk1mPi1kXcCItIQ59Z9O7IhnF67ZrVREn/DfUNHUNanA+k3
+ fWN9EyifAhNkLeg08BJjvLz3yb0XD286DNBcLNfcW283idkM+gnIp4zzMOABP4vqS3/0d59I8rln
+ BEp+EATjgkzZQTsZzoavAL1kEzMBZsjEu6rTuxQKs7TXtiHSi+owWYv6S2BHTqOPK+vu3oNz436j
+ 3hAcf8z3z58lXBLNiiwMw/9iqQJy/8Xw9x/GNp03ylY/jmNwyJKObmOYx9Zmp+qyAJGlI/xsHl0X
+ LJoNsdsVbBRFN3D+5vulToltjFHVxRakSZQgenuCtcuBRG4MVG1nFGcTttlopprqvuR4Mt0ca94g
+ 2P/rc41aDSDroKqoCKgiIoKq/jTY90wjrO/zRFK/Uqn8KcpQy4+Gr/Vem8ZRQSiS0bsKXAZsJ6BK
+ sQhgFS6jWgVKiPhARZxOF9fdtbFWq60W1Yv/AoZk452BHKYkAAAAAElFTkSuQmCC
 
 Package: jq
 Version: 1.8.2-1maemo1
@@ -262,6 +459,66 @@ Description: Mutt 2.4.3 terminal e-mail client (IMAP/SMTP over TLS 1.3)
  (for example Centrum). Replaces the old mutt 1.5.20. Installed in /opt/mutt, link /usr/bin/mutt.
  Example configuration: /opt/mutt/share/doc/mutt/muttrc.centrum.example.
 Xb-Maemo-Display-Name: Mutt
+
+Package: mutt
+Version: 2.4.3-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 4220
+Depends: libc6 (>= 2.5), curl, msmtp
+Filename: pool/main/mutt_2.4.3-1maemo2_armel.deb
+Size: 2080684
+MD5sum: 3402602b195f3e06db2e4b4734ee9a0a
+SHA1: ef3ea90bc61b0f65cace8417ea77f24ed682f368
+SHA256: 8c2a66d3054a6c4823d62d594940f829a572231e808f8e36f732bfe1e1ec4f36
+Section: user/network
+Priority: optional
+Description: Mutt 2.4.3 terminal e-mail client (IMAP/SMTP over TLS 1.3)
+ Mutt 2.4.3 for Maemo 5 with OpenSSL 3, so it can talk to servers that require TLS 1.2 or newer
+ (for example Centrum). Replaces the old mutt 1.5.20. Installed in /opt/mutt, link /usr/bin/mutt.
+ Example configuration: /opt/mutt/share/doc/mutt/muttrc.centrum.example.
+Xb-Maemo-Display-Name: Mutt
+Xb-Maemo-Icon-26:
+ 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
+ AAAAAElFTkSuQmCC
 
 Package: mutt-hildon
 Version: 0.4-1maemo1
@@ -334,6 +591,94 @@ Description: Small JavaScript engine (ES2023), runtime for yt-dlp
  JavaScript challenges of YouTube. Upstream: https://bellard.org/quickjs/
 Xb-Maemo-Display-Name: QuickJS
 
+Package: ranger
+Version: 1.9.4-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream ranger by Roman Zimbelmann and contributors)
+Installed-Size: 2132
+Depends: python3.11
+Filename: pool/main/ranger_1.9.4-1maemo1_armel.deb
+Size: 545780
+MD5sum: 3be6afdaa7ca226819772cf2571ad966
+SHA1: f9ee3482730b4bbf53bc86863c85fe1cb438e03e
+SHA256: e488720330262c264a95ceeb2a06bafee71ec8745ea2e70a0555762ccf339e3d
+Section: user/utilities
+Priority: optional
+Description: ranger 1.9.4 console file manager
+ ranger 1.9.4, a console file manager with VI key bindings, for Maemo 5. It runs on the Python 3.11 of the package python3.11.
+ Run ranger in the terminal (arrow keys or h j k l, q quits). Opening files uses vim and mplayer of the phone; the previews of files need the tool file, which the phone does not have, so only directories and plain text are previewed.
+ Upstream: https://ranger.fm/
+Xb-Maemo-Display-Name: Ranger
+
+Package: ranger
+Version: 1.9.4-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream ranger by Roman Zimbelmann and contributors)
+Installed-Size: 2168
+Depends: python3.11
+Filename: pool/main/ranger_1.9.4-1maemo2_armel.deb
+Size: 557046
+MD5sum: 8f84b1c84d0719885436a9601e9844d2
+SHA1: cae153b99d8a1f89c743774bb84bce248099df3c
+SHA256: 6b981b44e4d79ea567530c6828f91db77d2df116d62529b77a11fc9267808111
+Section: user/utilities
+Priority: optional
+Description: ranger 1.9.4 console file manager
+ ranger 1.9.4, a console file manager with VI key bindings, for Maemo 5. It runs on the Python 3.11 of the package python3.11.
+ Run ranger in the terminal (arrow keys or h j k l, q quits). Opening files uses vim and mplayer of the phone; the previews of files need the tool file, which the phone does not have, so only directories and plain text are previewed.
+ Upstream: https://ranger.fm/
+Xb-Maemo-Display-Name: Ranger
+Xb-Maemo-Icon-26:
+ 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
+ AAAAAElFTkSuQmCC
+
 Package: sfeed
 Version: 2.4-1maemo1
 Architecture: armel
@@ -351,6 +696,66 @@ Description: sfeed 2.4 RSS/Atom feed and podcast reader for the terminal
  sfeed 2.4 for Maemo 5: small tools that parse RSS/Atom feeds into a plain format and a curses reader.
  Feeds are fetched with curl over TLS 1.3. Run sfeed-reader. Podcasts are normal feeds, the audio link is in the enclosure field.
 Xb-Maemo-Display-Name: sfeed
+
+Package: sfeed
+Version: 2.4-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 508
+Depends: libc6 (>= 2.5), libncurses5 (>= 5.7), curl
+Filename: pool/main/sfeed_2.4-1maemo2_armel.deb
+Size: 102466
+MD5sum: 8dfe4a2458a4e1cfedf21ab98da953c9
+SHA1: 513e8ca652432ed5887a18e5da21ba70ac58a2b6
+SHA256: ad12ed7216f00f03d203cef48542adbcc8ea68a43ca4991e809fad0dcfbead3b
+Section: user/network
+Priority: optional
+Description: sfeed 2.4 RSS/Atom feed and podcast reader for the terminal
+ sfeed 2.4 for Maemo 5: small tools that parse RSS/Atom feeds into a plain format and a curses reader.
+ Feeds are fetched with curl over TLS 1.3. Run sfeed-reader. Podcasts are normal feeds, the audio link is in the enclosure field.
+Xb-Maemo-Display-Name: sfeed
+Xb-Maemo-Icon-26:
+ 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
+ /Dcx1rAkYxAoWgAAAABJRU5ErkJggg==
 
 Package: tty-clock
 Version: 2.3-1maemo1
@@ -371,6 +776,64 @@ Description: Digital clock for the terminal
  Built for Maemo 5 (armel, glibc 2.5), dynamically linked against the system libncurses5.
  Upstream: https://github.com/xorg62/tty-clock
 Xb-Maemo-Display-Name: tty-clock
+
+Package: tty-clock
+Version: 2.3-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 136
+Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
+Filename: pool/main/tty-clock_2.3-1maemo2_armel.deb
+Size: 23450
+MD5sum: 2e1fbe82dc9b0f26192d528d5b215e9f
+SHA1: a7c58727d2fdb37252f6512410bfed1f2ee0a159
+SHA256: 5f6af86d9537912f085aabc1c0fa6fd6742f338485cfe5e128ff1202dc1cc54d
+Section: user/utilities
+Priority: optional
+Description: Digital clock for the terminal
+ tty-clock shows a large digital clock in the terminal. Options: -s seconds, -c centered,
+ -C <0-7> colour, -t 12 hour format, -b bold, -d <ms> refresh delay.
+ Built for Maemo 5 (armel, glibc 2.5), dynamically linked against the system libncurses5.
+ Upstream: https://github.com/xorg62/tty-clock
+Xb-Maemo-Display-Name: tty-clock
+Xb-Maemo-Icon-26:
+ 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
+ WqTGAgAAAABJRU5ErkJggg==
 
 Package: wget
 Version: 1.25.0-1maemo1
@@ -408,4 +871,64 @@ Description: Console word processor
  Built for Maemo 5 (armel, glibc 2.5) with ncursesw linked statically.
  Upstream: https://github.com/davidgiven/wordgrinder
 Xb-Maemo-Display-Name: WordGrinder
+
+Package: wordgrinder
+Version: 0.8-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 864
+Depends: libc6 (>= 2.5), zlib1g
+Filename: pool/main/wordgrinder_0.8-1maemo2_armel.deb
+Size: 273664
+MD5sum: b351a0d7255d4a84c75ad2b0ce0636a2
+SHA1: 0dff36525ef37456d8d4d147f16c5ef3e3cf99a4
+SHA256: 8044612383f2b5e77389ca526625f58aedddecf814c0af258215861a424fd266
+Section: user/office
+Priority: optional
+Description: Console word processor
+ WordGrinder is a simple, Unicode-aware word processor that runs on the console.
+ Built for Maemo 5 (armel, glibc 2.5) with ncursesw linked statically.
+ Upstream: https://github.com/davidgiven/wordgrinder
+Xb-Maemo-Display-Name: WordGrinder
+Xb-Maemo-Icon-26:
+ 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
 
