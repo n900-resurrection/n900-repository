@@ -2,13 +2,13 @@ Package: apt-transport-curl
 Version: 0.1-1maemo1
 Architecture: armel
 Maintainer: elPytel
-Installed-Size: 36
+Installed-Size: 40
 Depends: curl, apt-transport-https
 Filename: pool/main/apt-transport-curl_0.1-1maemo1_armel.deb
-Size: 2986
-MD5sum: 212ba8dd893498a661ce8eefaed12c78
-SHA1: 46478771a55bad69744d61c609f1e0541d0969b9
-SHA256: c77051687dda23dbcebec31a3a9a2b4b96612fecb077b061681ac4e1b3311278
+Size: 3316
+MD5sum: 6fcc8e583a0b9c53b62bc2e6edfcf3c4
+SHA1: 750ff5993ce5d37f4ee247861a2850e688807e42
+SHA256: 7026703ce42a150e61c5e83663f43be28ca43b6476a58d7e640063a9c487646c
 Section: user/system
 Priority: optional
 Description: apt over HTTPS with TLS 1.2/1.3 (through curl 8)
@@ -167,6 +167,26 @@ Description: A podcast aggregator for the Nokia N900
  Upstream: http://gpodder.org/
 Xb-Maemo-Display-Name: gPodder Podcast Client
 
+Package: gpodder
+Version: 2.20.3-2maemo3
+Architecture: armel
+Maintainer: elPytel (build of upstream gPodder by Thomas Perl)
+Installed-Size: 2760
+Depends: python (>= 2.5), python-gobject, python-gtk2 (>= 2.12.1-6maemo10), python-hildon (>= 0.9.0-1maemo12), python-feedparser (>= 5.0.1), python-dbus, python-osso, python-simplejson, python-mygpoclient (>= 1.4), python-conic, curl, quickjs
+Filename: pool/main/gpodder_2.20.3-2maemo3_armel.deb
+Size: 631066
+MD5sum: b670f66c122bf14e4edaeabc08cef835
+SHA1: 7901a238e6a63e3666b80c8f70d1a0e4e5241169
+SHA256: 6d4e521ab059be0c4478d8100a6074c467e6a7657018cba8e0e6a7da81bf3d1c
+Section: user/multimedia
+Priority: optional
+Description: A podcast aggregator for the Nokia N900
+ gPodder is a podcast receiver/catcher with a specialized UI that has been optimized for Maemo 5 and the N900.
+ Podcasts are like short radio shows that you can download from the Internet and subscribe to like blogs or news feeds.
+ Version 2.20.3 "The Odd Pod" built from the upstream git tag obsolete/maemo5, with HTTPS through curl and YouTube through yt-dlp.
+ Upstream: http://gpodder.org/
+Xb-Maemo-Display-Name: gPodder Podcast Client
+
 Package: htop3
 Version: 3.5.3-1maemo1
 Architecture: armel
@@ -250,10 +270,10 @@ Maintainer: elPytel
 Installed-Size: 132
 Depends: python2.5, python-gtk2, python2.5-hildon, libsqlite3-0, curl, msmtp, mutt
 Filename: pool/main/mutt-hildon_0.4-1maemo1_armel.deb
-Size: 26934
-MD5sum: 7e34be90e91a0fcd1c7bc47402ad3b91
-SHA1: 2c3a2fc97cb124e58bd95fbe53b0f77960a71f73
-SHA256: d061078ff3edfd15c3c1933f92aa5ee0b696556f3d68f5e5c8ee4569df2cf0e5
+Size: 26920
+MD5sum: 1c4fa177cd9a486cbba81bf67bfccb7e
+SHA1: 8cd4de755df75319440386597813f209257c872f
+SHA256: 463b632fc628a510e0bf760f413d0fd260efa23e4083b29d6226217e44bce656
 Section: user/network
 Priority: optional
 Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
