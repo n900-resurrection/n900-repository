@@ -4,11 +4,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 40
 Depends: curl, apt-transport-https
-Filename: pool/main/apt-transport-curl_0.1-1maemo1_armel.deb
-Size: 3316
-MD5sum: 6fcc8e583a0b9c53b62bc2e6edfcf3c4
-SHA1: 750ff5993ce5d37f4ee247861a2850e688807e42
-SHA256: 7026703ce42a150e61c5e83663f43be28ca43b6476a58d7e640063a9c487646c
+Filename: pool/main/apt-transport-curl/apt-transport-curl_0.1-1maemo1_armel.deb
+Size: 3320
+MD5sum: d11ca5cf65cba0765df1fd9c5bd71770
+SHA1: f9d9192abfdc1adf07aca3a257f93af2cc7d1cfe
+SHA256: f4af72adc1f889fda5f455fc2367103499aaa3adb21e227ad9eceeea978ab833
 Section: user/system
 Priority: optional
 Description: apt over HTTPS with TLS 1.2/1.3 (through curl 8)
@@ -22,11 +22,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 1112
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
-Filename: pool/main/bash5_5.3-1maemo1_armel.deb
-Size: 579980
-MD5sum: a5e355576abe2a7e60061e0e95ae1372
-SHA1: 36781570185b64e88dd6ed09ec6755bc306c666d
-SHA256: 64eda1a8e9d7f319bd3352bd941802d11c78961a4bce3338b0974ee9bfed4265
+Filename: pool/main/bash5/bash5_5.3-1maemo1_armel.deb
+Size: 579978
+MD5sum: 637ed1de4d4efa14eac1935dbce3d2bb
+SHA1: e635d7b3648d99b3614ed3794a2823ff6fba084d
+SHA256: ac2fcad0347655bc26511e1a968cec8ed83b06c1c62f03a22fb63d0b532ecedb
 Section: user/system
 Priority: optional
 Description: GNU Bash 5.3 shell (next to the system bash 3.2)
@@ -40,11 +40,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 1080
 Depends: libc6 (>= 2.5)
-Filename: pool/main/busybox37_1.37.0-1maemo1_armel.deb
-Size: 602486
-MD5sum: d935978a5338474754acc006bb062402
-SHA1: 4b056f905fa44d9b3c0d1f70dd68c5121287b5d2
-SHA256: 8928bbd005e937a405a2dccaf8cf45d0178166a238ed635dbb171e9a6cc30417
+Filename: pool/main/busybox37/busybox37_1.37.0-1maemo1_armel.deb
+Size: 602534
+MD5sum: da1203d2c0e31fca3daf1a06844b92c2
+SHA1: 2f927f0d5644c59447a0cc9f883264a560844cf7
+SHA256: 49d3b1d6bccee49ba4e5871cdeb33eb1ffa0be02af7f786450f2f943e7dc6668
 Section: user/system
 Priority: optional
 Description: BusyBox 1.37.0 (modern coreutils, ash, awk, sed, tar, ...)
@@ -58,11 +58,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 4608
 Depends: libc6 (>= 2.5), libglib2.0-0, zlib1g, libtinymail-camel-1.0-0
-Filename: pool/main/camel-lite-ssl3_1.1.92cssu7-2maemo1_armel.deb
-Size: 2138992
-MD5sum: 14ac2c6e2053e8f0817998241b8045f0
-SHA1: 86dc483b1b3389cb3d3cef19af315e4b14d23739
-SHA256: fa0095ee052c0ee2ad53892198ace9389e8a7a700fb97e4a977024148a09cccb
+Filename: pool/main/camel-lite-ssl3/camel-lite-ssl3_1.1.92cssu7-2maemo1_armel.deb
+Size: 2139004
+MD5sum: c53a058b4a1058528029444d2a16287e
+SHA1: 2b24c10c7b376e231736bacb452098ae54b7abea
+SHA256: e78c4c70bdef8723d6e194e72beaf6037f2559facacf8a595be3e73c69bbbe33
 Section: user/network
 Priority: optional
 Description: camel-lite with OpenSSL 3: Modest with TLS 1.2/1.3 (replaces the system library, reversible)
@@ -75,7 +75,7 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 260
 Depends: libc6 (>= 2.5)
-Filename: pool/main/cbonsai_1.4.2-1maemo1_armel.deb
+Filename: pool/main/cbonsai/cbonsai_1.4.2-1maemo1_armel.deb
 Size: 95386
 MD5sum: c120e9a4e4c1c50a63b1603608894fd0
 SHA1: 460dc06fa11dcd583a6fa345dcd33511831627d5
@@ -95,11 +95,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 300
 Depends: libc6 (>= 2.5)
-Filename: pool/main/cbonsai_1.4.2-1maemo2_armel.deb
-Size: 110392
-MD5sum: 61e8a5e6e2e39355e3b795272906a16d
-SHA1: b8cc2e0ad6ca7d07a5cd28f02137c72ce19efdfd
-SHA256: a356274fd56b2d196a3b537e7948b53a5a2bcb61faa8df1c48001c291526b293
+Filename: pool/main/cbonsai/cbonsai_1.4.2-1maemo2_armel.deb
+Size: 110398
+MD5sum: 195a54e085b292c5f197bc20ea031776
+SHA1: c66abaa58952aeb7ce728dd9253da81f5c419ea4
+SHA256: 1cf9fd3607408a83bb5f3b4256545de085d63de550c5baba1e073d56453ca598
 Section: user/other
 Priority: optional
 Description: Bonsai tree generator for the terminal
@@ -110,7 +110,7 @@ Description: Bonsai tree generator for the terminal
 Xb-Maemo-Display-Name: cbonsai
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwYWKSxHhdBD
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKFS3u8aRb
  AAAJI0lEQVRYw82Ye3RU1RXGf+feeSTkMeQ5AhHIUhIDASwhCgEMJDzSCoIUCVURdYGAiC+wS1gs
  lUqx1iyKgoqPVtTKo1WhQSEUFjZAgggmQDAGYqkGyPtJZiYzuTP39I97Iw8NBGzXcv/zzVn3PL5v
  73P2nLMFpiUkDBmSns4lFppt4I0bDIx+z0DR2+xQy//XYg2QFQbW32fgN3cb6Nrc0fHkyaKi/HwQ
@@ -160,7 +160,7 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 124
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
-Filename: pool/main/cmatrix_2.0-1maemo1_armel.deb
+Filename: pool/main/cmatrix/cmatrix_2.0-1maemo1_armel.deb
 Size: 22050
 MD5sum: dc7e26cd55ef5a8f9d56bc3970a005af
 SHA1: 657bcd2712f5ae275d7f68979c7c79f01dc8b35b
@@ -180,11 +180,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 164
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
-Filename: pool/main/cmatrix_2.0-1maemo2_armel.deb
+Filename: pool/main/cmatrix/cmatrix_2.0-1maemo2_armel.deb
 Size: 38386
-MD5sum: 2973849209c504f8ae14a3b0e6f46232
-SHA1: c89a5785483ab9a1808cc7217064dded21e7fe8d
-SHA256: db30fcf2c31fd7018e1bb361de681781e9741e5b95d1bd0f0d6c8e0d86c5c633
+MD5sum: 16f201924e666829080813622ceb9f7f
+SHA1: 8dbda2ebb1ae1925a90577862fe8da5bf3ea1d8a
+SHA256: bd3680962d3f30559d9d9e40b0f09e92018819af6fc9df41656b4bdb96b5d50b
 Section: user/other
 Priority: optional
 Description: Matrix-style falling characters in the terminal
@@ -195,7 +195,7 @@ Description: Matrix-style falling characters in the terminal
 Xb-Maemo-Display-Name: CMatrix
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwYWKS0wguDV
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKFS53+PXh
  AAAJi0lEQVRYw92YaXRV1RXHf/vcN4VMEBACyBTGqswBpKCpIvNUqxShYB0WUgFBUBBBXUUF6RKo
  A7RWhTIUAWtxrDJjmGQUmSGAQtIQxgSSF5K8vHt3P7ybkMBiEbNWv3R/+b9719nv7t/ZZ9yCa82a
  tWuXksJ1FjM4ok0+imiNxRGV+m6D8/xvrWZEND2iFx+N6ImhEQ2uKGmYlvb996mpINeBTIlIyo6I
@@ -247,11 +247,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 1500
 Depends: libc6 (>= 2.5.1-1eglibc27)
-Filename: pool/main/curl_8.23.0-1maemo1_armel.deb
-Size: 768160
-MD5sum: ec62e954bb0074b95305d93475496174
-SHA1: eca4b9de0c9cd251422275511f5785c25dbe1676
-SHA256: e5a711679327833f4f1df2fc27b465e36ebc8450b630b19e3cd8e2c89cdad945
+Filename: pool/main/curl/curl_8.23.0-1maemo1_armel.deb
+Size: 768158
+MD5sum: 2dbb3a17fdd2da55ef3cb6a8705c7251
+SHA1: e02e59877f460b205e63eba1f12cbcab783156e9
+SHA256: 8da83b05486900ddfcf0ab2a2479f9ad5e06aa463a5701ba2834c65419025113
 Section: user/network
 Priority: optional
 Description: Command line tool for transferring data with URLs (TLS 1.3)
@@ -266,11 +266,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 19740
 Depends: libc6 (>= 2.5.1-1eglibc27), curl (>= 8.23.0)
-Filename: pool/main/git_2.56.0-1maemo1_armel.deb
+Filename: pool/main/git/git_2.56.0-1maemo1_armel.deb
 Size: 10199642
-MD5sum: d2e198595a15e980b138bbcd4de92753
-SHA1: e6618dc9a97662bda0f4c8be1cf1c2ab93ea7f36
-SHA256: a8f015336005ab0f6760b5ce14924f70cb4e433092062ec1a1aae4c5d3af49ad
+MD5sum: 13d9c51843cfbf076023c04dd7b275ba
+SHA1: ccfa7f26c0a9e2edbb4a568ea790ec7ad8ec9ae3
+SHA256: 6026b22c6a0ba624fa2f965d03ae3cf54422aa5f278d7007fae67b95eed0e277
 Section: user/development
 Priority: optional
 Description: Distributed version control system (modern, HTTPS over TLS 1.3)
@@ -285,7 +285,7 @@ Architecture: armel
 Maintainer: elPytel (build of upstream gPodder by Thomas Perl)
 Installed-Size: 2744
 Depends: python (>= 2.5), python-gobject, python-gtk2 (>= 2.12.1-6maemo10), python-hildon (>= 0.9.0-1maemo12), python-feedparser (>= 5.0.1), python-dbus, python-osso, python-simplejson, python-mygpoclient (>= 1.4), python-conic
-Filename: pool/main/gpodder_2.20.3-1maemo1_armel.deb
+Filename: pool/main/gpodder/gpodder_2.20.3-1maemo1_armel.deb
 Size: 628118
 MD5sum: 0a93a2e2140fb036ba01d718c14a7e1d
 SHA1: 23191079c4f5bfb585c21af075d5dda725f9dfb5
@@ -305,7 +305,7 @@ Architecture: armel
 Maintainer: elPytel (build of upstream gPodder by Thomas Perl)
 Installed-Size: 2760
 Depends: python (>= 2.5), python-gobject, python-gtk2 (>= 2.12.1-6maemo10), python-hildon (>= 0.9.0-1maemo12), python-feedparser (>= 5.0.1), python-dbus, python-osso, python-simplejson, python-mygpoclient (>= 1.4), python-conic, curl, quickjs
-Filename: pool/main/gpodder_2.20.3-2maemo3_armel.deb
+Filename: pool/main/gpodder/gpodder_2.20.3-2maemo3_armel.deb
 Size: 631066
 MD5sum: b670f66c122bf14e4edaeabc08cef835
 SHA1: 7901a238e6a63e3666b80c8f70d1a0e4e5241169
@@ -325,7 +325,7 @@ Architecture: armel
 Maintainer: elPytel (build of upstream gPodder by Thomas Perl)
 Installed-Size: 2760
 Depends: python (>= 2.5), python-gobject, python-gtk2 (>= 2.12.1-6maemo10), python-hildon (>= 0.9.0-1maemo12), python-feedparser (>= 5.0.1), python-dbus, python-osso, python-simplejson, python-mygpoclient (>= 1.4), python-conic, curl, quickjs
-Filename: pool/main/gpodder_2.20.3-2maemo4_armel.deb
+Filename: pool/main/gpodder/gpodder_2.20.3-2maemo4_armel.deb
 Size: 631204
 MD5sum: 17e27d7f5753a2c476a32f9daf078d9e
 SHA1: 539acb639ad8c0237d4dfa163b91fb4d697fc472
@@ -345,7 +345,7 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 492
 Depends: libc6 (>= 2.5)
-Filename: pool/main/htop3_3.5.3-1maemo1_armel.deb
+Filename: pool/main/htop3/htop3_3.5.3-1maemo1_armel.deb
 Size: 215618
 MD5sum: 021bd48ec0413c7a14b36deb10a32ca5
 SHA1: 6101536aab0c1ef63f5b2ddbe5d48c861f3aded4
@@ -364,7 +364,7 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 528
 Depends: libc6 (>= 2.5)
-Filename: pool/main/htop3_3.5.3-1maemo2_armel.deb
+Filename: pool/main/htop3/htop3_3.5.3-1maemo2_armel.deb
 Size: 224330
 MD5sum: bee67e8e4cdca130e33b9ea79ea228bb
 SHA1: 2b59890aa2f04e9fe29cd3300a1a0de677478bad
@@ -409,11 +409,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 804
 Depends: libc6 (>= 2.5)
-Filename: pool/main/jq_1.8.2-1maemo1_armel.deb
-Size: 305120
-MD5sum: a5d6efa0e457714492c7a8263cb76189
-SHA1: 27c7eadb86e987273c6b9c2b6896c6f7eb9354fc
-SHA256: fadaf2f806e79c5689c9d3db9a1d707a6f98f7543306a7ab37809bfa505af78c
+Filename: pool/main/jq/jq_1.8.2-1maemo1_armel.deb
+Size: 305116
+MD5sum: dc04f09a5560a0ee6833be76a4e50c81
+SHA1: 218bf98a023654c0e92866f89a5a14f8388f0a72
+SHA256: d320815be65d3429251264de46651a16b2a2c95b743ba7ea63c10574b6896d7b
 Section: user/utilities
 Priority: optional
 Description: Command-line JSON processor
@@ -428,11 +428,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 3456
 Depends: libc6 (>= 2.5), curl
-Filename: pool/main/msmtp_1.8.34-1maemo1_armel.deb
+Filename: pool/main/msmtp/msmtp_1.8.34-1maemo1_armel.deb
 Size: 1695336
-MD5sum: 63a89f45924544ab6e911d19f348372a
-SHA1: 061924be90465ab9d1732f6b074d2c541277b613
-SHA256: 72a1539aefa17fe39c10b66c1c9e7056c7b27602b4ebf72bdd7ff581eaf5eeaf
+MD5sum: 93ba202960d6a651acba43b0a5e47be4
+SHA1: 0927bd6d8ed63845ebf6786df781537252b7d491
+SHA256: 37ef052afd49dead9aa2c3bc9a19208dbb91f0535f6fd5a70ea07e8ccd8e8ba0
 Section: user/network
 Priority: optional
 Description: msmtp 1.8.34 SMTP client (TLS 1.3), sendmail replacement
@@ -447,7 +447,7 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 4184
 Depends: libc6 (>= 2.5), curl, msmtp
-Filename: pool/main/mutt_2.4.3-1maemo1_armel.deb
+Filename: pool/main/mutt/mutt_2.4.3-1maemo1_armel.deb
 Size: 2068568
 MD5sum: f30d3123dfa41d99dc4d9889bb481bcc
 SHA1: cdd0c34662685457d892f7ee0f3ef03370b272f5
@@ -466,11 +466,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 4220
 Depends: libc6 (>= 2.5), curl, msmtp
-Filename: pool/main/mutt_2.4.3-1maemo2_armel.deb
-Size: 2080684
-MD5sum: 3402602b195f3e06db2e4b4734ee9a0a
-SHA1: ef3ea90bc61b0f65cace8417ea77f24ed682f368
-SHA256: 8c2a66d3054a6c4823d62d594940f829a572231e808f8e36f732bfe1e1ec4f36
+Filename: pool/main/mutt/mutt_2.4.3-1maemo2_armel.deb
+Size: 2080728
+MD5sum: 37b2a16c17072f185f8cf79163154289
+SHA1: 5658b03ae5e9e652468c3d76d7868135cab6f9eb
+SHA256: eed3fc4631620ce20864330bca39575be810ac9fe037fd9e00e25181b3c76468
 Section: user/network
 Priority: optional
 Description: Mutt 2.4.3 terminal e-mail client (IMAP/SMTP over TLS 1.3)
@@ -480,7 +480,7 @@ Description: Mutt 2.4.3 terminal e-mail client (IMAP/SMTP over TLS 1.3)
 Xb-Maemo-Display-Name: Mutt
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwYWKS0wguDV
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKFgZpYA7Y
  AAAIMUlEQVRYw8WYe1RVVR7HP/vcy0O4AioI5VsUEUhM8RU6mNkDn8uYtHyNqKvMGnuQNaCVMYqz
  0jQyp2bUfOBYmo2PVYZJJKW4fKMEqaW8tOLhoHCBe7mcveePc9AVOorNMH3/+a5z7+/s8/v89j6/
  c84WmAoJ6dcvJoYmsk0yvMcWw/03GS46mwFltKzaG6aKDa+YbvgPkw23b20MPHfuxImsLBBNQJIM
@@ -526,16 +526,81 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 132
 Depends: python2.5, python-gtk2, python2.5-hildon, libsqlite3-0, curl, msmtp, mutt
-Filename: pool/main/mutt-hildon_0.4-1maemo1_armel.deb
-Size: 26920
-MD5sum: 1c4fa177cd9a486cbba81bf67bfccb7e
-SHA1: 8cd4de755df75319440386597813f209257c872f
-SHA256: 463b632fc628a510e0bf760f413d0fd260efa23e4083b29d6226217e44bce656
+Filename: pool/main/mutt-hildon/mutt-hildon_0.4-1maemo1_armel.deb
+Size: 27044
+MD5sum: c116501c54ff549c594f9672eeb43a4f
+SHA1: e1671fe6cc7fd5510aa510f679a412b272c1661e
+SHA256: c00bc3c7d9b442a7e19dbba4879697c25c6a94079a587f9d7da2a1af9cd012cf
 Section: user/network
 Priority: optional
 Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
  Finger friendly mail client for Maemo 5: INBOX list, reading, reply and new message. Mail is read with curl (modern TLS) and sent with msmtp, the settings come from ~/.muttrc and ~/.msmtp-password. The menu item Open Mutt starts the full terminal client.
 Xb-Maemo-Display-Name: Mail (Mutt)
+
+Package: nano
+Version: 9.3-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 1024
+Depends: libc6 (>= 2.5)
+Filename: pool/main/nano/nano_9.3-1maemo1_armel.deb
+Size: 332352
+MD5sum: 159dad47597974ff640d3b73901e950a
+SHA1: be75b0dff1921d3a5670034a0b0131afc19acffb
+SHA256: b312fed580f69560f0a09734174eb11b17f684d5a876168e06cb7190af3b6b07
+Section: user/utilities
+Priority: optional
+Description: GNU nano 9.3 text editor for the terminal
+ GNU nano 9.3 for Maemo 5: an easy console editor with on-screen shortcuts (^O save, ^X quit, ^G help).
+ UTF-8 text, syntax highlighting (/opt/nano/etc/nanorc) and the man page/info in /opt/nano/share. Built for armel, glibc 2.5.
+ Upstream: https://www.nano-editor.org
+Xb-Maemo-Display-Name: nano
+Xb-Maemo-Icon-26:
+ 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
+ ji0NHRsKjf8Gqh26ND3SZaoAAAAASUVORK5CYII=
 
 Package: ntp-sync
 Version: 0.2-1maemo1
@@ -543,11 +608,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 60
 Depends: busybox
-Filename: pool/main/ntp-sync_0.2-1maemo1_armel.deb
-Size: 3536
-MD5sum: 0e7181ffa9a368b5cb81909c153e6e5c
-SHA1: 41a8bf9e5abfb64b993b9dabc7074b7b82e8e5c7
-SHA256: c6cef73cd9f80e56b90107f2c9936db5da0a79af38eb8684f6653e340cd89d33
+Filename: pool/main/ntp-sync/ntp-sync_0.2-1maemo1_armel.deb
+Size: 3534
+MD5sum: 8280b0be67f60fdd5685cc66e514e337
+SHA1: c2050e1af30077c89d5da516494c05473335bd0a
+SHA256: 5ba3ea79e1b51fe11893c514aae959c05fb727925801a12af8f8e7e57a4a2524
 Section: user/system
 Priority: optional
 Description: Set the clock over NTP (works without a SIM card)
@@ -562,11 +627,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 72284
 Depends: libc6 (>= 2.5), curl
-Filename: pool/main/python3.11_3.11.18-2maemo1_armel.deb
-Size: 23763138
-MD5sum: 9d071dff8dc6c0d25b8fe811ecc66bec
-SHA1: 1587fe65df17d3e3dd5cd07fa7982d86e507810a
-SHA256: d3b42c9aee44c3d9fc1497d37393f9594e3fa850febb5bb514a37b69b523db39
+Filename: pool/main/python3.11/python3.11_3.11.18-2maemo1_armel.deb
+Size: 23762748
+MD5sum: 7651a24c312f071a9a83e85534ccb712
+SHA1: 080cf13501981b1b6f40d5cd76c67514dfa60d4b
+SHA256: 6ac8a51359ce6ab4ed2cac1511c5cacd52884daa5bae67bea2886af1cbb3ea92
 Section: user/development
 Priority: optional
 Description: Python 3.11.18 for Maemo 5 with TLS 1.3 (ssl), sqlite3, ctypes, readline and pip
@@ -579,11 +644,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 884
 Depends: libc6 (>= 2.5)
-Filename: pool/main/quickjs_2026.06.04-1maemo1_armel.deb
-Size: 435802
-MD5sum: 48bd8752233f141e7715d2e3df1c00d4
-SHA1: 8e88105e06ead2f692a299faaafd6f0c07b4c8fc
-SHA256: 7ee9229c49328218836f3f87064e8746a7654d089c1c929fe49e557680543837
+Filename: pool/main/quickjs/quickjs_2026.06.04-1maemo1_armel.deb
+Size: 435808
+MD5sum: 2763fb18685ca5313b5a3413f6de846e
+SHA1: af896593c4d5e659fb0eacd65694a1489ac5f0a3
+SHA256: 4eeedd97d4cb841a0b082bcf64b81e21bf202dcb1650fba4baa69bfc43a4b8af
 Section: user/development
 Priority: optional
 Description: Small JavaScript engine (ES2023), runtime for yt-dlp
@@ -597,7 +662,7 @@ Architecture: armel
 Maintainer: elPytel (build of upstream ranger by Roman Zimbelmann and contributors)
 Installed-Size: 2132
 Depends: python3.11
-Filename: pool/main/ranger_1.9.4-1maemo1_armel.deb
+Filename: pool/main/ranger/ranger_1.9.4-1maemo1_armel.deb
 Size: 545780
 MD5sum: 3be6afdaa7ca226819772cf2571ad966
 SHA1: f9ee3482730b4bbf53bc86863c85fe1cb438e03e
@@ -616,7 +681,7 @@ Architecture: armel
 Maintainer: elPytel (build of upstream ranger by Roman Zimbelmann and contributors)
 Installed-Size: 2168
 Depends: python3.11
-Filename: pool/main/ranger_1.9.4-1maemo2_armel.deb
+Filename: pool/main/ranger/ranger_1.9.4-1maemo2_armel.deb
 Size: 557046
 MD5sum: 8f84b1c84d0719885436a9601e9844d2
 SHA1: cae153b99d8a1f89c743774bb84bce248099df3c
@@ -679,13 +744,83 @@ Xb-Maemo-Icon-26:
  A5WUUQLqnDqhjnDnvne95UKkmoSBNCKFPxXNIYxwIkaZ/OCZE/9w11g31u6PctH4X5FpcXkoB4aL
  AAAAAElFTkSuQmCC
 
+Package: ranger
+Version: 1.9.4-1maemo3
+Architecture: armel
+Maintainer: elPytel (build of upstream ranger by Roman Zimbelmann and contributors)
+Installed-Size: 2168
+Depends: python3.11
+Filename: pool/main/ranger/ranger_1.9.4-1maemo3_armel.deb
+Size: 556230
+MD5sum: 78c71b55799e89fabed8b75113e555aa
+SHA1: 3a5b795466fa4af23b88e3a86c73c96431b32052
+SHA256: e89dc159b8b1fefb5d3799c9f847eb2605078139105fa0ea4cf59b0d074ad3c6
+Section: user/utilities
+Priority: optional
+Description: ranger 1.9.4 console file manager
+ ranger 1.9.4, a console file manager with VI key bindings, for Maemo 5. It runs on the Python 3.11 of the package python3.11.
+ Run ranger in the terminal (arrow keys or h j k l, q quits). Images, PDF, HTML, audio and video open in the applications of the phone (Image Viewer, PDF Viewer, Browser, Media Player), text in vim; only directories and plain text are previewed.
+ Upstream: https://ranger.fm/
+Xb-Maemo-Display-Name: Ranger
+Xb-Maemo-Icon-26:
+ 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
+ ql/CXQAAAABJRU5ErkJggg==
+
 Package: sfeed
 Version: 2.4-1maemo1
 Architecture: armel
 Maintainer: elPytel
 Installed-Size: 468
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7), curl
-Filename: pool/main/sfeed_2.4-1maemo1_armel.deb
+Filename: pool/main/sfeed/sfeed_2.4-1maemo1_armel.deb
 Size: 88434
 MD5sum: a51c3f9a46e13856f905fcacb4150414
 SHA1: 42b75be90bd4f1845543a6811f1b8f191803ef90
@@ -703,7 +838,7 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 508
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7), curl
-Filename: pool/main/sfeed_2.4-1maemo2_armel.deb
+Filename: pool/main/sfeed/sfeed_2.4-1maemo2_armel.deb
 Size: 102466
 MD5sum: 8dfe4a2458a4e1cfedf21ab98da953c9
 SHA1: 513e8ca652432ed5887a18e5da21ba70ac58a2b6
@@ -757,13 +892,73 @@ Xb-Maemo-Icon-26:
  p+ebeHFIMqNJ2/Zac7YJ9hirleXZk0yr686yHOJ0sQEovw5jLLNGlps8Lhtj7bF422Osn8/2tzJo
  /Dcx1rAkYxAoWgAAAABJRU5ErkJggg==
 
+Package: sfeed
+Version: 2.4-1maemo3
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 508
+Depends: libc6 (>= 2.5), libncurses5 (>= 5.7), curl
+Filename: pool/main/sfeed/sfeed_2.4-1maemo3_armel.deb
+Size: 102642
+MD5sum: ba00769e29fe6d827638e0db59cccebd
+SHA1: 3833662e730c750a26465484e620c455b469bcc2
+SHA256: 56c8222fdb3ec9a8033c75cf85add381baae8eb3ebfae4ea53e944854fc40525
+Section: user/network
+Priority: optional
+Description: sfeed 2.4 RSS/Atom feed and podcast reader for the terminal
+ sfeed 2.4 for Maemo 5: small tools that parse RSS/Atom feeds into a plain format and a curses reader.
+ Feeds are fetched with curl over TLS 1.3. Run sfeed-reader. Podcasts are normal feeds, the audio link is in the enclosure field.
+Xb-Maemo-Display-Name: sfeed
+Xb-Maemo-Icon-26:
+ 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
+ /Dcx1rAkYxAoWgAAAABJRU5ErkJggg==
+
 Package: tty-clock
 Version: 2.3-1maemo1
 Architecture: armel
 Maintainer: elPytel
 Installed-Size: 96
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
-Filename: pool/main/tty-clock_2.3-1maemo1_armel.deb
+Filename: pool/main/tty-clock/tty-clock_2.3-1maemo1_armel.deb
 Size: 10532
 MD5sum: b1d49dcd2cafca064d6659e56fac9215
 SHA1: 8f6fb5b045bf2106da3262677b438e366b10dd15
@@ -783,11 +978,11 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 136
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
-Filename: pool/main/tty-clock_2.3-1maemo2_armel.deb
+Filename: pool/main/tty-clock/tty-clock_2.3-1maemo2_armel.deb
 Size: 23450
-MD5sum: 2e1fbe82dc9b0f26192d528d5b215e9f
-SHA1: a7c58727d2fdb37252f6512410bfed1f2ee0a159
-SHA256: 5f6af86d9537912f085aabc1c0fa6fd6742f338485cfe5e128ff1202dc1cc54d
+MD5sum: 1b153ac3fa4d12a8bfeb14557adf15e6
+SHA1: 5b65ff8563efad62e71bfe2cb59f0c1979bd5df9
+SHA256: caa478ba7bab30fd940f6bc9101742504dc94897773127bfcef20183f7d829ff
 Section: user/utilities
 Priority: optional
 Description: Digital clock for the terminal
@@ -798,7 +993,7 @@ Description: Digital clock for the terminal
 Xb-Maemo-Display-Name: tty-clock
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwYWKS/ejIH5
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKFyisrTJW
  AAAHiklEQVRYw92Ye3QU1R3HP3d2N4/NZvN+kBghrUF5FUqCFHlEAYEQoOWZRnmLtIAFJVAVpOUc
  INYA1gPYNnoQFAwQiEBA2xK0hEo4mBDoQSCGR3ilJrC7JGySTfYxt3/MRCJy+qDFePr957Mz5zfn
  fr8zs3fu/Ql0de7cu3dqKnfIkqHxoTyNke9pFA/qBde5v4rWIK9otE3VeP4pjQ07WgsrK8vLi4tB
@@ -835,17 +1030,77 @@ Xb-Maemo-Icon-26:
  9UCNj2lcU6XxanZ7W/z31Oqz1XfjY3dMCsV6n21KaxsrRON3to31ie67tY11e976f2k0/gNlFvce
  WqTGAgAAAABJRU5ErkJggg==
 
+Package: vim9
+Version: 9.2.1302-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 31736
+Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
+Filename: pool/main/vim9/vim9_9.2.1302-1maemo1_armel.deb
+Size: 7572288
+MD5sum: 2b179cf350db04ba72b6047a586d9a6f
+SHA1: 9640a4a77033386abc0fa7763a2ed1522d8a1ee2
+SHA256: ba32803a8a639e33aa460136522415558432383e47eea6a4602430492dbc81f7
+Section: user/utilities
+Priority: optional
+Description: Vim 9.2.1302 text editor for the terminal (command vim9)
+ Vim 9 for Maemo 5 next to the system vim 7.2: the command is vim9 (the system vim and vi stay untouched). Normal features,
+ UTF-8, syntax highlighting, no GUI and no scripting languages. The tool xxd is xxd9. Built for armel, glibc 2.5.
+ Settings: /opt/vim9/share/vim/vimrc (the mouse is off), personal ~/.vimrc. Upstream: https://www.vim.org
+Xb-Maemo-Display-Name: Vim 9
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKADZTIYuj
+ AAAIJ0lEQVRYw72YeXTUxR3AP7O7yYZsLnIKTQjHhkMCGBKDlMsSW8v1iKLJ426tiFpo+2qQRxGV
+ YhFrn1herVIsKFRAEISqiApojPiqAualQk4CSzgkWXJsDjZ7Tf+Y2dxpArx2/vm83+78fr/5zHe+
+ M/MbgS5Dh44dO2UKHUrIA4rW7YrROxXFIF2hkv9tiVWQFxTt8xXL5io27PNXLCk5dSo3F0QHkVUK
+ U3IVV2Qqpk1VtBzU9X6j2dhtUyQmABLkAfoAAdRiAMrFz2gEBJ5eCFk0N+nXzVY88Ynii7o9uX6D
+ 503t758SprjjHsWEFR1ekNrhOrJTE3wEIIEfyoeIAt+SgES5GnhDmLGBYaArR+wCjorDVAIGXIge
+ xZ5VCNGXM1IURzcpLgzSYhh0R3yumDNQi6ztRe91LXKP/Amx4AsIfFIuALtz3HjXs1CZMnFQ8zXw
+ VgU9IwGyZQQJgI9A5A2/TZcELZqjU8CSp4WSQhXTht+yiAx8Ts4De2Z6huvvUJczsszdBI60oX08
+ 66Hq0oTk5uHgtQX9TXqAbBl+62JpSdojSA+56DWKIdd0jS9vWAQtMjP9PtfrUPfH27e5vSAP0cj3
+ QIg8Rxg49lhHevYBWUxiDsRw/ANzGRiznY+IBOBtUUsFvR2KuoQ8rj0idYSEnj14+yYisk7OA/uM
+ 9MwWEQ/IXaKJChAJHKAPiAgKCADCKMQEjj3Wzz37oKp0wvRmK3htQZt1xG5mKO7VHosMvb6lo0hw
+ 4Ab5C7C/m963ORJqX749vzkDZKbYLBNBDOY9IkE24KQK5Hg5z7cVmCqtvi2AhZNUg2Ov9QvPfqgq
+ nTCjOUmLeW9ajJ6Fuhlalcl3/sFphzHvTB0/Kgo2bEt7afnPYXRB3yvWV0C6ZJQvAIwTxb/Fp7A4
+ 3Xp+5hBYs/COlIcHQ/RX5vTwj4EBLJYqYnk6YjM6RSy+92KmGxWxz1A54pg1ot71PURkmG2h0bBs
+ 2vCSLAdUBl9fXn0QCrgWUHw/hL4YcDTsADz62bBzcy6BOClqxGfwF0Ph6b0DAajgDiCcIr5tFSOL
+ yTeTY6Zei/iT/QWV7CAGiFFwem9NUXkcXK12Dqs+Asmib731x8BFwynjYuhfHnw8ZiX8IC04J9YM
+ 75+5OCkvC2qvumrro4ELzBe7QfQln1iQNaoZ/hxrJ1bas1jrkPOv7P4F0RW4Sc7tLOJPdhYxXTwA
+ V6zXH7a/CmULHbMqqmHEiPDAgTYInR1Qa/kdWIeEPhW/DUIdAYXB98LJi9cuF64E+bx83LsDRCIW
+ 4lRGgxYL1BFrPxSnNyeB92zQP6QbmCnH0K9NADoJxastim9JwDK5Guxz08e43oC61SP/5XaC3C0a
+ qAAxgHfpA7zGRLEKGqvd+5u+g2+XVecXL4X4OMu62EyIXxacFrMbRp6PMA32QfN6752uSChYXkOZ
+ WhxmsLWlM9uWjmJnCADH9qQSzx6oyp/wWPMg8C40Z8gkIFluILwroUC919JbFF9xYI2cBXKziKcc
+ COE8JkDqF1owojYcg+QwOHn3taCiTyG42Xgk6Bok/7bvpiHJkHw54rEhBXBxQNNLlWfg/KP1315O
+ BBDvGVb3nOT04SoGIJf92MF3PrBMZgJPGNZTAATp/zsJ6U2jwaT2WjHHviwwfwxhvy5tNC0AahmJ
+ G2QNd+DS/ap6dp2IgzPZtbeVT4L6hzzTmnwwOTlu0tjZMKwufGPiZfgurHbT2UFQnepa4nADp1gq
+ SrtUkADyOv3wAgdFMVfAMtXmNO6EWJm3wDwYjOnXk4QFOCE2UtOVkH/3qzeNxhHOacIMMUnHPzSX
+ QlhW2STTHKCO4XjaiA0Wu8QSqFjVmHV1MZSvrX/i0iK4N6r/nrtegwSv5XxcFJx4zP5RYRx4c32F
+ nl+CSCWS4f9F5J+ikCtgSbElGd+EuNS8E+ZUMK1veMGwEtgvLnAJMODuelJo/UXNGnoWMSY6HxEm
+ iElS02dYVtnktmJ8yFNiMzgi3acbLZA/ufrL4kzodyD4ruiXwX2vb7xnIuTnVdeVqK+X/oxrlzvd
+ iQw1vglxaXnfmNPA9HTDVsMK4FUxiPLOIv7S/TrUUSzb+YiIhxiOv28upWUv5l/pGc8W5sMr+4rS
+ 38mAI94rRd9kgDPFu9H1MeR/Uv16iRe4R0jDAOBoNyJjWyLytTkVTE83bDPk9CzSs1BXYhfBmO1c
+ KhJaFzweZCL3g+Oi9SvPYTi7tj6uIhbObnEE2uYCEVjEYeCYeMnwZxAvM01sBHmdGC1S1C4iqXlf
+ 64jckEjvhbqPWKtYKTCHcfwUHHusFZ4NwIuiyPCnNtNvKrC+nUjHoXVTEencTDWM9ZkBD96wWKJz
+ qc6xQx1ybISePMbgBunkti4j0poj23qTI92UbO3xlo6Q/feKDVowpOdHdI7YknYR8+fY9qRizx5a
+ 1hHLj2xW404tkqqT/RYiotv9V+3hj1CpU/FE6Y0+qo1YXbtZcfDxT80lEDa7dLbpPgj5lW2N8QOI
+ G5VnM6dokSdvVcRfThRpj3pjVFS/fgMHurepHy7rQ5CMI4rhd/f6mQIvAvhOuKkDw1jPaREKfdZe
+ nmmMgZAztjzTPjDd33TdcAzYIQzYblWk4hnFFfr0qXSBFvJXsKUrnjqmGKM/ycODdYXNCq7RmnZN
+ RwsFXoTLQbGoot7lMBR5Zotal8MQ4UkRBpeDo+IjKl0OJdLmvq7p1XxesUafSuW+pZhzSF/30+37
+ oqVvujlonKNo3aUYrR8kBugK/6+DxnOK9nmKZYsUG97xV/QfNP4HnCHjAzWlyn0AAAAASUVORK5C
+ YII=
+
 Package: wget
 Version: 1.25.0-1maemo1
 Architecture: armel
 Maintainer: elPytel
 Installed-Size: 3788
 Depends: libc6 (>= 2.5), curl
-Filename: pool/main/wget_1.25.0-1maemo1_armel.deb
-Size: 1870728
-MD5sum: 80a971710b7a70fda597a670f189ac70
-SHA1: b715d35c5fdbf938e7e840eea5f162be0e77d730
-SHA256: dddcb0c76396073f20785ae8da9e5add0d35df82412f3fd51b1abd68bb2f0b3e
+Filename: pool/main/wget/wget_1.25.0-1maemo1_armel.deb
+Size: 1870724
+MD5sum: b766f229d6665da3eca19af80d1fbc38
+SHA1: 74d7944a582e1dec0021d85402129529fd5c787a
+SHA256: fe8072d3327572340aa4c3a6981b862c73a977050dadaef480166195554a7427
 Section: user/network
 Priority: optional
 Description: GNU Wget 1.25.0 (HTTPS with TLS 1.3)
@@ -859,7 +1114,7 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 820
 Depends: libc6 (>= 2.5), zlib1g
-Filename: pool/main/wordgrinder_0.8-1maemo1_armel.deb
+Filename: pool/main/wordgrinder/wordgrinder_0.8-1maemo1_armel.deb
 Size: 256114
 MD5sum: aa87c57403e9fe0235f30248024d9b74
 SHA1: 532b427f7d758298a59d2627853d51cbe2ce9fb4
@@ -878,7 +1133,7 @@ Architecture: armel
 Maintainer: elPytel
 Installed-Size: 864
 Depends: libc6 (>= 2.5), zlib1g
-Filename: pool/main/wordgrinder_0.8-1maemo2_armel.deb
+Filename: pool/main/wordgrinder/wordgrinder_0.8-1maemo2_armel.deb
 Size: 273664
 MD5sum: b351a0d7255d4a84c75ad2b0ce0636a2
 SHA1: 0dff36525ef37456d8d4d147f16c5ef3e3cf99a4

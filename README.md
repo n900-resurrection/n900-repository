@@ -34,7 +34,7 @@ The Application Manager reads the repository with the apt of the phone, so over 
 
 ## Layout
 ```
-pool/main/*.deb
+pool/main/<package>/<package>_<version>_armel.deb
 dists/fremantle/Release
 dists/fremantle/main/binary-armel/Packages, Packages.gz
 ```
