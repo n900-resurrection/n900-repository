@@ -1,3 +1,85 @@
+Package: age
+Version: 1.2.1-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream age by Filippo Valsorda and contributors)
+Installed-Size: 6260
+Depends: libc6
+Filename: pool/main/age/age_1.2.1-1maemo1_armel.deb
+Size: 2664066
+MD5sum: 81358d5a4ff4b0338a5e72467d06f059
+SHA1: 14cec04b3c37e3b9fd79e489b1fa08772803357e
+SHA256: eae260fc209b934d24bdfcecd0b786feea726a21e44923ac56fe0f6900ca54b4
+Section: user/utilities
+Priority: optional
+Description: age 1.2.1 simple file encryption (age, age-keygen)
+ age 1.2.1: encrypts files with a passphrase (age -p file > file.age) or for public keys (age-keygen -o key.txt; age -r <public key> file > file.age;
+ age -d -i key.txt file.age). Small, modern (X25519, ChaCha20-Poly1305), no configuration like gpg. Built for Maemo 5 with Go (static).
+ Upstream: https://age-encryption.org
+Xb-Maemo-Display-Name: age
+
+Package: amfora
+Version: 1.11.0-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream amfora by makeworld and contributors)
+Installed-Size: 16200
+Depends: libc6
+Filename: pool/main/amfora/amfora_1.11.0-1maemo1_armel.deb
+Size: 5756856
+MD5sum: b4c13063990ee9cd724a9286b6d798c0
+SHA1: a329719c2dd0a06bfea9abd0f45cd827626559f5
+SHA256: a3728c4a0521992c85782d9e6877aa1468d8dbba2648712ea9ed4777b1b65cf3
+Section: user/network
+Priority: optional
+Description: amfora 1.11.0 browser for Gemini space
+ Amfora 1.11.0: a terminal browser for the Gemini protocol (small, text-only pages over TLS 1.3, no ads, no scripts). Start it from the menu, press Ctrl-L
+ or type a gemini:// address (for example gemini://geminiprotocol.net), Tab/Enter follow links, q quits, ? shows the keys. Servers are trusted on first use (TOFU).
+ Built for Maemo 5 with Go (static). Upstream: https://github.com/makew0rld/amfora
+Xb-Maemo-Display-Name: Amfora
+Xb-Maemo-Icon-26:
+ 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
+ JCO53LYAAAAASUVORK5CYII=
+
 Package: apt-transport-curl
 Version: 0.1-1maemo1
 Architecture: armel
@@ -33,6 +115,44 @@ Description: GNU Bash 5.3 shell (next to the system bash 3.2)
  Modern Bash with associative arrays, mapfile, ${var@U}, printf %(...)T and so on.
  Installed in /opt/bash5, started as bash5. The system /bin/bash 3.2 stays untouched.
 Xb-Maemo-Display-Name: Bash 5
+
+Package: bat
+Version: 0.26.1-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream bat by David Peter and contributors)
+Installed-Size: 5268
+Depends: libc6
+Filename: pool/main/bat/bat_0.26.1-1maemo1_armel.deb
+Size: 3005876
+MD5sum: 56d31f760e2fab0091a39db357fdf2ed
+SHA1: 1f39e2dd42803d32fbf12d0184d6c375a8a9e789
+SHA256: a468437960c2c1541246a7159509d69cdf8b40fdf36fc29bb3123a1dd0e202d4
+Section: user/utilities
+Priority: optional
+Description: bat 0.26.1 cat with syntax highlighting and line numbers
+ bat 0.26.1: shows files like cat, but with syntax highlighting, line numbers and paging (bat script.py, bat -p README.md, bat --list-languages).
+ Built for Maemo 5 with Rust as a static binary, without the git markers of the margin. The pager is cat by default (the less of the phone has no colour support): set BAT_PAGER to change it. Needs a terminal with colours (the menu terminal has them).
+ Upstream: https://github.com/sharkdp/bat
+Xb-Maemo-Display-Name: bat
+
+Package: bat
+Version: 0.26.1-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream bat by David Peter and contributors)
+Installed-Size: 5268
+Depends: libc6
+Filename: pool/main/bat/bat_0.26.1-1maemo2_armel.deb
+Size: 3005900
+MD5sum: a0a14b2b28fb9f6a8dc0173c2db36a0d
+SHA1: 0f3eed7aa46d0fc4fb4141298ba24eefcff66a10
+SHA256: 9cf2b3cb0a2cbf275c2bc4a9707a477eaae5e578e3bfcb477aa5e2bd50d277ce
+Section: user/utilities
+Priority: optional
+Description: bat 0.26.1 cat with syntax highlighting and line numbers
+ bat 0.26.1: shows files like cat, but with syntax highlighting, line numbers and paging (bat script.py, bat -p README.md, bat --list-languages).
+ Built for Maemo 5 with Rust as a static binary, without the git markers of the margin. The pager is cat by default (the less of the phone has no colour support): set BAT_PAGER to change it. Needs a terminal with colours (the menu terminal has them).
+ Upstream: https://github.com/sharkdp/bat
+Xb-Maemo-Display-Name: bat
 
 Package: busybox37
 Version: 1.37.0-1maemo1
@@ -260,6 +380,63 @@ Description: Command line tool for transferring data with URLs (TLS 1.3)
  Installed in /opt/curl, with a link /usr/bin/curl. Upstream: https://curl.se/
 Xb-Maemo-Display-Name: curl
 
+Package: fd
+Version: 10.5.2-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream fd by David Peter and contributors)
+Installed-Size: 3012
+Depends: libc6
+Filename: pool/main/fd/fd_10.5.2-1maemo1_armel.deb
+Size: 1398788
+MD5sum: 9ce8f9f7154ad90053ff7d2a574f5c5f
+SHA1: e38d4e096c5ac0e2b985846500a6637fba2fb5b5
+SHA256: 103f94eb13bb331b8dbba92419b3e0d77a7cc1d53271e9deae74d900de4a361c
+Section: user/utilities
+Priority: optional
+Description: fd 10.5.2 simple, fast alternative to find
+ fd 10.5.2: finds files by name with a regular expression, coloured output, respects .gitignore, skips hidden files and runs commands on the
+ results (fd -e png -x ls -l). Example: fd report ~/MyDocs   or   fd -e deb. Built for Maemo 5 with Rust as a static binary.
+ Upstream: https://github.com/sharkdp/fd
+Xb-Maemo-Display-Name: fd
+
+Package: file
+Version: 5.48-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream file by Christos Zoulas and contributors)
+Installed-Size: 10800
+Depends: libc6 (>= 2.5)
+Filename: pool/main/file/file_5.48-1maemo1_armel.deb
+Size: 551110
+MD5sum: 79ef8e4f4b9a9c6e2780250f07c6863f
+SHA1: 9ed6581e15d21cae0c8fff0998c52ad8ef51107b
+SHA256: 891e871f6c052e01ef10ec4ac9cf5129b66c39002cfb238f57aa5698daf5979f
+Section: user/utilities
+Priority: optional
+Description: file 5.48 file type detection
+ file 5.48 for Maemo 5: tells the type of a file from its content (file -b --mime-type photo.jpg). The magic database is in /opt/file/share/misc/magic.mgc.
+ The file manager ranger uses it for files with an unknown extension (the package ranger has only a small stand-in: this one takes precedence in /usr/bin).
+ Compressed files are not looked into (no zlib/bzip2/xz in this build). Upstream: https://www.darwinsys.com/file/
+Xb-Maemo-Display-Name: file
+
+Package: fzf
+Version: 0.75.0-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream fzf by Junegunn Choi and contributors)
+Installed-Size: 4464
+Depends: libc6
+Filename: pool/main/fzf/fzf_0.75.0-1maemo1_armel.deb
+Size: 1784680
+MD5sum: bb0cb5dbb4be1102af15c607e8a64b52
+SHA1: 2a01f13781c746d10753a74a7c5be3bf995c2155
+SHA256: 32755e8325044bf3bcf44da14cf4f0d6cdbd9793f3700b4251008749088196a9
+Section: user/utilities
+Priority: optional
+Description: fzf 0.75.0 fuzzy finder for the command line
+ fzf 0.75.0: an interactive filter for lists. Pipe anything into it (ls | fzf, history | fzf, find . -type f | fzf), type a few letters of the
+ line you want and press Enter. With bash 5 the key bindings come from: eval "$(fzf --bash)" (Ctrl-R history, Ctrl-T files, Alt-C directories).
+ Built for Maemo 5 with Go (static, GOARM=7, the 2.6.28 kernel needs the patched toolchain of this project). Upstream: https://github.com/junegunn/fzf
+Xb-Maemo-Display-Name: fzf
+
 Package: git
 Version: 2.56.0-1maemo1
 Architecture: armel
@@ -338,6 +515,72 @@ Description: A podcast aggregator for the Nokia N900
  Version 2.20.3 "The Odd Pod" built from the upstream git tag obsolete/maemo5, with HTTPS through curl and YouTube through yt-dlp.
  Upstream: http://gpodder.org/
 Xb-Maemo-Display-Name: gPodder Podcast Client
+
+Package: gurk
+Version: 0.10.2-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream gurk-rs by boxdot and contributors)
+Installed-Size: 22776
+Depends: libc6
+Filename: pool/main/gurk/gurk_0.10.2-1maemo1_armel.deb
+Size: 9751778
+MD5sum: 69048aa53f59aa5bd9f906a92d28b253
+SHA1: 9d9e39e16b7cb5599fee955b036a1eca33dd1941
+SHA256: 2705d5dc04db55792f0e7d9d914f160f70a95e7f8d47e1e4610b86085e858c3b
+Section: user/network
+Priority: optional
+Description: gurk 0.10.2 Signal messenger client for the terminal
+ gurk 0.10.2, a terminal client for the Signal messenger (a linked device of your account: scan the QR code on the first start).
+ Built for Maemo 5 with Rust as a static binary (TLS 1.3, SQLite with encryption), 23 MB. It needs about 7 MB of RAM when idle; the first
+ start is slow (keys, first synchronisation). Keys: Tab/arrows to move, F1 help, Ctrl-C quits. Data is stored in ~/.config/gurk and ~/.local/share/gurk.
+ Upstream: https://github.com/boxdot/gurk-rs
+Xb-Maemo-Display-Name: gurk (Signal)
+Xb-Maemo-Icon-26:
+ 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
 
 Package: htop3
 Version: 3.5.3-1maemo1
@@ -421,6 +664,127 @@ Description: Command-line JSON processor
  used for example with the Audiobookshelf API. Regular expressions via the bundled oniguruma.
  Upstream: https://jqlang.org/
 Xb-Maemo-Display-Name: jq
+
+Package: links
+Version: 2.30-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream Links by Mikulas Patocka and contributors)
+Installed-Size: 4784
+Depends: libc6 (>= 2.5), zlib1g
+Filename: pool/main/links/links_2.30-1maemo1_armel.deb
+Size: 2345344
+MD5sum: 02c32da68ff8bcd60f3284d0d3d4d767
+SHA1: 797f146c76a3fb31555f93b4b181c49ed6dc4c9c
+SHA256: 289a72272f1df987e7970d0348914a98cc23636349f3e265f18bde36fef40c54
+Section: user/network
+Priority: optional
+Description: links 2.30 text web browser with TLS 1.3
+ Links 2.30, a text mode web browser with menus, tables and frames, for Maemo 5. HTTPS uses a private static OpenSSL 3, so modern
+ sites (TLS 1.2/1.3) open, unlike in the stock browser. Start it from the menu or with: links https://example.org  (Esc opens the menu).
+ Certificates are verified against the bundled Mozilla CA list (/opt/links/etc/cacert.pem, override with SSL_CERT_FILE).
+ Upstream: http://links.twibright.com
+Xb-Maemo-Display-Name: Links
+Xb-Maemo-Icon-26:
+ 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
+
+Package: micro
+Version: 2.0.15-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream micro by Zachary Yedidia and contributors)
+Installed-Size: 12520
+Depends: libc6
+Filename: pool/main/micro/micro_2.0.15-1maemo1_armel.deb
+Size: 4945272
+MD5sum: f9c8c99ea7d54813f38c2d4bd5142af4
+SHA1: ffe876eff8a976a21f433966a644eedb5050a8cf
+SHA256: 86f521fb8fdd3cbfc6e9f3b6396f5c6b257d679aef42d22f8ca5e74b2118bf3d
+Section: user/text
+Priority: optional
+Description: micro 2.0.15 terminal text editor with normal keys
+ micro 2.0.15: a small editor for the terminal that works the way most people expect: Ctrl-S saves, Ctrl-Q quits, Ctrl-C/X/V copy, cut and
+ paste, Ctrl-F searches, Ctrl-E opens a command line (help, set, plugin), the mouse works. Syntax highlighting for many languages. An easier alternative to vim
+ and nano on the N900 (the Q key and the arrows are on the keyboard). Built for Maemo 5 with Go (static). Upstream: https://micro-editor.github.io
+Xb-Maemo-Display-Name: Micro
+Xb-Maemo-Icon-26:
+ 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
+ jf8FlWeLwYCbdzgAAAAASUVORK5CYII=
 
 Package: msmtp
 Version: 1.8.34-1maemo1
@@ -521,6 +885,57 @@ Xb-Maemo-Icon-26:
  AAAAAElFTkSuQmCC
 
 Package: mutt-hildon
+Version: 0.1-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 108
+Depends: python2.5, python-gtk2, python2.5-hildon, curl, msmtp, mutt
+Filename: pool/main/mutt-hildon/mutt-hildon_0.1-1maemo1_armel.deb
+Size: 20604
+MD5sum: 40b6731f231b8d57c0acc3bb1da19841
+SHA1: 1c1ef24025b13e2a52dcfdbfa1280650a71040e7
+SHA256: c5155054c0210f5cf26dbe6bf0b395ae0606a67bda0eecd6e7957bd67da49a82
+Section: user/network
+Priority: optional
+Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
+ Finger friendly mail client for Maemo 5: INBOX list, reading, reply and new message. Mail is read with curl (modern TLS) and sent with msmtp, the settings come from ~/.muttrc and ~/.msmtp-password. The menu item Open Mutt starts the full terminal client.
+Xb-Maemo-Display-Name: Mail (Mutt)
+
+Package: mutt-hildon
+Version: 0.2-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 108
+Depends: python2.5, python-gtk2, python2.5-hildon, curl, msmtp, mutt
+Filename: pool/main/mutt-hildon/mutt-hildon_0.2-1maemo1_armel.deb
+Size: 20602
+MD5sum: db16d5fb9109933e2c217c929c2cb889
+SHA1: a6387c43b4a858d481ffe23f1376954a0a854c4c
+SHA256: fbc8b61ea4ceb6c34f497f7e87fbe76989270d3ea7040d70e8af71ff4d77cec4
+Section: user/network
+Priority: optional
+Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
+ Finger friendly mail client for Maemo 5: INBOX list, reading, reply and new message. Mail is read with curl (modern TLS) and sent with msmtp, the settings come from ~/.muttrc and ~/.msmtp-password. The menu item Open Mutt starts the full terminal client.
+Xb-Maemo-Display-Name: Mail (Mutt)
+
+Package: mutt-hildon
+Version: 0.3-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 124
+Depends: python2.5, python-gtk2, python2.5-hildon, libsqlite3-0, curl, msmtp, mutt
+Filename: pool/main/mutt-hildon/mutt-hildon_0.3-1maemo1_armel.deb
+Size: 24350
+MD5sum: 1e5cc216b9c6407613c60d1efcf46c7e
+SHA1: 05314368c9a9984bfa1cf646885b6d93dda7db8f
+SHA256: abb24bc5355ab935f02cfa019cb54387b90f9f471176d815283a4651251377b2
+Section: user/network
+Priority: optional
+Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
+ Finger friendly mail client for Maemo 5: INBOX list, reading, reply and new message. Mail is read with curl (modern TLS) and sent with msmtp, the settings come from ~/.muttrc and ~/.msmtp-password. The menu item Open Mutt starts the full terminal client.
+Xb-Maemo-Display-Name: Mail (Mutt)
+
+Package: mutt-hildon
 Version: 0.4-1maemo1
 Architecture: armel
 Maintainer: elPytel
@@ -528,9 +943,9 @@ Installed-Size: 132
 Depends: python2.5, python-gtk2, python2.5-hildon, libsqlite3-0, curl, msmtp, mutt
 Filename: pool/main/mutt-hildon/mutt-hildon_0.4-1maemo1_armel.deb
 Size: 27044
-MD5sum: c116501c54ff549c594f9672eeb43a4f
-SHA1: e1671fe6cc7fd5510aa510f679a412b272c1661e
-SHA256: c00bc3c7d9b442a7e19dbba4879697c25c6a94079a587f9d7da2a1af9cd012cf
+MD5sum: 92196c3496bb19f08aa5e54a41745c9a
+SHA1: 7c21615eed5687c21a2ef451df0cca55a0fe8d37
+SHA256: 1474a5a0ee4b8f53ac6431148c18e32900110ac35fac33f628eabc0acf8364ff
 Section: user/network
 Priority: optional
 Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
@@ -602,6 +1017,59 @@ Xb-Maemo-Icon-26:
  o9ZQxlqKBQsW5yh88MEnLdE4/W6CV+RaGevap/EXCo1jDXbYaDD4c4MS7u3w/yo05hgsmWDw3ESD
  ji0NHRsKjf8Gqh26ND3SZaoAAAAASUVORK5CYII=
 
+Package: ncdu
+Version: 1.22-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream ncdu by Yoran Heling)
+Installed-Size: 192
+Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
+Filename: pool/main/ncdu/ncdu_1.22-1maemo1_armel.deb
+Size: 49774
+MD5sum: 543f607f062f4393af71f20c3493bc93
+SHA1: 56e9b189e8a527561b47d7ca9711c012b62c3207
+SHA256: 1c6f135de7a0fe13c4f3adaa568a6d8b24e9656f64ea6cccb4c686b1ba5a06dd
+Section: user/utilities
+Priority: optional
+Description: ncdu 1.22 disk usage browser
+ ncdu 1.22 for Maemo 5: shows what takes the space on a disk, directory by directory (d deletes, q quits, ? help).
+ The menu entry scans /home/user; in a terminal: ncdu /opt, ncdu -x / (-x stays on one file system). Built for armel, glibc 2.5; ncurses comes from the phone.
+ Upstream: https://dev.yorhel.nl/ncdu
+Xb-Maemo-Display-Name: ncdu
+Xb-Maemo-Icon-26:
+ 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
+ AjFOZiO/YijaAAAAAElFTkSuQmCC
+
 Package: ntp-sync
 Version: 0.2-1maemo1
 Architecture: armel
@@ -620,6 +1088,26 @@ Description: Set the clock over NTP (works without a SIM card)
  ntp-sync -n only shows the offset. Servers: /etc/ntp-sync.conf.
  The Maemo setting for automatic time uses the cellular network time (NITZ), not NTP.
 Xb-Maemo-Display-Name: ntp-sync
+
+Package: openssh
+Version: 10.6p2-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream OpenSSH by the OpenBSD project)
+Installed-Size: 25100
+Depends: libc6 (>= 2.5)
+Filename: pool/main/openssh/openssh_10.6p2-1maemo1_armel.deb
+Size: 11573422
+MD5sum: 38f4cebaa56543be49bf1cd7d75ef45c
+SHA1: b8708fa48939733f7e8c69556616fc21275fb52e
+SHA256: 0805bef28335fcdcfca27865f2534c079dcf0506308caece119b63396c020732
+Section: user/network
+Priority: optional
+Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), alongside the system one
+ OpenSSH 10.6p2 portable for Maemo 5 with a private static OpenSSL 3 and zlib, installed in /opt/openssh. The system OpenSSH 5.1 stays as it is.
+ Client: ssh-modern, scp-modern, sftp-modern, ssh-keygen-modern (ed25519 keys, modern key exchange, works with current servers).
+ Server: /opt/openssh/sbin/sshd on port 2222, keys only, no root login (see /opt/openssh/etc/sshd_config). It is not started by the package.
+ Not tested on a real N900 when it was packaged: the sandbox of sshd is the rlimit one (the 2.6.28 kernel has no seccomp filter).
+Xb-Maemo-Display-Name: OpenSSH 10.6p2
 
 Package: python3.11
 Version: 3.11.18-2maemo1
@@ -814,6 +1302,63 @@ Xb-Maemo-Icon-26:
  N8baZuorH5l6YYx1/tv9zKDxNlPT1poaH+rn0i7k8EcNGstMrb7D1O8nmep8/5zjuUHjfwHmunMt
  ql/CXQAAAABJRU5ErkJggg==
 
+Package: ripgrep
+Version: 15.2.0-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream ripgrep by Andrew Gallant and contributors)
+Installed-Size: 4084
+Depends: libc6
+Filename: pool/main/ripgrep/ripgrep_15.2.0-1maemo1_armel.deb
+Size: 1769694
+MD5sum: 543356c2e7df576c157aa80553a77549
+SHA1: 3aa0084cf66390fcf28947a629c4457e463a77de
+SHA256: 263d9bea43472622e25dd4c98c57e51e8935bc3d5b249525dda0994ae4c9876f
+Section: user/utilities
+Priority: optional
+Description: ripgrep 15.2.0 fast recursive text search (rg)
+ ripgrep 15.2.0 (rg): searches directories recursively for a regular expression, respects .gitignore, skips binary and hidden files, and is
+ much faster than grep -r. Example: rg -n 'TODO' ~/src   or   rg --files | rg png. Built for Maemo 5 with Rust as a static binary (without PCRE2).
+ Upstream: https://github.com/BurntSushi/ripgrep
+Xb-Maemo-Display-Name: ripgrep
+
+Package: rsync
+Version: 3.5.2-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream rsync by Andrew Tridgell, Wayne Davison and contributors)
+Installed-Size: 536
+Depends: libc6 (>= 2.5)
+Filename: pool/main/rsync/rsync_3.5.2-1maemo1_armel.deb
+Size: 262022
+MD5sum: 784c6605f99682ea436c3fba9e902941
+SHA1: e608ca249273de4a19d7016acf0564f4a1ac701d
+SHA256: 70758c8f5e7c02baef24d5dfa3fec99a30d68754ec566ea39867dec36b14f083
+Section: user/network
+Priority: optional
+Description: rsync 3.5.2 file synchronisation over SSH
+ rsync 3.5.2 for Maemo 5: copies and synchronises files and directories, sending only the differences (rsync -avz --progress ~/dir user@host:backup/).
+ It uses the ssh of the phone as the transport (the same rsync must be on the other side). Built for armel, glibc 2.5, without the optional compression
+ and checksum libraries. Upstream: https://rsync.samba.org
+Xb-Maemo-Display-Name: rsync
+
+Package: screen
+Version: 5.0.2-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of GNU screen)
+Installed-Size: 400
+Depends: libc6 (>= 2.5), libncurses5
+Filename: pool/main/screen/screen_5.0.2-1maemo1_armel.deb
+Size: 182200
+MD5sum: 6b52f3416662fb1b853c73b1a3f836c4
+SHA1: f04f0671031ac0b455f066eacac86519aaf3c42a
+SHA256: 62bd7442e62de94bf73fb9da8d82fa44c96aa8071267a5f859785d4c109ca0f9
+Section: user/utilities
+Priority: optional
+Description: GNU screen 5.0.2 terminal multiplexer
+ GNU screen 5.0.2: several programs in one terminal, detach and reattach later (screen, Ctrl-A d to detach, screen -r to come back, Ctrl-A c a new window,
+ Ctrl-A n/p next/previous, Ctrl-A [ scrollback). An alternative to tmux for people who know it. Sockets go to ~/.screen. Defaults in /opt/screen/etc/screenrc.
+ Built for Maemo 5 with the ncurses of the phone. Upstream: https://www.gnu.org/software/screen
+Xb-Maemo-Display-Name: screen
+
 Package: sfeed
 Version: 2.4-1maemo1
 Architecture: armel
@@ -951,6 +1496,103 @@ Xb-Maemo-Icon-26:
  wesMWeNLdkSkgchkDV0AN2sxsGqp/u+WDvGbs+BNpj7Jy0zMsKY5HWc1GZLQZEjCdRqSYL45NOlu
  p+ebeHFIMqNJ2/Zac7YJ9hirleXZk0yr686yHOJ0sQEovw5jLLNGlps8Lhtj7bF422Osn8/2tzJo
  /Dcx1rAkYxAoWgAAAABJRU5ErkJggg==
+
+Package: strace
+Version: 6.19-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream strace by the strace project)
+Installed-Size: 1048
+Depends: libc6 (>= 2.5)
+Filename: pool/main/strace/strace_6.19-1maemo1_armel.deb
+Size: 398988
+MD5sum: ec674ea0dbc375aa3b189b292d7e34bb
+SHA1: 0bc10a02f77a50b1806883aee45e6354511b3ac4
+SHA256: f9a2f362a0e07455f4e9b3cb8d74dbb619081ec6eb569dfd19200fb1f74bdcd7
+Section: user/utilities
+Priority: optional
+Description: strace 6.19 system call tracer
+ strace 6.19 for Maemo 5: shows the system calls and signals of a program (strace -f -o /tmp/out.txt command; strace -p PID).
+ Useful when an application hangs or fails without a message. Built for armel (native ABI only), glibc 2.5.
+ Upstream: https://strace.io
+Xb-Maemo-Display-Name: strace
+
+Package: tig
+Version: 2.6.1-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream tig by Jonas Fonseca and contributors)
+Installed-Size: 780
+Depends: libc6 (>= 2.5), git
+Filename: pool/main/tig/tig_2.6.1-1maemo1_armel.deb
+Size: 263406
+MD5sum: ea084de58135bd9f254de0046ace2319
+SHA1: bbe12a0a9ce72eeb8ea5155263b9c8037b1aaec8
+SHA256: 5e724b65830449e51789fe8b79c0604b329a7d5ffb505e1c9eb8978dc21beb22
+Section: user/development
+Priority: optional
+Description: tig 2.6.1 text-mode interface for git
+ tig 2.6.1: browse the history of a git repository, diffs, files and branches, stage changes line by line. Run it in a repository (tig, tig status,
+ tig blame file, tig show). Keys: Enter opens, q closes, h shows the help. It uses the git of this repository's git package (modern git with HTTPS).
+ Built for Maemo 5 with a static ncursesw (UTF-8). Upstream: https://jonas.github.io/tig
+Xb-Maemo-Display-Name: tig
+
+Package: tmux
+Version: 3.8-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream tmux by Nicholas Marriott and contributors)
+Installed-Size: 1344
+Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
+Filename: pool/main/tmux/tmux_3.8-1maemo1_armel.deb
+Size: 540272
+MD5sum: 7f6e0ef8841539282a3842b2f8263878
+SHA1: de60a395969946c86a52a387be87aa02207d2c80
+SHA256: 10a5139f526891160fbcdf08f2e8122052b1f83da77c75c68ef862f6b7815668
+Section: user/utilities
+Priority: optional
+Description: tmux 3.8 terminal multiplexer
+ tmux 3.8 for Maemo 5: several terminal windows and panes in one screen, sessions that survive a closed terminal or a lost SSH connection.
+ Prefix key Ctrl-b (c new window, n/p next/previous, % and " split, d detach, tmux attach returns). libevent is built in, ncurses comes from the phone.
+ Upstream: https://github.com/tmux/tmux
+Xb-Maemo-Display-Name: tmux
+Xb-Maemo-Icon-26:
+ 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
+ 0PhfF9vrzXNPw8sAAAAASUVORK5CYII=
 
 Package: tty-clock
 Version: 2.3-1maemo1
@@ -1107,6 +1749,25 @@ Description: GNU Wget 1.25.0 (HTTPS with TLS 1.3)
  GNU Wget 1.25.0 for Maemo 5, linked with OpenSSL 3. Upgrades wget 1.10.2 of the device.
  Installed in /opt/wget, with a link /usr/bin/wget. Certificates: /opt/curl/etc/ssl/cacert.pem.
 Xb-Maemo-Display-Name: Wget
+
+Package: wireguard-go
+Version: 0.0.20250522-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream wireguard-go and wireguard-tools by Jason A. Donenfeld)
+Installed-Size: 3180
+Depends: libc6 (>= 2.5)
+Filename: pool/main/wireguard-go/wireguard-go_0.0.20250522-1maemo1_armel.deb
+Size: 1323388
+MD5sum: 62858cf859d5c71d29268f5bbec3c7fd
+SHA1: 6a77358e7d355e5802f18dfd0530fbf7be352d01
+SHA256: bd6e4d02e4d65b3c365b6d42b6b7e2065c82de55efd0462f6e605c2d31eaa2b6
+Section: user/network
+Priority: optional
+Description: wireguard-go 0.0.20250522: WireGuard VPN in user space, with wg and wg-n900
+ WireGuard VPN for the N900: wireguard-go 0.0.20250522 (the Go implementation, static) with the wg tool and the helper wg-n900 up|down, which sets
+ up the interface and routes with the busybox ip of the phone. The kernel 2.6.28 has no WireGuard module, so everything runs in user space over /dev/net/tun.
+ Needs a WireGuard server (a home router, a VPS). See /opt/wireguard-go/share/doc/wireguard-go/README.Maemo. Upstream: https://www.wireguard.com
+Xb-Maemo-Display-Name: WireGuard (wireguard-go)
 
 Package: wordgrinder
 Version: 0.8-1maemo1
