@@ -80,6 +80,40 @@ Xb-Maemo-Icon-26:
  c1YsTRRTxH/Skv9RaLzPYI+1BkNXG5SWWHE1Co1m+oog5wqNxw2emWSwYJrBuo0tnVoKjf8GpXBM
  JCO53LYAAAAASUVORK5CYII=
 
+Package: apt-n900
+Version: 0.1-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 24
+Depends: apt, dpkg, sudo
+Filename: pool/main/apt-n900/apt-n900_0.1-1maemo1_armel.deb
+Size: 2752
+MD5sum: dd84533d7c9cfdb4d2ff898f69cbfc03
+SHA1: 6a2478b4a0135424307b51364529437b464c7bc7
+SHA256: 0929c46afbd596439c6d5ecd5465765db1e6d5c8635951490cb44ff830504c0b
+Section: user/system
+Priority: optional
+Description: Friendly apt command (list --upgradable, search, show) over apt-get
+ Adds /usr/bin/apt with the commands of modern apt: apt update, apt list --upgradable, apt upgrade, apt install, apt search, apt show, apt files, apt owns. It only calls apt-get, apt-cache and dpkg-query: nothing of the system package manager is replaced.
+Xb-Maemo-Display-Name: apt-n900
+
+Package: apt-n900
+Version: 0.2-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 32
+Depends: apt, dpkg, sudo, dialog
+Filename: pool/main/apt-n900/apt-n900_0.2-1maemo1_armel.deb
+Size: 4798
+MD5sum: 06a411e6f030b401afd848a51fa883e1
+SHA1: 3f73f76e55bd8df06fd4daff8def73572a1f4cd0
+SHA256: 60fbca29474151b185aee0bbee3588e636c8e8a8442ce42e6652306def672839
+Section: user/system
+Priority: optional
+Description: Friendly apt command (list --upgradable, search, show) over apt-get
+ Adds /usr/bin/apt with the commands of modern apt: apt update, apt list --upgradable, apt upgrade, apt install, apt search, apt show, apt files, apt owns, and apt tui (apt-tui: a dialog based menu to upgrade, search, install and remove). It only calls apt-get, apt-cache and dpkg-query: nothing of the system package manager is replaced.
+Xb-Maemo-Display-Name: apt-n900
+
 Package: apt-transport-curl
 Version: 0.1-1maemo1
 Architecture: armel
@@ -171,6 +205,25 @@ Description: BusyBox 1.37.0 (modern coreutils, ash, awk, sed, tar, ...)
  BusyBox 1.37.0 next to the system busybox 1.23. Applets are linked in /opt/busybox37/bin;
  add that directory to PATH to use them. /usr/bin/busybox37 runs the multi-call binary.
 Xb-Maemo-Display-Name: BusyBox 1.37
+
+Package: ca-certs-n900
+Version: 1.0-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 532
+Depends: maemosec-certman-tools
+Filename: pool/main/ca-certs-n900/ca-certs-n900_1.0-1maemo1_armel.deb
+Size: 118492
+MD5sum: 25417e943605d7da2d22dc42f71ae5e9
+SHA1: 77bf5e8559f311bc08420cc1c165820359085976
+SHA256: 786134a7f2580691b35264ff3427eb3761ab857d714988243eb52813d3bf602f
+Section: user/system
+Priority: optional
+Description: Current Mozilla root certificates for MicroB and other Maemo programs
+ The phone has root certificates from 2010 and lacks about 117 current ones (ISRG Root X1, DigiCert G2/G3, GlobalSign R3, USERTrust and others).
+ The package adds the missing ones to the private certificate domain ssl-ca of the user (the Maemo certificate manager, read by MicroB); the system domain common-ca is not changed. Removing the package removes exactly these certificates.
+ Note: MicroB speaks only TLS 1.0, so sites that disabled it still fail. Tool: ca-certs-n900 install|remove|status.
+Xb-Maemo-Display-Name: ca-certs-n900
 
 Package: camel-lite-ssl3
 Version: 1.1.92cssu7-2maemo1
@@ -379,6 +432,24 @@ Description: Command line tool for transferring data with URLs (TLS 1.3)
  so it works with servers that the system OpenSSL 0.9.8 of the device cannot talk to.
  Installed in /opt/curl, with a link /usr/bin/curl. Upstream: https://curl.se/
 Xb-Maemo-Display-Name: curl
+
+Package: dialog
+Version: 1.3-20260721-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream dialog by Thomas E. Dickey)
+Installed-Size: 396
+Depends: libc6 (>= 2.5)
+Filename: pool/main/dialog/dialog_1.3-20260721-1maemo1_armel.deb
+Size: 187074
+MD5sum: 05971f7371f23d9708a93d91e92c2939
+SHA1: 555328e773baf7c329d3cf50df4a86c13ceb96c2
+SHA256: 247eef63b55a4333eb38c44a8498fe06729623c8e153543ca79e24d46e969c97
+Section: user/development
+Priority: optional
+Description: dialog 1.3-20260721: dialog boxes for shell scripts
+ dialog 1.3-20260721: text-mode menus, check lists, input boxes, message boxes, file selectors and gauges for shell scripts (dialog --menu, --checklist, --msgbox, --inputbox, --yesno). Full options: dialog --help. Built for Maemo 5 with a static ncursesw (UTF-8, line drawing).
+ Upstream: https://invisible-island.net/dialog/
+Xb-Maemo-Display-Name: dialog
 
 Package: fd
 Version: 10.5.2-1maemo1
@@ -665,6 +736,24 @@ Description: Command-line JSON processor
  Upstream: https://jqlang.org/
 Xb-Maemo-Display-Name: jq
 
+Package: libsignal-purple
+Version: 0.1-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 128
+Depends: libc6 (>= 2.5), libpurple0, telepathy-haze, signal-bridge
+Filename: pool/main/libsignal-purple/libsignal-purple_0.1-1maemo1_armel.deb
+Size: 18412
+MD5sum: 9f0d9f2c962be9457526c17d5d21e651
+SHA1: c56deb63af56d783d22a072f3cdc67abd3b7232a
+SHA256: 1d40b0fb26d21c695d8e8dee25fd17292f8d0bd95276865f168d57fd4ad228f1
+Section: user/network
+Priority: optional
+Description: Signal in the Maemo messaging UI (libpurple plugin over signal-bridge)
+ A libpurple protocol plugin that shows Signal as an account in Settings > Accounts and the chats in Conversations. It does no cryptography: it talks to the signal-bridge daemon, which it starts when needed (first connection takes about a minute). The device must be linked first (for example with gurk); do not run gurk at the same time as the account is online.
+ Restart Mission Control or reboot after installing. Remove the package to undo (the haze.manager block is removed, a backup is kept as haze.manager.orig-signal).
+Xb-Maemo-Display-Name: Signal (libpurple plugin)
+
 Package: links
 Version: 2.30-1maemo1
 Architecture: armel
@@ -785,6 +874,24 @@ Xb-Maemo-Icon-26:
  JmEuFmy/KciVpuNHB6qp5Ox3c/DhxTMixLyJFE3/viiYD+rM3BxRRCUVlE1pZr5M72fqpTbWxID+
  v9pYSwPhmtpYO03N/Tiw7kuNuEv16SqNRvOEof16U6PXBoYlBhz+X43Gk6ZWDTP1+EhTnZuaHJsa
  jf8FlWeLwYCbdzgAAAAASUVORK5CYII=
+
+Package: microb-nss
+Version: 3.28.6-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 2800
+Depends: libnss3, libnspr4
+Filename: pool/main/microb-nss/microb-nss_3.28.6-1maemo2_armel.deb
+Size: 1343638
+MD5sum: 81722314628d772de482bf25d91eaced
+SHA1: dc483797aa45254d59f1abbba1da6646195dca0d
+SHA256: d878305299c7a00d20ac8814202c90912e7f71fee8f50484b437244d45c05daf
+Section: user/network
+Priority: optional
+Description: NSS 3.28 with TLS 1.2 for the MicroB browser
+ Replaces NSPR 4.8 / NSS 3.12 of the MicroB engine by NSPR 4.16 / NSS 3.28.6 (TLS 1.2, AES-GCM, ChaCha20, SSL 3.0 off), so that sites that dropped TLS 1.0 open in the stock browser. The stock libraries are kept in /usr/lib/microb-engine-orig (dpkg-divert) and come back when the package is removed. Restart the browser daemon after installing or removing: /etc/init.d/tablet-browser-daemon.init restart.
+ Tool: /opt/microb-nss/bin/psm-sim host port (a TLS test that sets NSS up as MicroB does, run it with LD_LIBRARY_PATH=/opt/microb-nss/lib).
+Xb-Maemo-Display-Name: microb-nss
 
 Package: msmtp
 Version: 1.8.34-1maemo1
@@ -1108,6 +1215,24 @@ Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), along
  Server: /opt/openssh/sbin/sshd on port 2222, keys only, no root login (see /opt/openssh/etc/sshd_config). It is not started by the package.
  Not tested on a real N900 when it was packaged: the sandbox of sshd is the rlimit one (the 2.6.28 kernel has no seccomp filter).
 Xb-Maemo-Display-Name: OpenSSH 10.6p2
+
+Package: purple-echo
+Version: 0.1-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 120
+Depends: libc6 (>= 2.5), libpurple0, telepathy-haze
+Filename: pool/main/purple-echo/purple-echo_0.1-1maemo1_armel.deb
+Size: 12972
+MD5sum: 6444d5b770f2962fc941f6522b402304
+SHA1: 6d5795e965104891f6df02c139c76822df5722e6
+SHA256: 03c75dc2d18c1bf1bd4552165d94f2e4c0e1d978eda835eb436cab0f7db1ff0e
+Section: user/network
+Priority: optional
+Description: Echo test protocol for the Maemo messaging UI (libpurple/haze)
+ A test protocol (step 0 of the native Signal plan): a libpurple plugin with one contact, echo-bot, that answers every message with "Echo: <text>". It adds the protocol "Echo (test)" to telepathy-haze (haze.manager block, account profile, icon) to check that Settings > Accounts and Conversations show a protocol from a third-party plugin.
+ The Mission Control daemon reads the manager files at start: restart it or reboot after installing. Remove the package to undo (the haze.manager block is removed, a backup is kept as haze.manager.orig-echo).
+Xb-Maemo-Display-Name: purple-echo
 
 Package: python3.11
 Version: 3.11.18-2maemo1
@@ -1497,6 +1622,24 @@ Xb-Maemo-Icon-26:
  p+ebeHFIMqNJ2/Zac7YJ9hirleXZk0yr686yHOJ0sQEovw5jLLNGlps8Lhtj7bF422Osn8/2tzJo
  /Dcx1rAkYxAoWgAAAABJRU5ErkJggg==
 
+Package: signal-bridge
+Version: 0.1.0-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 14704
+Depends: libc6 (>= 2.5)
+Filename: pool/main/signal-bridge/signal-bridge_0.1.0-1maemo1_armel.deb
+Size: 6452848
+MD5sum: 052cd438d412d2f572b566c7676b80af
+SHA1: 228055b9c1c76ba28ac4b9c2e9fb632a4c8c846f
+SHA256: 97b6c8737c93b30e7258058d6beeebc01b7e3485b356ad0e1b26a24ff32516c8
+Section: user/network
+Priority: optional
+Description: Signal daemon (presage) with a local socket, for the messaging UI plugin
+ signal-bridge 0.1.0: a daemon built on presage that serves a local unix socket (~/.local/share/signal-bridge/bridge.sock) with a simple line protocol. The package libsignal-purple uses it to show Signal in the Maemo messaging UI. It opens the store of an already linked device (the one of gurk: link the device with gurk first); do not run gurk and the daemon at the same time. Start by hand: signal-bridge-start (log: ~/.local/share/signal-bridge/daemon.log); commands: signal-bridge contacts, groups, whoami, messages.
+ Static ARMv7 musl binary. Upstream presage: https://github.com/whisperfish/presage (AGPL-3.0).
+Xb-Maemo-Display-Name: signal-bridge
+
 Package: strace
 Version: 6.19-1maemo1
 Architecture: armel
@@ -1515,6 +1658,24 @@ Description: strace 6.19 system call tracer
  Useful when an application hangs or fails without a message. Built for armel (native ABI only), glibc 2.5.
  Upstream: https://strace.io
 Xb-Maemo-Display-Name: strace
+
+Package: terminfo-256color
+Version: 1.0-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 52
+Depends: ncurses-base
+Filename: pool/main/terminfo-256color/terminfo-256color_1.0-1maemo1_armel.deb
+Size: 3264
+MD5sum: a17beaeb50ff02fe991a5f8790273e7b
+SHA1: bb484f8d938fc76896ae6c5221948c6a9cf20ebc
+SHA256: 37951f7b10b50c1ced0915bbf3a92d080dbe06aa5efa3c90b1e57b5793a39170
+Section: user/system
+Priority: optional
+Description: Terminfo for 256-colour terminals (xterm-256color, screen-256color, tmux-256color)
+ The phone has only 8-colour terminfo entries, so programs that use more colours (ranger, cbonsai, tmux, vim with a colour scheme) fail with: Color number is greater than COLORS-1 (7).
+ Adds xterm-256color, screen-256color and tmux-256color to /usr/share/terminfo (no system file is replaced). The package adds a small block to /home/user/.bashrc that switches TERM=xterm to xterm-256color (removed with the package); other shells: export TERM=xterm-256color
+Xb-Maemo-Display-Name: terminfo-256color
 
 Package: tig
 Version: 2.6.1-1maemo1
@@ -1749,6 +1910,24 @@ Description: GNU Wget 1.25.0 (HTTPS with TLS 1.3)
  GNU Wget 1.25.0 for Maemo 5, linked with OpenSSL 3. Upgrades wget 1.10.2 of the device.
  Installed in /opt/wget, with a link /usr/bin/wget. Certificates: /opt/curl/etc/ssl/cacert.pem.
 Xb-Maemo-Display-Name: Wget
+
+Package: whiptail
+Version: 0.52.25-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream newt by Red Hat and contributors)
+Installed-Size: 272
+Depends: libc6 (>= 2.5)
+Filename: pool/main/whiptail/whiptail_0.52.25-1maemo1_armel.deb
+Size: 82250
+MD5sum: cdaa561755a9f27dcb96d4aa30ecaac2
+SHA1: c9583c08cc2d0fd0a54236ec835986f837c37b1a
+SHA256: 1a7a717ab3b6319a86f1bc77b571ffec14b2c59786dc872b6599f23ca6cb1465
+Section: user/development
+Priority: optional
+Description: whiptail (newt 0.52.25): dialog boxes for shell scripts
+ whiptail from newt 0.52.25: text-mode menus, check lists, input boxes, message boxes and gauges for shell scripts (whiptail --menu, --checklist, --msgbox, --inputbox, --yesno), compatible with the common dialog options. Small: slang and popt are linked statically.
+ Upstream: https://pagure.io/newt
+Xb-Maemo-Display-Name: whiptail
 
 Package: wireguard-go
 Version: 0.0.20250522-1maemo1

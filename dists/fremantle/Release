@@ -2,16 +2,16 @@ Origin: N900 community packages
 Label: N900
 Suite: fremantle
 Codename: fremantle
-Date: Sat, 07 Nov 2026 19:37:16 +0000
+Date: Sun, 08 Nov 2026 16:36:22 +0000
 Architectures: armel
 Components: main
 Description: Modern software for the Nokia N900 (Maemo 5)
 MD5Sum:
- 21f9234b276b794e961df8d396bb668d           106714 main/binary-armel/Packages
- 442708cc730e10ceabf7e5369783d13e            56840 main/binary-armel/Packages.gz
+ bb3ec771c762e37101e26a624c826133           116572 main/binary-armel/Packages
+ 20a8cf82569df3161d05bd3caa3c94e4            60666 main/binary-armel/Packages.gz
 SHA1:
- 1ff6fcc30bb4001b48cf2e5e59295182ff416c9a           106714 main/binary-armel/Packages
- b603d68fde21ee67eeffaf262f5f7076e28ebc86            56840 main/binary-armel/Packages.gz
+ ed6cdf8ab847ffc6ce740fb9063d87d4e6b29962           116572 main/binary-armel/Packages
+ 8ed5ec9459890f51af8244175bab9d3340c86e4d            60666 main/binary-armel/Packages.gz
 SHA256:
- b1d5196cc6fb6504f4857e211084913d1b3c366a78551aecfb7eb78606b5308a           106714 main/binary-armel/Packages
- d3f000fdc250d91fc6ead2b398dfa0db363ade28de451c54b4528c624346b674            56840 main/binary-armel/Packages.gz
+ f41db5d439feb4ab64bfac534959e2c3d71f8318b02e687c434dd030b4bab775           116572 main/binary-armel/Packages
+ f8f0d73fe3616f4024ba8ce4a2ca29e3fe465b99f5fad371d1305dbd6ae55c50            60666 main/binary-armel/Packages.gz
