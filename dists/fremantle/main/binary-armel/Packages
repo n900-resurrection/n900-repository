@@ -882,10 +882,10 @@ Maintainer: elPytel
 Installed-Size: 2800
 Depends: libnss3, libnspr4
 Filename: pool/main/microb-nss/microb-nss_3.28.6-1maemo2_armel.deb
-Size: 1343638
-MD5sum: 81722314628d772de482bf25d91eaced
-SHA1: dc483797aa45254d59f1abbba1da6646195dca0d
-SHA256: d878305299c7a00d20ac8814202c90912e7f71fee8f50484b437244d45c05daf
+Size: 1343826
+MD5sum: 7511b96339fdd8c04e7a50a0d915712c
+SHA1: 11b4f740f08b8cf25ba3584a885250a1a0cac3eb
+SHA256: f8dce88abffd6acb52bea3459cb8005268530da2c8091174706cf628e20620aa
 Section: user/network
 Priority: optional
 Description: NSS 3.28 with TLS 1.2 for the MicroB browser
@@ -1050,9 +1050,9 @@ Installed-Size: 132
 Depends: python2.5, python-gtk2, python2.5-hildon, libsqlite3-0, curl, msmtp, mutt
 Filename: pool/main/mutt-hildon/mutt-hildon_0.4-1maemo1_armel.deb
 Size: 27044
-MD5sum: 92196c3496bb19f08aa5e54a41745c9a
-SHA1: 7c21615eed5687c21a2ef451df0cca55a0fe8d37
-SHA256: 1474a5a0ee4b8f53ac6431148c18e32900110ac35fac33f628eabc0acf8364ff
+MD5sum: 104d3e238f52fa7a0969a5e094325d26
+SHA1: bc354980b3554d4abe295274646ccb00397ca007
+SHA256: 6a417b1da2cd57238d92e05a3ee09be81a74efc7d3f07a99629fe56036c765f2
 Section: user/network
 Priority: optional
 Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
@@ -1233,6 +1233,25 @@ Description: Echo test protocol for the Maemo messaging UI (libpurple/haze)
  A test protocol (step 0 of the native Signal plan): a libpurple plugin with one contact, echo-bot, that answers every message with "Echo: <text>". It adds the protocol "Echo (test)" to telepathy-haze (haze.manager block, account profile, icon) to check that Settings > Accounts and Conversations show a protocol from a third-party plugin.
  The Mission Control daemon reads the manager files at start: restart it or reboot after installing. Remove the package to undo (the haze.manager block is removed, a backup is kept as haze.manager.orig-echo).
 Xb-Maemo-Display-Name: purple-echo
+
+Package: python3-hildonlite
+Version: 0.1.0-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 88
+Depends: python3.11
+Filename: pool/main/python3-hildonlite/python3-hildonlite_0.1.0-1maemo1_armel.deb
+Size: 10380
+MD5sum: 1d6f0669ae35b51f92255df0796cda8d
+SHA1: d5746a7b3c4bbd1dbd5357562b3ee112e86fe5c2
+SHA256: 62975f8fa51393922d58428ba283f592b3a4f5516b652d00e2ac7042ca76d669
+Section: user/development
+Priority: optional
+Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
+ Python module hildonlite: Window, Box, Label, Button, Entry (with completion), TextView, PannableArea, AppMenu, lists, dialogs and timers over GTK 2 and Hildon,
+ called through ctypes, because PyGTK exists only for Python 2 and PyGObject has no GTK 2 / Hildon typelibs.
+ Use: import hildonlite as hl. Examples: /opt/python3/share/doc/python3-hildonlite/examples. The same source installs with pip (pip install git+https://github.com/n900-resurrection/hildonlite).
+Xb-Maemo-Display-Name: hildonlite (Python 3)
 
 Package: python3.11
 Version: 3.11.18-2maemo1
@@ -1677,6 +1696,24 @@ Description: Terminfo for 256-colour terminals (xterm-256color, screen-256color,
  Adds xterm-256color, screen-256color and tmux-256color to /usr/share/terminfo (no system file is replaced). The package adds a small block to /home/user/.bashrc that switches TERM=xterm to xterm-256color (removed with the package); other shells: export TERM=xterm-256color
 Xb-Maemo-Display-Name: terminfo-256color
 
+Package: terminfo-256color
+Version: 1.0-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 52
+Depends: ncurses-base
+Filename: pool/main/terminfo-256color/terminfo-256color_1.0-1maemo2_armel.deb
+Size: 3108
+MD5sum: b41bb6ce1aca94d30baa0a1ee5d3502c
+SHA1: 9c2e537bdc2de64e88f70e94dbb5c6f7e3f5801c
+SHA256: 95ae69339c8d22b531b80424c87af581646be1d29f91aa0e02c18d8b17286d99
+Section: user/system
+Priority: optional
+Description: Terminfo for 256-colour terminals (xterm-256color, screen-256color, tmux-256color)
+ The phone has only 8-colour terminfo entries, so programs that use more colours (ranger, cbonsai, tmux, vim with a colour scheme) fail with: Color number is greater than COLORS-1 (7).
+ Adds xterm-256color, screen-256color and tmux-256color to /usr/share/terminfo (no system file is replaced). The package adds a small block to /home/user/.bashrc that switches TERM=xterm to xterm-256color (removed with the package); other shells: export TERM=xterm-256color
+Xb-Maemo-Display-Name: terminfo-256color
+
 Package: tig
 Version: 2.6.1-1maemo1
 Architecture: armel
@@ -1703,10 +1740,10 @@ Maintainer: elPytel (build of upstream tmux by Nicholas Marriott and contributor
 Installed-Size: 1344
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/tmux/tmux_3.8-1maemo1_armel.deb
-Size: 540272
-MD5sum: 7f6e0ef8841539282a3842b2f8263878
-SHA1: de60a395969946c86a52a387be87aa02207d2c80
-SHA256: 10a5139f526891160fbcdf08f2e8122052b1f83da77c75c68ef862f6b7815668
+Size: 540270
+MD5sum: 0aa347292da4925de737f2984d211926
+SHA1: 93054ae1babab1264688e0c91228988e7ccc2de5
+SHA256: 293e005673a9680204044a9eee42dc5eb4c462bd1b8901766db23980cd2624b1
 Section: user/utilities
 Priority: optional
 Description: tmux 3.8 terminal multiplexer
@@ -1716,7 +1753,7 @@ Description: tmux 3.8 terminal multiplexer
 Xb-Maemo-Display-Name: tmux
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcMNzggE3oi
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwkVLhB9jpQM
  AAAIA0lEQVRYw72Ye3AV9RXHP+e3N4977948SHiEkISH4R2hAQuKGLU8ZhTEGSzQKkpVmFYdBQrT
  YkcI+MAOBUWLPARatYpUK7Uz9YFCG1QECfgAKYUIJYARCCTkndy7e/rHLmARQigTzz+fnZ2z5/f7
  nt/5nd39Cb51756fX1DAOWbf5vGKFz2mv+JRuvgOx2hda+dBSz2W3+6x5Ccea/5y2nHv3h07iopA
