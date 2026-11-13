@@ -195,10 +195,10 @@ Maintainer: elPytel
 Installed-Size: 164
 Depends: python3.11, python3-hildonlite (>= 0.4.0), xserver-xorg-input-evdev-mouse
 Filename: pool/main/bt-kbmouse/bt-kbmouse_0.1-1maemo1_armel.deb
-Size: 31488
-MD5sum: 714859a4d64c74ea5c083cab84158e96
-SHA1: c5cf53c0461c34f6a691b4ce8893f1bffb836542
-SHA256: a153d226d99ccc8af792e2201d7e6ee2acfea0965a0b412cdc0032a458525f76
+Size: 31474
+MD5sum: 07357ff229dfa8d11be8a82bf32933ba
+SHA1: 3296d09078c8e36e5e124d02d734260b9ebaed88
+SHA256: ad6fa41652b7365ad14522c5163def201aecd841327290dfcd86019d83047372
 Section: user/system
 Priority: optional
 Description: Bluetooth keyboard and TrackPoint: layout, pointer, scrolling and settings
@@ -745,9 +745,30 @@ Installed-Size: 152
 Depends: python3.11, python3-hildonlite (>= 0.4.0), calendar-backend, curl
 Filename: pool/main/ical-sync/ical-sync_0.1-1maemo1_armel.deb
 Size: 26760
-MD5sum: 466acca533ebbd0f45336b52217d2857
-SHA1: 21b3d69e79adbf0487b59456e9408e93e91a048c
-SHA256: ddd59397003e02060cf9083276adc27c7e312d76341279d1cdff807941c42b67
+MD5sum: 234bcff6e81feea38e9be28a0cefee07
+SHA1: fae22fcd3ee73fa078cf9a067b80b8e6cfc308b3
+SHA256: 7ed9085e145f5c751ad0341c32cbb94609db8b76cdc0c22c96cb91928879f773
+Section: user/office
+Priority: optional
+Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calendar
+ Follows iCal (.ics) addresses, for example the secret iCal address of a Google calendar or a public calendar, and keeps their events and
+ tasks in the Maemo Calendar: new items are added, changed ones replaced, removed ones deleted; the past is kept for at most a month, the future as far
+ as the feed goes. A job with cron checks every 30 minutes, only when the phone is online already (it never starts a connection), and updates each
+ calendar at its own interval. The application adds and removes the addresses, sets the interval and switches the log. The Czech public holidays are the
+ default calendar. Command line: ical-sync (see ical-sync --help). Upstream: this project (MIT).
+Xb-Maemo-Display-Name: Calendar sync
+
+Package: ical-sync
+Version: 0.1-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 152
+Depends: python3.11, python3-hildonlite (>= 0.4.0), calendar-backend, curl
+Filename: pool/main/ical-sync/ical-sync_0.1-1maemo2_armel.deb
+Size: 27098
+MD5sum: 861e48fa6a741b8f2df464734931e3c5
+SHA1: ab4b3d21b8f9dee69b268d0b6a46cb1c7f6b8abb
+SHA256: 0436207d621e024cf9957e22cd01398f1809fe34096a295e57c0367d58d3111d
 Section: user/office
 Priority: optional
 Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calendar
@@ -1378,10 +1399,10 @@ Maintainer: elPytel
 Installed-Size: 92
 Depends: python3.11
 Filename: pool/main/python3-hildonlite/python3-hildonlite_0.4.0-1maemo1_armel.deb
-Size: 12192
-MD5sum: ba025c8e7dfc3207ecb5b0e3d2c053a4
-SHA1: 7f21996d31323241ef72ddaf9e24f7efdb11d96e
-SHA256: 2492ea4b06278460e1b9845042bee1ccc50376f517e0bec93937aec48a5d571c
+Size: 12198
+MD5sum: 826c0c35f0407edfbf2156702156ee9c
+SHA1: 3ba4a2d007836a96b9cfec03931bc972b086873d
+SHA256: 47e143e235f524adf69423cb84478f333a4b4f6fa810990d17e5af59aa0bb00c
 Section: user/development
 Priority: optional
 Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
@@ -1647,10 +1668,10 @@ Maintainer: elPytel
 Installed-Size: 104
 Depends: python3.11, python3-hildonlite (>= 0.2.2), gstreamer0.10-plugins-camera, libomap3cam
 Filename: pool/main/selfie/selfie_0.6-1maemo1_armel.deb
-Size: 17016
-MD5sum: c3947602a7525d25d4f17132e454cc29
-SHA1: 51eb4952d300a1eb6ccbcc6cec4d2e6e56fdc474
-SHA256: 4eff9ba42a8fc298240e1dec24824682bf5b873d90c8824b24027a3adef32810
+Size: 17020
+MD5sum: 59991db0c22d6c3c7e2ca852c9ca96e5
+SHA1: 8a65119f4ecf5a8a2786bfa0cf4abb451f3d5ba1
+SHA256: 5c7ea78ab63fa023c449c9a4322f841f9d29d852548bc85ce1b4bce173f0af3f
 Section: user/multimedia
 Priority: optional
 Description: Live preview of the front camera, a photo button and the camera button (test application)
@@ -1794,6 +1815,109 @@ Xb-Maemo-Icon-26:
  wesMWeNLdkSkgchkDV0AN2sxsGqp/u+WDvGbs+BNpj7Jy0zMsKY5HWc1GZLQZEjCdRqSYL45NOlu
  p+ebeHFIMqNJ2/Zac7YJ9hirleXZk0yr686yHOJ0sQEovw5jLLNGlps8Lhtj7bF422Osn8/2tzJo
  /Dcx1rAkYxAoWgAAAABJRU5ErkJggg==
+
+Package: sfeed
+Version: 2.4-1maemo4
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 508
+Depends: libc6 (>= 2.5), libncurses5 (>= 5.7), curl
+Filename: pool/main/sfeed/sfeed_2.4-1maemo4_armel.deb
+Size: 102706
+MD5sum: 5fa66160ec3be287fe4852442d696b2d
+SHA1: e0c3ff165d7962711fefe99a1a59eff09e7b13cf
+SHA256: 964ed83621c364d3ea834ca5922d31b37009a4c7f753c3cc8e7cf21d3f5f0215
+Section: user/network
+Priority: optional
+Description: sfeed 2.4 RSS/Atom feed and podcast reader for the terminal
+ sfeed 2.4 for Maemo 5: small tools that parse RSS/Atom feeds into a plain format and a curses reader.
+ Feeds are fetched with curl over TLS 1.3. Run sfeed-reader. Podcasts are normal feeds, the audio link is in the enclosure field.
+Xb-Maemo-Display-Name: sfeed
+Xb-Maemo-Icon-26:
+ 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
+ /Dcx1rAkYxAoWgAAAABJRU5ErkJggg==
+
+Package: sfeed-hildon
+Version: 0.1-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 104
+Depends: python3.11, python3-hildonlite (>= 0.4.0), sfeed (>= 2.4-1maemo4), curl
+Filename: pool/main/sfeed-hildon/sfeed-hildon_0.1-1maemo1_armel.deb
+Size: 23496
+MD5sum: 927f11a5dec07ce248a1363c9ad5eb60
+SHA1: 0d060fe6a44ee1f8f6bb8864f1e56a43df9a5713
+SHA256: 73c9022a19d5ef1757c8566cd5801cfac353fd5e0eb1b4bb8ed10102cc37ab79
+Section: user/network
+Priority: optional
+Description: Native RSS/Atom and podcast feed reader on top of sfeed
+ A touch reader for RSS and Atom feeds (and the text of podcast episodes). The feeds are downloaded by sfeed_update with curl, so
+ modern HTTPS servers (TLS 1.2 and 1.3) work, where the stock RSS reader and Feed Circuit fail with a TLS error. The application lists the feeds
+ with the number of new items, the items of a feed or all unread ones, shows the text of an item, opens its link in the browser, adds and removes
+ feeds (the list is ~/.sfeed/sfeedrc, shared with the terminal reader sfeed-reader) and remembers what was read in the file that sfeed_markread uses.
+ Upstream: this project (MIT).
+Xb-Maemo-Display-Name: Feed reader
+
+Package: sfeed-hildon
+Version: 0.1-1maemo4
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 124
+Depends: python3.11, python3-hildonlite (>= 0.4.0), sfeed (>= 2.4-1maemo4), curl
+Filename: pool/main/sfeed-hildon/sfeed-hildon_0.1-1maemo4_armel.deb
+Size: 26580
+MD5sum: 041c0bc29b8dbf7e94720ebe6fa77b4f
+SHA1: c33fa3e3c4f9c5552a820197dceddce314d0ad46
+SHA256: 2685bc289a790321596497f6553a8cb4607e91134864d62ef4e7e15dec8bf30b
+Section: user/network
+Priority: optional
+Description: Native RSS/Atom and podcast feed reader on top of sfeed
+ A touch reader for RSS and Atom feeds (and the text of podcast episodes). The feeds are downloaded by sfeed_update with curl, so
+ modern HTTPS servers (TLS 1.2 and 1.3) work, where the stock RSS reader and Feed Circuit fail with a TLS error. The application lists the feeds
+ with the number of new items, the items of a feed or all unread ones, shows the text of an item, opens its link in the browser, adds and removes
+ feeds (the list is ~/.sfeed/sfeedrc, shared with the terminal reader sfeed-reader), imports OPML and remembers what was read in the file that sfeed_markread uses.
+ A job with cron (every 30 minutes, only when the phone is online already) can update the feeds in the background; the interval is set in the application.
+ Upstream: this project (MIT).
+Xb-Maemo-Display-Name: Feed reader
 
 Package: signal-bridge
 Version: 0.1.0-1maemo1
