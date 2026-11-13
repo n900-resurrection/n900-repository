@@ -195,10 +195,10 @@ Maintainer: elPytel
 Installed-Size: 164
 Depends: python3.11, python3-hildonlite (>= 0.4.0), xserver-xorg-input-evdev-mouse
 Filename: pool/main/bt-kbmouse/bt-kbmouse_0.1-1maemo1_armel.deb
-Size: 31438
-MD5sum: c942ce28941e2680fb05be7a7a29e4e1
-SHA1: c223565b21a8ad8fab24485d33e523dfb3fa5b4e
-SHA256: cc29f99d279928a31297faf810d7bfe353ca4df5438fa2d3d53d8a64117b31c2
+Size: 31488
+MD5sum: 714859a4d64c74ea5c083cab84158e96
+SHA1: c5cf53c0461c34f6a691b4ce8893f1bffb836542
+SHA256: a153d226d99ccc8af792e2201d7e6ee2acfea0965a0b412cdc0032a458525f76
 Section: user/system
 Priority: optional
 Description: Bluetooth keyboard and TrackPoint: layout, pointer, scrolling and settings
@@ -737,6 +737,27 @@ Xb-Maemo-Icon-26:
  2P/rc41aDSDroKqoCKgiIoKq/jTY90wjrO/zRFK/Uqn8KcpQy4+Gr/Vem8ZRQSiS0bsKXAZsJ6BK
  sQhgFS6jWgVKiPhARZxOF9fdtbFWq60W1Yv/AoZk452BHKYkAAAAAElFTkSuQmCC
 
+Package: ical-sync
+Version: 0.1-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 152
+Depends: python3.11, python3-hildonlite (>= 0.4.0), calendar-backend, curl
+Filename: pool/main/ical-sync/ical-sync_0.1-1maemo1_armel.deb
+Size: 26760
+MD5sum: 466acca533ebbd0f45336b52217d2857
+SHA1: 21b3d69e79adbf0487b59456e9408e93e91a048c
+SHA256: ddd59397003e02060cf9083276adc27c7e312d76341279d1cdff807941c42b67
+Section: user/office
+Priority: optional
+Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calendar
+ Follows iCal (.ics) addresses, for example the secret iCal address of a Google calendar or a public calendar, and keeps their events and
+ tasks in the Maemo Calendar: new items are added, changed ones replaced, removed ones deleted; the past is kept for at most a month, the future as far
+ as the feed goes. A job with cron checks every 30 minutes, only when the phone is online already (it never starts a connection), and updates each
+ calendar at its own interval. The application adds and removes the addresses, sets the interval and switches the log. The Czech public holidays are the
+ default calendar. Command line: ical-sync (see ical-sync --help). Upstream: this project (MIT).
+Xb-Maemo-Display-Name: Calendar sync
+
 Package: irssi
 Version: 1.4.5-1maemo1
 Architecture: armel
@@ -782,10 +803,10 @@ Maintainer: elPytel
 Installed-Size: 128
 Depends: libc6 (>= 2.5), libpurple0, telepathy-haze, signal-bridge
 Filename: pool/main/libsignal-purple/libsignal-purple_0.1-1maemo1_armel.deb
-Size: 18412
-MD5sum: 9f0d9f2c962be9457526c17d5d21e651
-SHA1: c56deb63af56d783d22a072f3cdc67abd3b7232a
-SHA256: 1d40b0fb26d21c695d8e8dee25fd17292f8d0bd95276865f168d57fd4ad228f1
+Size: 18538
+MD5sum: 33b46d9a47d40d987c4d6c231533d6b7
+SHA1: fe55017660d4f69d7bfccd91509d2f63ea37e352
+SHA256: 6d42e53748602c2ecf4e68fa2be5eb144917a3299fdadbecb0c54a48f936b0f6
 Section: user/network
 Priority: optional
 Description: Signal in the Maemo messaging UI (libpurple plugin over signal-bridge)
@@ -1274,6 +1295,26 @@ Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), along
  Not tested on a real N900 when it was packaged: the sandbox of sshd is the rlimit one (the 2.6.28 kernel has no seccomp filter).
 Xb-Maemo-Display-Name: OpenSSH 10.6p2
 
+Package: profanity
+Version: 0.19.0-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream Profanity by James Booth and contributors)
+Installed-Size: 10532
+Depends: libc6 (>= 2.5), curl
+Filename: pool/main/profanity/profanity_0.19.0-1maemo1_armel.deb
+Size: 4658158
+MD5sum: fd9d863080cd22fddfbb5b3a93ca88bb
+SHA1: 10754e67da863073c857861471d27624ee0f49a5
+SHA256: d03f38449557f17b670f496f5400db1f3219729c53e4a1d6affb850d56d58e60
+Section: user/network
+Priority: optional
+Description: Profanity 0.19.0 XMPP (Jabber) client
+ Profanity 0.19.0: an XMPP (Jabber) client in the terminal. Start it in a terminal (profanity), then /connect user@server.example (it asks for the
+ password), /msg user@server hello, /join room@conference.server. /help lists the commands. TLS 1.2/1.3 (OpenSSL 3, CA bundle of the curl package; keep the
+ phone clock correct, ntp-sync). Built for Maemo 5 with static GLib, libstrophe, libcurl, SQLite, readline and ncursesw; no OMEMO, OTR, PGP or plugins.
+ Upstream: https://profanity-im.github.io
+Xb-Maemo-Display-Name: Profanity
+
 Package: purple-echo
 Version: 0.1-1maemo1
 Architecture: armel
@@ -1337,10 +1378,10 @@ Maintainer: elPytel
 Installed-Size: 92
 Depends: python3.11
 Filename: pool/main/python3-hildonlite/python3-hildonlite_0.4.0-1maemo1_armel.deb
-Size: 12198
-MD5sum: 445c6b36ccc2e7a1a9795723f722f2ad
-SHA1: 5ad5025c12babb618973407225cdea82f401823e
-SHA256: fb1649c3f41d69e25cd1dc81cfa0ee69ba830a7fe0ffe699356b69b0b29b65c8
+Size: 12192
+MD5sum: ba025c8e7dfc3207ecb5b0e3d2c053a4
+SHA1: 7f21996d31323241ef72ddaf9e24f7efdb11d96e
+SHA256: 2492ea4b06278460e1b9845042bee1ccc50376f517e0bec93937aec48a5d571c
 Section: user/development
 Priority: optional
 Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
@@ -1606,10 +1647,10 @@ Maintainer: elPytel
 Installed-Size: 104
 Depends: python3.11, python3-hildonlite (>= 0.2.2), gstreamer0.10-plugins-camera, libomap3cam
 Filename: pool/main/selfie/selfie_0.6-1maemo1_armel.deb
-Size: 17028
-MD5sum: c0117590021e1a50734dab42a8c920f4
-SHA1: c308d9233383eb0cfd8c69ec5a9e64dec479e73b
-SHA256: 3662c6922abc92146131aac7ab72b0d0e74842a174464780e0c317f753b505b8
+Size: 17016
+MD5sum: c3947602a7525d25d4f17132e454cc29
+SHA1: 51eb4952d300a1eb6ccbcc6cec4d2e6e56fdc474
+SHA256: 4eff9ba42a8fc298240e1dec24824682bf5b873d90c8824b24027a3adef32810
 Section: user/multimedia
 Priority: optional
 Description: Live preview of the front camera, a photo button and the camera button (test application)
@@ -1758,13 +1799,13 @@ Package: signal-bridge
 Version: 0.1.0-1maemo1
 Architecture: armel
 Maintainer: elPytel
-Installed-Size: 14704
+Installed-Size: 14784
 Depends: libc6 (>= 2.5)
 Filename: pool/main/signal-bridge/signal-bridge_0.1.0-1maemo1_armel.deb
-Size: 6452848
-MD5sum: 052cd438d412d2f572b566c7676b80af
-SHA1: 228055b9c1c76ba28ac4b9c2e9fb632a4c8c846f
-SHA256: 97b6c8737c93b30e7258058d6beeebc01b7e3485b356ad0e1b26a24ff32516c8
+Size: 6483732
+MD5sum: 062c1e5199ad991f0d78d27518b3cb4f
+SHA1: b8987fdc79f0f1b7dbb82eee638a6d09a5b85d63
+SHA256: e614d079f573aeb9d73cb82f40ed3bc241b294770ef76e654a34dcb175e5779c
 Section: user/network
 Priority: optional
 Description: Signal daemon (presage) with a local socket, for the messaging UI plugin
@@ -1779,10 +1820,10 @@ Maintainer: elPytel
 Installed-Size: 248
 Depends: libc6 (>= 2.5)
 Filename: pool/main/smb/smb_0.1-1maemo1_armel.deb
-Size: 88624
-MD5sum: 86659de076caf198defee354698cbc24
-SHA1: e897b9384b2df777777836a7a3cd920d5f69e043
-SHA256: 07d76671178115ff6cf455e697bc9c65a3d5375e02bcb77a325549be2598b73a
+Size: 88620
+MD5sum: 3d175b196e4322c9dfb6f4269083d59d
+SHA1: 1b79705d7d7bbd082997d75700ec105f42907b8a
+SHA256: ff3c57302f1fd39ee1c00870ae03fae52ca626c8a0e91254d9b59d22a4045f55
 Section: user/network
 Priority: optional
 Description: SMB2/SMB3 command-line client (ls, get, put, ...)
@@ -2062,6 +2103,25 @@ Xb-Maemo-Icon-26:
  RwsFXoTLQbGoot7lMBR5Zotal8MQ4UkRBpeDo+IjKl0OJdLmvq7p1XxesUafSuW+pZhzSF/30+37
  oqVvujlonKNo3aUYrR8kBugK/6+DxnOK9nmKZYsUG97xV/QfNP4HnCHjAzWlyn0AAAAASUVORK5C
  YII=
+
+Package: weechat
+Version: 4.10.4-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream WeeChat by Sébastien Helleu)
+Installed-Size: 11140
+Depends: libc6 (>= 2.5), curl
+Filename: pool/main/weechat/weechat_4.10.4-1maemo1_armel.deb
+Size: 5592148
+MD5sum: 6773d8e365ef8dc47356f58d3f458a2b
+SHA1: 933a96e7e9b5b3b6cd0ce246ff000631767f951c
+SHA256: 566bd8fd602bf692b6268618c341fb3a6575b095c6abc3f75dde68d365fca9b5
+Section: user/network
+Priority: optional
+Description: WeeChat 4.10.4 chat client (IRC)
+ WeeChat 4.10.4: an extensible chat client in the terminal. Start it in a terminal (weechat), then /server add libera irc.libera.chat/6697 -tls,
+ /connect libera, /join #channel. /help lists the commands. TLS 1.2/1.3 (GnuTLS, CA bundle of the curl package; keep the phone clock correct, ntp-sync).
+ Built for Maemo 5 with static GnuTLS, libgcrypt, libcurl and ncursesw (UTF-8); no scripting languages, no relay, no spell checker. Upstream: https://weechat.org
+Xb-Maemo-Display-Name: WeeChat
 
 Package: wget
 Version: 1.25.0-1maemo1
