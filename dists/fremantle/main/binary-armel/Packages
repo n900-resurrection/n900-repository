@@ -5,10 +5,10 @@ Maintainer: elPytel (build of upstream age by Filippo Valsorda and contributors)
 Installed-Size: 6260
 Depends: libc6
 Filename: pool/main/age/age_1.2.1-1maemo1_armel.deb
-Size: 2664066
-MD5sum: 81358d5a4ff4b0338a5e72467d06f059
-SHA1: 14cec04b3c37e3b9fd79e489b1fa08772803357e
-SHA256: eae260fc209b934d24bdfcecd0b786feea726a21e44923ac56fe0f6900ca54b4
+Size: 2664054
+MD5sum: 7a41e7100317136f01decf436de381ae
+SHA1: a20aacc008b76c41f26488cc7a939dd755e7c7c3
+SHA256: b10a329e165b0119633bf5d5e5558f94316346acded02ed0da62a51f769fd596
 Section: user/utilities
 Priority: optional
 Description: age 1.2.1 simple file encryption (age, age-keygen)
@@ -25,9 +25,9 @@ Installed-Size: 16200
 Depends: libc6
 Filename: pool/main/amfora/amfora_1.11.0-1maemo1_armel.deb
 Size: 5756856
-MD5sum: b4c13063990ee9cd724a9286b6d798c0
-SHA1: a329719c2dd0a06bfea9abd0f45cd827626559f5
-SHA256: a3728c4a0521992c85782d9e6877aa1468d8dbba2648712ea9ed4777b1b65cf3
+MD5sum: 9eac254e56a6097acc5b8912e15897d0
+SHA1: f30f2b029852e0ae815d119d43b25c07a8f3d2b4
+SHA256: 4ef14be8955718879c70fa1779fd450316a4246717e3dde9a2454503f922a436
 Section: user/network
 Priority: optional
 Description: amfora 1.11.0 browser for Gemini space
@@ -37,7 +37,7 @@ Description: amfora 1.11.0 browser for Gemini space
 Xb-Maemo-Display-Name: Amfora
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcSEidTUClK
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLQW1XoNi
  AAAI4UlEQVRYw7WYe1hVZRaH37XPDc4BJUDJ0MoLSl4oFckmEzWxGk1HozKvXawZKR0ty7B6pIvZ
  UGkN5ZRpYzHeHvWRlDQqI9JwNPKCJSqQDhgKKPfD5XDO/uaPvXGUZyZRx/XPyz58t9+3vv2ttZdg
  Ws+eAwbExtLKAuIN9vjUYOgag9LVbFDG1bWOBlSRwTOTDRY8ZLBuU0vDY8f27cvKAmklJNFAbJbB
@@ -104,10 +104,10 @@ Maintainer: elPytel
 Installed-Size: 32
 Depends: apt, dpkg, sudo, dialog
 Filename: pool/main/apt-n900/apt-n900_0.2-1maemo1_armel.deb
-Size: 4798
-MD5sum: 06a411e6f030b401afd848a51fa883e1
-SHA1: 3f73f76e55bd8df06fd4daff8def73572a1f4cd0
-SHA256: 60fbca29474151b185aee0bbee3588e636c8e8a8442ce42e6652306def672839
+Size: 4796
+MD5sum: 42ba7bfca330f6bac6d28f8f29f1ba80
+SHA1: be8054bb2f0e3a455112d736a9a69e67fe4d2018
+SHA256: 961362dff7c084f282cd84e082d4ffbd6784462a782c9e914b45add4661867de
 Section: user/system
 Priority: optional
 Description: Friendly apt command (list --upgradable, search, show) over apt-get
@@ -157,10 +157,10 @@ Maintainer: elPytel
 Installed-Size: 60
 Depends: curl, apt-transport-https
 Filename: pool/main/apt-transport-curl/apt-transport-curl_0.1-1maemo3_armel.deb
-Size: 5538
-MD5sum: aa165685263077e61ea3cca7b1babcbc
-SHA1: 549c1bba6b66b9dde361e64aba030841a0122377
-SHA256: ca13190af3e65dbc590a3ffa20b2d3600f7a52944bc7b8e58d5eb3c95c17dcd1
+Size: 5526
+MD5sum: e0aead28aad56cf9d81d1e684c3675e5
+SHA1: 9e0c6044cc58bf2088e03581f659f5ad29b2c7c9
+SHA256: 9c65de4120d8bc3853343d2e49e4321db9ea3aeb29e9c65e5a6bea90ddd3f323
 Section: user/system
 Priority: optional
 Description: apt over HTTPS with TLS 1.2/1.3 (through curl 8)
@@ -175,10 +175,10 @@ Maintainer: elPytel
 Installed-Size: 1112
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/bash5/bash5_5.3-1maemo1_armel.deb
-Size: 579978
-MD5sum: 637ed1de4d4efa14eac1935dbce3d2bb
-SHA1: e635d7b3648d99b3614ed3794a2823ff6fba084d
-SHA256: ac2fcad0347655bc26511e1a968cec8ed83b06c1c62f03a22fb63d0b532ecedb
+Size: 579972
+MD5sum: 7edb769246c2e1afb2edd3cceab244d0
+SHA1: 2c61c93ed49e7ce4589e41defd35fddcbe545e20
+SHA256: e27a8b2c9aeb9e5fc4b6be261d5863fe1a6f8281f3e2ace923da2019f8472e0d
 Section: user/system
 Priority: optional
 Description: GNU Bash 5.3 shell (next to the system bash 3.2)
@@ -212,10 +212,10 @@ Maintainer: elPytel (build of upstream bat by David Peter and contributors)
 Installed-Size: 5268
 Depends: libc6
 Filename: pool/main/bat/bat_0.26.1-1maemo2_armel.deb
-Size: 3005900
-MD5sum: a0a14b2b28fb9f6a8dc0173c2db36a0d
-SHA1: 0f3eed7aa46d0fc4fb4141298ba24eefcff66a10
-SHA256: 9cf2b3cb0a2cbf275c2bc4a9707a477eaae5e578e3bfcb477aa5e2bd50d277ce
+Size: 3005896
+MD5sum: 7bae0a943989bcde06fb8091a0353915
+SHA1: 015ffecfe42ec7885b0da4b630176bef974f49c6
+SHA256: 5452bc6d3349f5bda101ac759e63c1e9ad9b85234730586f6b298bf4049a4814
 Section: user/utilities
 Priority: optional
 Description: bat 0.26.1 cat with syntax highlighting and line numbers
@@ -231,10 +231,10 @@ Maintainer: elPytel
 Installed-Size: 164
 Depends: python3.11, python3-hildonlite (>= 0.4.0), xserver-xorg-input-evdev-mouse
 Filename: pool/main/bt-kbmouse/bt-kbmouse_0.1-1maemo1_armel.deb
-Size: 31474
-MD5sum: 07357ff229dfa8d11be8a82bf32933ba
-SHA1: 3296d09078c8e36e5e124d02d734260b9ebaed88
-SHA256: ad6fa41652b7365ad14522c5163def201aecd841327290dfcd86019d83047372
+Size: 31476
+MD5sum: 650ca515936f43f60c3563a48a95da84
+SHA1: 5d64b26a786cd884e95864211a81c4cfc18ec652
+SHA256: 426c54e6615e97c608ac25c528878d36695c5e09861e92549a4ed428a19ed448
 Section: user/system
 Priority: optional
 Description: Bluetooth keyboard and TrackPoint: layout, pointer, scrolling and settings
@@ -251,10 +251,10 @@ Maintainer: elPytel
 Installed-Size: 1080
 Depends: libc6 (>= 2.5)
 Filename: pool/main/busybox37/busybox37_1.37.0-1maemo1_armel.deb
-Size: 602534
-MD5sum: da1203d2c0e31fca3daf1a06844b92c2
-SHA1: 2f927f0d5644c59447a0cc9f883264a560844cf7
-SHA256: 49d3b1d6bccee49ba4e5871cdeb33eb1ffa0be02af7f786450f2f943e7dc6668
+Size: 602520
+MD5sum: 764d2a6be1561bb9cdc4ef7db41feb09
+SHA1: 0575b6e3759b7c52132266a7e0cb80943d268c30
+SHA256: 5889c9665ae11fc0e384f5f592b203c04ef3ab271875a986b625518130ff56ff
 Section: user/system
 Priority: optional
 Description: BusyBox 1.37.0 (modern coreutils, ash, awk, sed, tar, ...)
@@ -269,10 +269,10 @@ Maintainer: elPytel
 Installed-Size: 532
 Depends: maemosec-certman-tools
 Filename: pool/main/ca-certs-n900/ca-certs-n900_1.0-1maemo1_armel.deb
-Size: 118492
-MD5sum: 25417e943605d7da2d22dc42f71ae5e9
-SHA1: 77bf5e8559f311bc08420cc1c165820359085976
-SHA256: 786134a7f2580691b35264ff3427eb3761ab857d714988243eb52813d3bf602f
+Size: 118486
+MD5sum: 4bc13d673a77f2fdb0b994ebc0476a62
+SHA1: c1490d81bfb99eb1c9f7dd09b35f86441816d184
+SHA256: 9007ea59a2dcd93c4da646e651935c34a81e0108f7733ced1218a6a1d6b834ba
 Section: user/system
 Priority: optional
 Description: Current Mozilla root certificates for MicroB and other Maemo programs
@@ -288,10 +288,10 @@ Maintainer: elPytel
 Installed-Size: 4608
 Depends: libc6 (>= 2.5), libglib2.0-0, zlib1g, libtinymail-camel-1.0-0
 Filename: pool/main/camel-lite-ssl3/camel-lite-ssl3_1.1.92cssu7-2maemo1_armel.deb
-Size: 2139004
-MD5sum: c53a058b4a1058528029444d2a16287e
-SHA1: 2b24c10c7b376e231736bacb452098ae54b7abea
-SHA256: e78c4c70bdef8723d6e194e72beaf6037f2559facacf8a595be3e73c69bbbe33
+Size: 2138998
+MD5sum: bffc31956ed8d8a6cf3733118da09fe1
+SHA1: d3d2a9fc3efb2411d0463ffbd51c0a942051805d
+SHA256: f3460e6b9381a04e24d373f7fb5e6e967548253362803d17765e24f0aa332fc8
 Section: user/network
 Priority: optional
 Description: camel-lite with OpenSSL 3: Modest with TLS 1.2/1.3 (replaces the system library, reversible)
@@ -325,10 +325,10 @@ Maintainer: elPytel
 Installed-Size: 300
 Depends: libc6 (>= 2.5)
 Filename: pool/main/cbonsai/cbonsai_1.4.2-1maemo2_armel.deb
-Size: 110398
-MD5sum: 195a54e085b292c5f197bc20ea031776
-SHA1: c66abaa58952aeb7ce728dd9253da81f5c419ea4
-SHA256: 1cf9fd3607408a83bb5f3b4256545de085d63de550c5baba1e073d56453ca598
+Size: 110394
+MD5sum: d83dfd3e27e69ee57428316fdb094a92
+SHA1: 161445a3ec441f3b4e8a12bd4b77799211587572
+SHA256: 7870e378fe88d0d265889d8d422f3e1e73ff2205835aed20aec7a3fa99ffd201
 Section: user/other
 Priority: optional
 Description: Bonsai tree generator for the terminal
@@ -339,7 +339,7 @@ Description: Bonsai tree generator for the terminal
 Xb-Maemo-Display-Name: cbonsai
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKFS3u8aRb
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLRI2jQal
  AAAJI0lEQVRYw82Ye3RU1RXGf+feeSTkMeQ5AhHIUhIDASwhCgEMJDzSCoIUCVURdYGAiC+wS1gs
  lUqx1iyKgoqPVtTKo1WhQSEUFjZAgggmQDAGYqkGyPtJZiYzuTP39I97Iw8NBGzXcv/zzVn3PL5v
  73P2nLMFpiUkDBmSns4lFppt4I0bDIx+z0DR2+xQy//XYg2QFQbW32fgN3cb6Nrc0fHkyaKi/HwQ
@@ -410,10 +410,10 @@ Maintainer: elPytel
 Installed-Size: 164
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/cmatrix/cmatrix_2.0-1maemo2_armel.deb
-Size: 38386
-MD5sum: 16f201924e666829080813622ceb9f7f
-SHA1: 8dbda2ebb1ae1925a90577862fe8da5bf3ea1d8a
-SHA256: bd3680962d3f30559d9d9e40b0f09e92018819af6fc9df41656b4bdb96b5d50b
+Size: 38382
+MD5sum: 08f466547b5f13b6fca9e8083842da75
+SHA1: 5635024b4245baf27ff22251ab36bf695342593a
+SHA256: e8d744ecb95e6f7791c078a2b6e7d34c4e400ef37c2b95a702aa49a0df986d13
 Section: user/other
 Priority: optional
 Description: Matrix-style falling characters in the terminal
@@ -424,7 +424,7 @@ Description: Matrix-style falling characters in the terminal
 Xb-Maemo-Display-Name: CMatrix
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKFS53+PXh
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLRNBijYz
  AAAJi0lEQVRYw92YaXRV1RXHf/vcN4VMEBACyBTGqswBpKCpIvNUqxShYB0WUgFBUBBBXUUF6RKo
  A7RWhTIUAWtxrDJjmGQUmSGAQtIQxgSSF5K8vHt3P7ybkMBiEbNWv3R/+b9719nv7t/ZZ9yCa82a
  tWuXksJ1FjM4ok0+imiNxRGV+m6D8/xvrWZEND2iFx+N6ImhEQ2uKGmYlvb996mpINeBTIlIyo6I
@@ -477,10 +477,10 @@ Maintainer: elPytel
 Installed-Size: 1500
 Depends: libc6 (>= 2.5.1-1eglibc27)
 Filename: pool/main/curl/curl_8.23.0-1maemo1_armel.deb
-Size: 768158
-MD5sum: 2dbb3a17fdd2da55ef3cb6a8705c7251
-SHA1: e02e59877f460b205e63eba1f12cbcab783156e9
-SHA256: 8da83b05486900ddfcf0ab2a2479f9ad5e06aa463a5701ba2834c65419025113
+Size: 768150
+MD5sum: 8e6b48ebb9071b644154bc2576588976
+SHA1: 871aefb236ce189a37b307d269cc971d824ea79c
+SHA256: b4338ff5e2954393b0d8f74fe8df3e53a921d66e78371172fde65618e4e95ff2
 Section: user/network
 Priority: optional
 Description: Command line tool for transferring data with URLs (TLS 1.3)
@@ -496,10 +496,10 @@ Maintainer: elPytel (build of upstream dialog by Thomas E. Dickey)
 Installed-Size: 396
 Depends: libc6 (>= 2.5)
 Filename: pool/main/dialog/dialog_1.3-20260721-1maemo1_armel.deb
-Size: 187074
-MD5sum: 05971f7371f23d9708a93d91e92c2939
-SHA1: 555328e773baf7c329d3cf50df4a86c13ceb96c2
-SHA256: 247eef63b55a4333eb38c44a8498fe06729623c8e153543ca79e24d46e969c97
+Size: 187102
+MD5sum: 2b0da12fcc70b973331199a50c2df746
+SHA1: ec6a6b84ede06252a03ba118958242c1ca742762
+SHA256: a82a95c457e843597737a594acbf8475c8a9ae2afdd556e5825259e644b3bee0
 Section: user/development
 Priority: optional
 Description: dialog 1.3-20260721: dialog boxes for shell scripts
@@ -514,10 +514,10 @@ Maintainer: elPytel (build of upstream fd by David Peter and contributors)
 Installed-Size: 3012
 Depends: libc6
 Filename: pool/main/fd/fd_10.5.2-1maemo1_armel.deb
-Size: 1398788
-MD5sum: 9ce8f9f7154ad90053ff7d2a574f5c5f
-SHA1: e38d4e096c5ac0e2b985846500a6637fba2fb5b5
-SHA256: 103f94eb13bb331b8dbba92419b3e0d77a7cc1d53271e9deae74d900de4a361c
+Size: 1398796
+MD5sum: 7e0c88a1a40c6245a4d051b6d37e6f99
+SHA1: 0aa644b21c1fe820c1664bf1435c3864c0089624
+SHA256: 0c63fced810e33bd41bc026152c3717b14f223f0b3bbb3830120a1c7c86e3478
 Section: user/utilities
 Priority: optional
 Description: fd 10.5.2 simple, fast alternative to find
@@ -533,10 +533,10 @@ Maintainer: elPytel (build of upstream file by Christos Zoulas and contributors)
 Installed-Size: 10800
 Depends: libc6 (>= 2.5)
 Filename: pool/main/file/file_5.48-1maemo1_armel.deb
-Size: 551110
-MD5sum: 79ef8e4f4b9a9c6e2780250f07c6863f
-SHA1: 9ed6581e15d21cae0c8fff0998c52ad8ef51107b
-SHA256: 891e871f6c052e01ef10ec4ac9cf5129b66c39002cfb238f57aa5698daf5979f
+Size: 551112
+MD5sum: 06dfc6e95059509cc879bc44bd828ed7
+SHA1: 503b2b9b6bc36b1e3b2fd1b0b4add150496a85ea
+SHA256: bc8660e62f88a1620896a55ac6d95b37ff9f51f39bb579b52ea85313750155ab
 Section: user/utilities
 Priority: optional
 Description: file 5.48 file type detection
@@ -552,10 +552,10 @@ Maintainer: elPytel (build of upstream fzf by Junegunn Choi and contributors)
 Installed-Size: 4464
 Depends: libc6
 Filename: pool/main/fzf/fzf_0.75.0-1maemo1_armel.deb
-Size: 1784680
-MD5sum: bb0cb5dbb4be1102af15c607e8a64b52
-SHA1: 2a01f13781c746d10753a74a7c5be3bf995c2155
-SHA256: 32755e8325044bf3bcf44da14cf4f0d6cdbd9793f3700b4251008749088196a9
+Size: 1784676
+MD5sum: f95f720b726901b6a578afeabfe29e74
+SHA1: e8d8a363529674536cdd57c2c648304c31d4634a
+SHA256: ffbff09269e87a7c1b8bf3261ec72ddfed6b9bbe2353ca969ecc859ea86dfc15
 Section: user/utilities
 Priority: optional
 Description: fzf 0.75.0 fuzzy finder for the command line
@@ -563,6 +563,25 @@ Description: fzf 0.75.0 fuzzy finder for the command line
  line you want and press Enter. With bash 5 the key bindings come from: eval "$(fzf --bash)" (Ctrl-R history, Ctrl-T files, Alt-C directories).
  Built for Maemo 5 with Go (static, GOARM=7, the 2.6.28 kernel needs the patched toolchain of this project). Upstream: https://github.com/junegunn/fzf
 Xb-Maemo-Display-Name: fzf
+
+Package: git
+Version: 1:2.56.0-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 19740
+Depends: libc6 (>= 2.5.1-1eglibc27), curl (>= 8.23.0)
+Filename: pool/main/git/git_2.56.0-1maemo2_armel.deb
+Size: 10199642
+MD5sum: 0b313da17a813d841546defbe0034271
+SHA1: a65a7f711e15d968258ccdee83e4b5029969c6df
+SHA256: 4f8e3fd5da5df18da60570a0ade1eedf51571f1f776f2c2738733f1e31420582
+Section: user/development
+Priority: optional
+Description: Distributed version control system (modern, HTTPS over TLS 1.3)
+ git 2.56.0 built for Maemo 5, linked with libcurl and mbedTLS so that it can clone from
+ HTTPS servers such as GitHub (the old git 1.6.2 of the device cannot). Installed in /opt/git,
+ replaces the git 1.6.2-1 package. Upstream: https://git-scm.com/
+Xb-Maemo-Display-Name: git
 
 Package: git
 Version: 2.56.0-1maemo1
@@ -631,9 +650,9 @@ Installed-Size: 2760
 Depends: python (>= 2.5), python-gobject, python-gtk2 (>= 2.12.1-6maemo10), python-hildon (>= 0.9.0-1maemo12), python-feedparser (>= 5.0.1), python-dbus, python-osso, python-simplejson, python-mygpoclient (>= 1.4), python-conic, curl, quickjs
 Filename: pool/main/gpodder/gpodder_2.20.3-2maemo4_armel.deb
 Size: 631204
-MD5sum: 17e27d7f5753a2c476a32f9daf078d9e
-SHA1: 539acb639ad8c0237d4dfa163b91fb4d697fc472
-SHA256: df405b1de5d1b9491ba5390fec687027e957b6723aa6d2d444651b5d5ca33440
+MD5sum: 7c100ca4877b867c0de3bc7eb7e41b26
+SHA1: 411b262e2f0dd35f68d2190a3fb704e86cd8a0f5
+SHA256: ccea6841c81f7038c66ccf176f1f9075213d0a6e02c4b054502454c4c1546fae
 Section: user/multimedia
 Priority: optional
 Description: A podcast aggregator for the Nokia N900
@@ -650,10 +669,10 @@ Maintainer: elPytel (build of upstream gurk-rs by boxdot and contributors)
 Installed-Size: 22776
 Depends: libc6
 Filename: pool/main/gurk/gurk_0.10.2-1maemo1_armel.deb
-Size: 9751778
-MD5sum: 69048aa53f59aa5bd9f906a92d28b253
-SHA1: 9d9e39e16b7cb5599fee955b036a1eca33dd1941
-SHA256: 2705d5dc04db55792f0e7d9d914f160f70a95e7f8d47e1e4610b86085e858c3b
+Size: 9751784
+MD5sum: ab9d201b7ba69a55d10c69b3e87784f6
+SHA1: 8e748408bbb643568fdb604ff98084c7ffb74242
+SHA256: 7cda9e148e29b073620f4cd37c24ccdc63189960d40c5760eab4c35dcd17b482
 Section: user/network
 Priority: optional
 Description: gurk 0.10.2 Signal messenger client for the terminal
@@ -664,7 +683,7 @@ Description: gurk 0.10.2 Signal messenger client for the terminal
 Xb-Maemo-Display-Name: gurk (Signal)
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcMGww4luU5
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLR2mMhs0
  AAAJaklEQVRYw7WYeXBUVRaHv/Pe6+6ks0AgE8CEgJFNDGbYBWQT0cGIImYgSMJgSqkoCLgAMoU1
  IDiAKDgou4yO7ANoIbiAcRggoEKUXQiEJQsCEkhIOukk3f3u/PFeGDAmipTnn9+r7ruc7y7n3HsF
  21q16tChd29+YqFJlrb4wNLI1ZbK7XaBH/l9LcoSlWdp4XBLc4ZZ6tlYXfDEie++27ED5Ccgky3p
@@ -735,10 +754,10 @@ Maintainer: elPytel
 Installed-Size: 528
 Depends: libc6 (>= 2.5)
 Filename: pool/main/htop3/htop3_3.5.3-1maemo2_armel.deb
-Size: 224330
-MD5sum: bee67e8e4cdca130e33b9ea79ea228bb
-SHA1: 2b59890aa2f04e9fe29cd3300a1a0de677478bad
-SHA256: d08f3874610707e6325f3b2d35ca97d701fbfd494431d38d38a628bc840a40b7
+Size: 224328
+MD5sum: c246f406dbc434b7887c29e64cf94a76
+SHA1: ff5486dbbc9743536cc657aab65651278f0ffbb1
+SHA256: 3987b12ba085ecb274a9b1d505ae71608ae514b593158b92a21a80d1875d659b
 Section: user/system
 Priority: optional
 Description: Interactive process viewer (htop 3.x)
@@ -748,7 +767,7 @@ Description: Interactive process viewer (htop 3.x)
 Xb-Maemo-Display-Name: htop 3
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfqCwYWKS0wguDV
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfqCw4MLSIQVDYJ
  AAAE/klEQVRIx5WVTWxUVRTHf+e+58hAlRZrW0ottJHP2gQVoUQxGk1cuDdRXPgZ3agkLt1CWGlM
  XGKiC6MrF26MiUaFBBEUlBQkFUlalM4MTPtmpm8+3n3v3ePiTUuBMZazeS/n3nP/95z7/58jBz84
  eBRlQzqQfm0ft3tRjgCPAilwCngdeAGYOjR8iOX23uX3ALYCnwNHgN3OiPfOR+HxfEtf+6pv7YmZ
@@ -801,10 +820,10 @@ Maintainer: elPytel
 Installed-Size: 152
 Depends: python3.11, python3-hildonlite (>= 0.4.0), calendar-backend, curl
 Filename: pool/main/ical-sync/ical-sync_0.1-1maemo2_armel.deb
-Size: 27098
-MD5sum: 861e48fa6a741b8f2df464734931e3c5
-SHA1: ab4b3d21b8f9dee69b268d0b6a46cb1c7f6b8abb
-SHA256: 0436207d621e024cf9957e22cd01398f1809fe34096a295e57c0367d58d3111d
+Size: 27100
+MD5sum: bc203786427404dcc690a5b90a25cb2a
+SHA1: 4f4227e80e0132b58f0c83085b2f6766d802bd6b
+SHA256: d13e1db3b29f338e6e4607da36a18607c62faacd02ae44b4c245c09ea985f5f6
 Section: user/office
 Priority: optional
 Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calendar
@@ -822,10 +841,10 @@ Maintainer: elPytel (build of upstream irssi by the Irssi project)
 Installed-Size: 6432
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/irssi/irssi_1.4.5-1maemo1_armel.deb
-Size: 2728716
-MD5sum: 1297c15d44f58bbe1601427dab0ecd2b
-SHA1: cd19f4c89f680c5fa64c5cbeef1198076a7cef57
-SHA256: 0eb0e82f6fc484210482f6bb012a5a29d68e2efa83fe0c98223307085f779e75
+Size: 2728726
+MD5sum: 44fbc64f129fda53f77b0b3e1b6715af
+SHA1: 64ed07fe3d079e34b81333c3d4eaa74d274ca4b6
+SHA256: ba87e838069c06ac35ed3060a563b289fbef83d309d929afd7c13ccf934c38e1
 Section: user/network
 Priority: optional
 Description: irssi 1.4.5 IRC client
@@ -841,10 +860,10 @@ Maintainer: elPytel
 Installed-Size: 804
 Depends: libc6 (>= 2.5)
 Filename: pool/main/jq/jq_1.8.2-1maemo1_armel.deb
-Size: 305116
-MD5sum: dc04f09a5560a0ee6833be76a4e50c81
-SHA1: 218bf98a023654c0e92866f89a5a14f8388f0a72
-SHA256: d320815be65d3429251264de46651a16b2a2c95b743ba7ea63c10574b6896d7b
+Size: 305120
+MD5sum: 092b434b468f315bae9884e50ef2cd0f
+SHA1: abb9e398123881a65de8e47ff7df18a0da134235
+SHA256: 937f93b5051d26a5c550ce0bfa657c38de1e263d092331a7be045e9d912798f8
 Section: user/utilities
 Priority: optional
 Description: Command-line JSON processor
@@ -860,10 +879,10 @@ Maintainer: elPytel
 Installed-Size: 128
 Depends: libc6 (>= 2.5), libpurple0, telepathy-haze, signal-bridge
 Filename: pool/main/libsignal-purple/libsignal-purple_0.1-1maemo1_armel.deb
-Size: 18538
-MD5sum: 33b46d9a47d40d987c4d6c231533d6b7
-SHA1: fe55017660d4f69d7bfccd91509d2f63ea37e352
-SHA256: 6d42e53748602c2ecf4e68fa2be5eb144917a3299fdadbecb0c54a48f936b0f6
+Size: 18534
+MD5sum: 72b0796fc2ca95a9d6ffa9f6f45856c0
+SHA1: fc0a6c206df3875eaf8336465346b943747d9eb9
+SHA256: c7269d1a41c420234c395acf4d1d0ab25389a6c1a2c38564b78e281f532a7a38
 Section: user/network
 Priority: optional
 Description: Signal in the Maemo messaging UI (libpurple plugin over signal-bridge)
@@ -878,10 +897,10 @@ Maintainer: elPytel (build of upstream Links by Mikulas Patocka and contributors
 Installed-Size: 4784
 Depends: libc6 (>= 2.5), zlib1g
 Filename: pool/main/links/links_2.30-1maemo1_armel.deb
-Size: 2345344
-MD5sum: 02c32da68ff8bcd60f3284d0d3d4d767
-SHA1: 797f146c76a3fb31555f93b4b181c49ed6dc4c9c
-SHA256: 289a72272f1df987e7970d0348914a98cc23636349f3e265f18bde36fef40c54
+Size: 2345350
+MD5sum: 5ae74be57db9a626b4ddc5a482aa3044
+SHA1: 2494966c710c639982f983c5afe13d751705bc3c
+SHA256: 3850c3607788efa9d4fecba272f24f5541530ff6eebbe4c53e72edf4f78a380c
 Section: user/network
 Priority: optional
 Description: links 2.30 text web browser with TLS 1.3
@@ -892,7 +911,7 @@ Description: links 2.30 text web browser with TLS 1.3
 Xb-Maemo-Display-Name: Links
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcPNhgAINXy
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLSjwgd8X
  AAAHsklEQVRYw72Ye3SMdxrHP887k8tMLnKZujSJiiQo6pIEa6vSWlsOcTt1sKxtuw112bXa0mLX
  alFRWaVsXdaxjuoWjeq67LEHRdqyrBy6OARxiSQkQUIyM2YyM+9v/3gnoc4JEtHnn+858z7P7/l9
  3uc5v987j+C3Nm2Sk9PSuM9Chxua+Jmhti8MlXi/QxlP1poaoq4YemOMofm/MtT+VY3juXPHjuXk
@@ -930,6 +949,25 @@ Xb-Maemo-Icon-26:
  Gl8xNHGjobZ/+MNa+h1+qkHjJUNvjDY0/zeG2mu/+2sGjf8HRvPeMZVZgd8AAAAASUVORK5CYII=
 
 Package: mc
+Version: 1:4.8.33-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream mc by the Midnight Commander team)
+Installed-Size: 4060
+Depends: libc6 (>= 2.5)
+Filename: pool/main/mc/mc_4.8.33-1maemo2_armel.deb
+Size: 1143468
+MD5sum: 1e1f9fcfed4236569d1ff8cb10231867
+SHA1: 5d3e01b83ba989c8c3304772b36d16226a9fb8cb
+SHA256: 03e719156e15ce419e40cedb913e2c7cf53cdefaac36412f072f772e265ebf7d
+Section: user/utilities
+Priority: optional
+Description: mc 4.8.33 two-panel file manager
+ Midnight Commander 4.8.33: file manager with two panels in the terminal (mc), the editor mcedit and the viewer mcview. Copy, move, search,
+ archives (tar, zip, ...) as directories, FTP and SMB are not built in. F-keys work in xterm; where they do not, use Esc followed by a digit (Esc 1 = F1).
+ Built for Maemo 5 with static GLib 2.66 and ncursesw (UTF-8), without X11, GPM, SFTP and NLS. Upstream: https://midnight-commander.org
+Xb-Maemo-Display-Name: Midnight Commander
+
+Package: mc
 Version: 4.8.33-1maemo1
 Architecture: armel
 Maintainer: elPytel (build of upstream mc by the Midnight Commander team)
@@ -955,10 +993,10 @@ Maintainer: elPytel (build of upstream micro by Zachary Yedidia and contributors
 Installed-Size: 12520
 Depends: libc6
 Filename: pool/main/micro/micro_2.0.15-1maemo1_armel.deb
-Size: 4945272
-MD5sum: f9c8c99ea7d54813f38c2d4bd5142af4
-SHA1: ffe876eff8a976a21f433966a644eedb5050a8cf
-SHA256: 86f521fb8fdd3cbfc6e9f3b6396f5c6b257d679aef42d22f8ca5e74b2118bf3d
+Size: 4945262
+MD5sum: 790d8d07f21cdad3c4e4251d19151758
+SHA1: deee46170530d79b032e58fc7daa10bb47848ec5
+SHA256: 74b2cc74db7757f2f77c2fe3dc0322a420692c38b36cf1ea2282ba0faefd2404
 Section: user/text
 Priority: optional
 Description: micro 2.0.15 terminal text editor with normal keys
@@ -968,7 +1006,7 @@ Description: micro 2.0.15 terminal text editor with normal keys
 Xb-Maemo-Display-Name: Micro
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcQDC+KTkrJ
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLSoej747
  AAAI50lEQVRYw8WYe3BV1RWHv3Vy780NAfKGhJhQDE8lDyEdJGCjFETEByolCAICozigDEoQkKdA
  CTVFEBkUBdoxAhKgCgGjaKmRolBCeGlUHgKREAgJN4+b3Oc5u3+cG2RQpCrU9c9v5py199rfOWuv
  vWcJAevYsVu3zEyusOaDTW3/lqnR60yVdgGHSm6stTJFlZlaNdzU44+a6tzc5Hj0aElJURHIFSDT
@@ -1018,10 +1056,10 @@ Maintainer: elPytel
 Installed-Size: 2800
 Depends: libnss3, libnspr4
 Filename: pool/main/microb-nss/microb-nss_3.28.6-1maemo2_armel.deb
-Size: 1343826
-MD5sum: 7511b96339fdd8c04e7a50a0d915712c
-SHA1: 11b4f740f08b8cf25ba3584a885250a1a0cac3eb
-SHA256: f8dce88abffd6acb52bea3459cb8005268530da2c8091174706cf628e20620aa
+Size: 1343842
+MD5sum: a45311c6038d5a6882ca4b64bdeee15b
+SHA1: c52f2b03d7fb11a1cd450c978399789afdfa8a70
+SHA256: 381e7bf2ecb209f53e1e0fd0934cc4cf442b5cc52af6f146bfc714be57da6c5c
 Section: user/network
 Priority: optional
 Description: NSS 3.28 with TLS 1.2 for the MicroB browser
@@ -1037,9 +1075,9 @@ Installed-Size: 3456
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/msmtp/msmtp_1.8.34-1maemo1_armel.deb
 Size: 1695336
-MD5sum: 93ba202960d6a651acba43b0a5e47be4
-SHA1: 0927bd6d8ed63845ebf6786df781537252b7d491
-SHA256: 37ef052afd49dead9aa2c3bc9a19208dbb91f0535f6fd5a70ea07e8ccd8e8ba0
+MD5sum: 5cf7e29d85e11845264d46643997f728
+SHA1: 1a36689f1e9632b02965cdea6d518a156d083757
+SHA256: b4188923db9393680a7e1d6badc951ce8319c49a7e886071cb931ab0b1c77fb4
 Section: user/network
 Priority: optional
 Description: msmtp 1.8.34 SMTP client (TLS 1.3), sendmail replacement
@@ -1074,10 +1112,10 @@ Maintainer: elPytel
 Installed-Size: 4220
 Depends: libc6 (>= 2.5), curl, msmtp
 Filename: pool/main/mutt/mutt_2.4.3-1maemo2_armel.deb
-Size: 2080728
-MD5sum: 37b2a16c17072f185f8cf79163154289
-SHA1: 5658b03ae5e9e652468c3d76d7868135cab6f9eb
-SHA256: eed3fc4631620ce20864330bca39575be810ac9fe037fd9e00e25181b3c76468
+Size: 2080740
+MD5sum: 772776fb05410a42aa77ce37723639ff
+SHA1: e3ab510f0d2108888cb50bf665ff99f6395a495a
+SHA256: 3bc4b20193094bb1c4f58e5d6cea6f5209b50791415b5da081d871802a5a243f
 Section: user/network
 Priority: optional
 Description: Mutt 2.4.3 terminal e-mail client (IMAP/SMTP over TLS 1.3)
@@ -1087,7 +1125,7 @@ Description: Mutt 2.4.3 terminal e-mail client (IMAP/SMTP over TLS 1.3)
 Xb-Maemo-Display-Name: Mutt
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKFgZpYA7Y
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLTDj7UdB
  AAAIMUlEQVRYw8WYe1RVVR7HP/vcy0O4AioI5VsUEUhM8RU6mNkDn8uYtHyNqKvMGnuQNaCVMYqz
  0jQyp2bUfOBYmo2PVYZJJKW4fKMEqaW8tOLhoHCBe7mcveePc9AVOorNMH3/+a5z7+/s8/v89j6/
  c84WmAoJ6dcvJoYmsk0yvMcWw/03GS46mwFltKzaG6aKDa+YbvgPkw23b20MPHfuxImsLBBNQJIM
@@ -1186,9 +1224,9 @@ Installed-Size: 132
 Depends: python2.5, python-gtk2, python2.5-hildon, libsqlite3-0, curl, msmtp, mutt
 Filename: pool/main/mutt-hildon/mutt-hildon_0.4-1maemo1_armel.deb
 Size: 27044
-MD5sum: 104d3e238f52fa7a0969a5e094325d26
-SHA1: bc354980b3554d4abe295274646ccb00397ca007
-SHA256: 6a417b1da2cd57238d92e05a3ee09be81a74efc7d3f07a99629fe56036c765f2
+MD5sum: 941472a5ae3f36578bfa2a48c015b4cf
+SHA1: c7a7ed003b71a583e969844725d61f790108ce4e
+SHA256: be79bdd7cf7ba1cc74d6537152c178a8ecf94439d42fb0cf1ef58bfa21727b5d
 Section: user/network
 Priority: optional
 Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
@@ -1202,10 +1240,10 @@ Maintainer: elPytel
 Installed-Size: 1024
 Depends: libc6 (>= 2.5)
 Filename: pool/main/nano/nano_9.3-1maemo1_armel.deb
-Size: 332352
-MD5sum: 159dad47597974ff640d3b73901e950a
-SHA1: be75b0dff1921d3a5670034a0b0131afc19acffb
-SHA256: b312fed580f69560f0a09734174eb11b17f684d5a876168e06cb7190af3b6b07
+Size: 332382
+MD5sum: 4ffe3440cff3bcaf90468c251e6e3830
+SHA1: 4f5c3f7841b67834dd5fae0ab1a0aaf67313ff32
+SHA256: 4c1b58c6d20aa91d099970e55fb27b1e11d65950434a6e3dbcdb089b1a1f1dfc
 Section: user/utilities
 Priority: optional
 Description: GNU nano 9.3 text editor for the terminal
@@ -1215,7 +1253,7 @@ Description: GNU nano 9.3 text editor for the terminal
 Xb-Maemo-Display-Name: nano
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcJMSRkg0MA
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLTN65Bb7
  AAAJX0lEQVRYw72Ye1RVVRrAf9+5Dy5wRVDATMFHvhWflA80EyvJaqnZQy00x5lJy3yU5lhjumqs
  nJrGcU2WVpqPVEYp1GxpKoIoaiJioSI+SBHkDcK9Fy5wz54/zsWcmpIxnf3P76yz9j77/PZ3zj7f
  +QRv69Spb9+hQ/lJsz9usMNag8EbDEo7b4cibm8LNaAuGSx52uC58QYd8Q0ds7PT05OTQX4iMt/A
@@ -1268,9 +1306,9 @@ Installed-Size: 192
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/ncdu/ncdu_1.22-1maemo1_armel.deb
 Size: 49774
-MD5sum: 543f607f062f4393af71f20c3493bc93
-SHA1: 56e9b189e8a527561b47d7ca9711c012b62c3207
-SHA256: 1c6f135de7a0fe13c4f3adaa568a6d8b24e9656f64ea6cccb4c686b1ba5a06dd
+MD5sum: d1f8c92909bdad0e7214e5269d9f8242
+SHA1: d5ad98a11555883b442a8f98f228252a4671bbd5
+SHA256: 974be5da0ad7b697f7ca44414f1bc3a37dd09022afefadaba1b0fe70ad9c951f
 Section: user/utilities
 Priority: optional
 Description: ncdu 1.22 disk usage browser
@@ -1280,7 +1318,7 @@ Description: ncdu 1.22 disk usage browser
 Xb-Maemo-Display-Name: ncdu
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcMNBFJjLGN
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLTTkgINY
  AAAGq0lEQVRYw8WYa3AV5RmAn3fPJeQkwdwMAk1KMAnBWKZgqKQJhCKoHSsQ0IEEg7Vjh4q0aAGr
  1dLoaJkWwRRmBKY1ZSgxZFAHYpUUGWlMsdxMsVEuARtCCBBykdCcJOey+/XHt4dKQqGtSfr+eWbP
  vrv7Pnv222+/V7AjLW3ChNxcekXkA5opWzTjX9eUZDvhIgMbCRrqjGbrAs1T+Zqdb4YS6+pqaqqq
@@ -1321,9 +1359,9 @@ Installed-Size: 60
 Depends: busybox
 Filename: pool/main/ntp-sync/ntp-sync_0.2-1maemo1_armel.deb
 Size: 3534
-MD5sum: 8280b0be67f60fdd5685cc66e514e337
-SHA1: c2050e1af30077c89d5da516494c05473335bd0a
-SHA256: 5ba3ea79e1b51fe11893c514aae959c05fb727925801a12af8f8e7e57a4a2524
+MD5sum: 0fa76c943488e41d30d871f785548b6b
+SHA1: 2f3c46bdd4b449e9755303d3d41b38424fac3eba
+SHA256: d058b32bc7ae2d08c303bed84088c7080ff4fb7baacd65d20623a111ae0088ed
 Section: user/system
 Priority: optional
 Description: Set the clock over NTP (works without a SIM card)
@@ -1352,6 +1390,26 @@ Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), along
  Not tested on a real N900 when it was packaged: the sandbox of sshd is the rlimit one (the 2.6.28 kernel has no seccomp filter).
 Xb-Maemo-Display-Name: OpenSSH 10.6p2
 
+Package: openssh
+Version: 1:10.6p2-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream OpenSSH by the OpenBSD project)
+Installed-Size: 25100
+Depends: libc6 (>= 2.5)
+Filename: pool/main/openssh/openssh_10.6p2-1maemo2_armel.deb
+Size: 11573436
+MD5sum: cd15a6a55ef47d2d4cd3748e20b4e221
+SHA1: 0515ce1193d08368929b6b65d738435d69e98587
+SHA256: d3fac68d8a0f75f5362b653fa5cbf9e65a563071c56518809272708ce2461104
+Section: user/network
+Priority: optional
+Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), alongside the system one
+ OpenSSH 10.6p2 portable for Maemo 5 with a private static OpenSSL 3 and zlib, installed in /opt/openssh. The system OpenSSH 5.1 stays as it is.
+ Client: ssh-modern, scp-modern, sftp-modern, ssh-keygen-modern (ed25519 keys, modern key exchange, works with current servers).
+ Server: /opt/openssh/sbin/sshd on port 2222, keys only, no root login (see /opt/openssh/etc/sshd_config). It is not started by the package.
+ Not tested on a real N900 when it was packaged: the sandbox of sshd is the rlimit one (the 2.6.28 kernel has no seccomp filter).
+Xb-Maemo-Display-Name: OpenSSH 10.6p2
+
 Package: profanity
 Version: 0.19.0-1maemo1
 Architecture: armel
@@ -1359,10 +1417,10 @@ Maintainer: elPytel (build of upstream Profanity by James Booth and contributors
 Installed-Size: 10532
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/profanity/profanity_0.19.0-1maemo1_armel.deb
-Size: 4658158
-MD5sum: fd9d863080cd22fddfbb5b3a93ca88bb
-SHA1: 10754e67da863073c857861471d27624ee0f49a5
-SHA256: d03f38449557f17b670f496f5400db1f3219729c53e4a1d6affb850d56d58e60
+Size: 4658160
+MD5sum: 64a693b81836b551fd113517fd0d5a9c
+SHA1: 3378b1c7fb9438ad07acd9ae63670bce55239115
+SHA256: eb78d16110a6a33e878c044f1e42cdf930356e8e76e40e9c7e2d75c24733408b
 Section: user/network
 Priority: optional
 Description: Profanity 0.19.0 XMPP (Jabber) client
@@ -1379,10 +1437,10 @@ Maintainer: elPytel
 Installed-Size: 120
 Depends: libc6 (>= 2.5), libpurple0, telepathy-haze
 Filename: pool/main/purple-echo/purple-echo_0.1-1maemo1_armel.deb
-Size: 12972
-MD5sum: 6444d5b770f2962fc941f6522b402304
-SHA1: 6d5795e965104891f6df02c139c76822df5722e6
-SHA256: 03c75dc2d18c1bf1bd4552165d94f2e4c0e1d978eda835eb436cab0f7db1ff0e
+Size: 12970
+MD5sum: 262b78bd5b7e977cb7c613b63fcdd96b
+SHA1: e41829d80b603858e7f581a1ec83ca42cd01ae17
+SHA256: e7114f5fb3227ba07fadb763a4d69def1334351f4a4c3b1f93c02da76aa4399a
 Section: user/network
 Priority: optional
 Description: Echo test protocol for the Maemo messaging UI (libpurple/haze)
@@ -1435,10 +1493,10 @@ Maintainer: elPytel
 Installed-Size: 92
 Depends: python3.11
 Filename: pool/main/python3-hildonlite/python3-hildonlite_0.4.0-1maemo1_armel.deb
-Size: 12198
-MD5sum: 826c0c35f0407edfbf2156702156ee9c
-SHA1: 3ba4a2d007836a96b9cfec03931bc972b086873d
-SHA256: 47e143e235f524adf69423cb84478f333a4b4f6fa810990d17e5af59aa0bb00c
+Size: 12192
+MD5sum: 021e3b78a830728c2ab4dabcc16ca62b
+SHA1: 030d8078569bb41fcb56adecb2cc754bed57b3ef
+SHA256: 2d5adc0a357938732878cc45ffb0fd6878131aaa9c881dc54db4f1d743c54731
 Section: user/development
 Priority: optional
 Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
@@ -1451,13 +1509,13 @@ Package: python3.11
 Version: 3.11.18-2maemo1
 Architecture: armel
 Maintainer: elPytel
-Installed-Size: 72284
+Installed-Size: 72288
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/python3.11/python3.11_3.11.18-2maemo1_armel.deb
-Size: 23762748
-MD5sum: 7651a24c312f071a9a83e85534ccb712
-SHA1: 080cf13501981b1b6f40d5cd76c67514dfa60d4b
-SHA256: 6ac8a51359ce6ab4ed2cac1511c5cacd52884daa5bae67bea2886af1cbb3ea92
+Size: 23763368
+MD5sum: 7cead41e54ad2134ccb69a6c5b091d9c
+SHA1: a9aee14ca400e5f14dc8b2c46c9129108af1ae96
+SHA256: 366df75d0c24b25aa941c5e1731288f065be38b5646bb722728b4dc5ff3f85e5
 Section: user/development
 Priority: optional
 Description: Python 3.11.18 for Maemo 5 with TLS 1.3 (ssl), sqlite3, ctypes, readline and pip
@@ -1471,10 +1529,10 @@ Maintainer: elPytel
 Installed-Size: 884
 Depends: libc6 (>= 2.5)
 Filename: pool/main/quickjs/quickjs_2026.06.04-1maemo1_armel.deb
-Size: 435808
-MD5sum: 2763fb18685ca5313b5a3413f6de846e
-SHA1: af896593c4d5e659fb0eacd65694a1489ac5f0a3
-SHA256: 4eeedd97d4cb841a0b082bcf64b81e21bf202dcb1650fba4baa69bfc43a4b8af
+Size: 435800
+MD5sum: 5fde8d76536509820c76fef1c877adbd
+SHA1: 4002d5062b9326e564e3a95bcb136113fc1bf2e9
+SHA256: 41dc86efe74decf24e98a40a0dd33655fdb7b0c35794ed3290fc634d5fef785b
 Section: user/development
 Priority: optional
 Description: Small JavaScript engine (ES2023), runtime for yt-dlp
@@ -1577,10 +1635,10 @@ Maintainer: elPytel (build of upstream ranger by Roman Zimbelmann and contributo
 Installed-Size: 2168
 Depends: python3.11
 Filename: pool/main/ranger/ranger_1.9.4-1maemo3_armel.deb
-Size: 556230
-MD5sum: 78c71b55799e89fabed8b75113e555aa
-SHA1: 3a5b795466fa4af23b88e3a86c73c96431b32052
-SHA256: e89dc159b8b1fefb5d3799c9f847eb2605078139105fa0ea4cf59b0d074ad3c6
+Size: 556224
+MD5sum: 3ddfdabc48da8c5264d68b4f47fb31e7
+SHA1: 53e9288d7e81cec30e28f5c982f14f3a104c6c4d
+SHA256: cc91643a9a0c8f18b775c322d4084e776507a793e34f2c4ea78f0ba50419c37e
 Section: user/utilities
 Priority: optional
 Description: ranger 1.9.4 console file manager
@@ -1590,7 +1648,7 @@ Description: ranger 1.9.4 console file manager
 Xb-Maemo-Display-Name: Ranger
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKFyc8Ei/H
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MLgoOzM0w
  AAAKb0lEQVRYw72YaXQVVRLHf9XvJQ+yAUkIJBACJgQiEZEloCAREFlEwCMYEEFEZxx03EYRcBlQ
  cMPRgzgsijDDIqDoUREVhAESIBEkIahIAENIgiwh69u37jsf+gERlDmOS335f6nuur+uurf6lhCy
  9PTu3bOzuciixpiattLU+DWmSoeQQxW/ryWYoipMrZ5g6vfjTXV+cM7xyJGiotxckItAZpqSnWvq
@@ -1647,10 +1705,10 @@ Maintainer: elPytel (build of upstream ripgrep by Andrew Gallant and contributor
 Installed-Size: 4084
 Depends: libc6
 Filename: pool/main/ripgrep/ripgrep_15.2.0-1maemo1_armel.deb
-Size: 1769694
-MD5sum: 543356c2e7df576c157aa80553a77549
-SHA1: 3aa0084cf66390fcf28947a629c4457e463a77de
-SHA256: 263d9bea43472622e25dd4c98c57e51e8935bc3d5b249525dda0994ae4c9876f
+Size: 1769692
+MD5sum: eb843d52c9ddebaa69262b6a50bb5ea0
+SHA1: d1926e778bd164572c995102ccfb3df3b6c7932c
+SHA256: e3503fcf6846f5fa8392480c791f6536467d93d2ae82bf81a2baff9ab0a2b549
 Section: user/utilities
 Priority: optional
 Description: ripgrep 15.2.0 fast recursive text search (rg)
@@ -1666,10 +1724,10 @@ Maintainer: elPytel (build of upstream rsync by Andrew Tridgell, Wayne Davison a
 Installed-Size: 536
 Depends: libc6 (>= 2.5)
 Filename: pool/main/rsync/rsync_3.5.2-1maemo1_armel.deb
-Size: 262022
-MD5sum: 784c6605f99682ea436c3fba9e902941
-SHA1: e608ca249273de4a19d7016acf0564f4a1ac701d
-SHA256: 70758c8f5e7c02baef24d5dfa3fec99a30d68754ec566ea39867dec36b14f083
+Size: 262028
+MD5sum: 6277a1216b78d2beb5102f64965a4109
+SHA1: e6827e9ad18c17c64ef1a16eed15776355aa5991
+SHA256: 282c97a81c838514b32b1ff1f4072b94631f67565b3814d37aee7fdf0088f474
 Section: user/network
 Priority: optional
 Description: rsync 3.5.2 file synchronisation over SSH
@@ -1685,10 +1743,10 @@ Maintainer: elPytel (build of GNU screen)
 Installed-Size: 400
 Depends: libc6 (>= 2.5), libncurses5
 Filename: pool/main/screen/screen_5.0.2-1maemo1_armel.deb
-Size: 182200
-MD5sum: 6b52f3416662fb1b853c73b1a3f836c4
-SHA1: f04f0671031ac0b455f066eacac86519aaf3c42a
-SHA256: 62bd7442e62de94bf73fb9da8d82fa44c96aa8071267a5f859785d4c109ca0f9
+Size: 182218
+MD5sum: f4d2c0c7d657809896a95748b5b9deb2
+SHA1: fa90e223f1fd1d3e3e5d75dfa14a6928099615fd
+SHA256: 3cbc76f454444958419f4b383855b3fdd3af2641aa7b727cc33f842aa8339f24
 Section: user/utilities
 Priority: optional
 Description: GNU screen 5.0.2 terminal multiplexer
@@ -1704,10 +1762,10 @@ Maintainer: elPytel
 Installed-Size: 104
 Depends: python3.11, python3-hildonlite (>= 0.2.2), gstreamer0.10-plugins-camera, libomap3cam
 Filename: pool/main/selfie/selfie_0.6-1maemo1_armel.deb
-Size: 17020
-MD5sum: 59991db0c22d6c3c7e2ca852c9ca96e5
-SHA1: 8a65119f4ecf5a8a2786bfa0cf4abb451f3d5ba1
-SHA256: 5c7ea78ab63fa023c449c9a4322f841f9d29d852548bc85ce1b4bce173f0af3f
+Size: 17022
+MD5sum: ef4d2ca348394e42bef056509e2d9668
+SHA1: 9b81cd4ac6c174b2e98aca9eb63b95ffe7f48b5f
+SHA256: a7c2afc81bb39efab95b418f81b428e6a413241d80a70ce8e606fa59981654c5
 Section: user/multimedia
 Priority: optional
 Description: Live preview of the front camera, a photo button and the camera button (test application)
@@ -1859,10 +1917,10 @@ Maintainer: elPytel
 Installed-Size: 508
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7), curl
 Filename: pool/main/sfeed/sfeed_2.4-1maemo4_armel.deb
-Size: 102706
-MD5sum: 5fa66160ec3be287fe4852442d696b2d
-SHA1: e0c3ff165d7962711fefe99a1a59eff09e7b13cf
-SHA256: 964ed83621c364d3ea834ca5922d31b37009a4c7f753c3cc8e7cf21d3f5f0215
+Size: 102704
+MD5sum: a953b474a0efb25f8540f9c66c0cecef
+SHA1: 8b832af0772c95197fe3523b93358464341af45a
+SHA256: 76442540185c2d3ddf26af2d9bb4292b6956d074a18571c0edec6b4c74a1de60
 Section: user/network
 Priority: optional
 Description: sfeed 2.4 RSS/Atom feed and podcast reader for the terminal
@@ -1871,7 +1929,7 @@ Description: sfeed 2.4 RSS/Atom feed and podcast reader for the terminal
 Xb-Maemo-Display-Name: sfeed
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw0MNR02nCyD
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MNQBHL++0
  AAAIdElEQVRYw92Ye3AUVRbGf7enJ5MwCc8hmxggBNQFQQIxoEA08hDxhRDXQp4K7gZBRdwVU4ui
  goHi6SJKLSCIGhQQSHxgQUCQiSxETMVAsgtETHglITiQdzmZ6e67f3Q3siFbu6Dwh+efr6rndt/v
  u6fP6fmOwIqbb05ISE6mSYSPNvHGj0z0fGCi6GQtOMe1jUgT5CkTfRNNPD7WxPpN9sLi4vx8rxdE
@@ -1940,10 +1998,10 @@ Maintainer: elPytel
 Installed-Size: 124
 Depends: python3.11, python3-hildonlite (>= 0.4.0), sfeed (>= 2.4-1maemo4), curl
 Filename: pool/main/sfeed-hildon/sfeed-hildon_0.1-1maemo4_armel.deb
-Size: 26580
-MD5sum: 041c0bc29b8dbf7e94720ebe6fa77b4f
-SHA1: c33fa3e3c4f9c5552a820197dceddce314d0ad46
-SHA256: 2685bc289a790321596497f6553a8cb4607e91134864d62ef4e7e15dec8bf30b
+Size: 26572
+MD5sum: 416d8a831f5d38189ab2961e6217fa34
+SHA1: ac052fbacaafef6004230628995bd0f7456b200d
+SHA256: 8e99dc032f4ec10427f6330d943bb7a6f56e1149cebc4c226737e7f329ab6e8c
 Section: user/network
 Priority: optional
 Description: Native RSS/Atom and podcast feed reader on top of sfeed
@@ -1962,10 +2020,10 @@ Maintainer: elPytel
 Installed-Size: 14784
 Depends: libc6 (>= 2.5)
 Filename: pool/main/signal-bridge/signal-bridge_0.1.0-1maemo1_armel.deb
-Size: 6483732
-MD5sum: 062c1e5199ad991f0d78d27518b3cb4f
-SHA1: b8987fdc79f0f1b7dbb82eee638a6d09a5b85d63
-SHA256: e614d079f573aeb9d73cb82f40ed3bc241b294770ef76e654a34dcb175e5779c
+Size: 6483728
+MD5sum: dcac0ea6c462e89aef29e59c91f5a25b
+SHA1: 82c23fa1316985ea5fc5543dde7e437d3b2b80da
+SHA256: 94194ac6f29f3e6ce70852f2d51ca72cebace28a02c44c35a7f0cc50b4034629
 Section: user/network
 Priority: optional
 Description: Signal daemon (presage) with a local socket, for the messaging UI plugin
@@ -1993,6 +2051,26 @@ Description: SMB2/SMB3 command-line client (ls, get, put, ...)
  Usage: smb ls smb://host/share/ ; smb -u user get smb://host/share/file
 Xb-Maemo-Display-Name: SMB client
 
+Package: smb
+Version: 1:0.1-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 248
+Depends: libc6 (>= 2.5)
+Filename: pool/main/smb/smb_0.1-1maemo2_armel.deb
+Size: 88620
+MD5sum: 99e70f4f0d885bd96a7b983e054e6ba3
+SHA1: fefdedbc5df72876201cf9040b83f6a2e64e1677
+SHA256: a0d2226e6c92187e2e45c8ee696ac7ece76defd75a17f53b2f0ee02891a755fe
+Section: user/network
+Priority: optional
+Description: SMB2/SMB3 command-line client (ls, get, put, ...)
+ Small client for Windows/Samba/NAS shares over SMB 2 and 3 (NTLMSSP, signing and
+ encryption of SMB 3), built on libsmb2 6.3 and statically linked. Commands: ls, get,
+ put, rm, mkdir, rmdir, mv, stat, df. No SMB 1 and no kernel mount (the kernel has no cifs).
+ Usage: smb ls smb://host/share/ ; smb -u user get smb://host/share/file
+Xb-Maemo-Display-Name: SMB client
+
 Package: strace
 Version: 6.19-1maemo1
 Architecture: armel
@@ -2000,10 +2078,10 @@ Maintainer: elPytel (build of upstream strace by the strace project)
 Installed-Size: 1048
 Depends: libc6 (>= 2.5)
 Filename: pool/main/strace/strace_6.19-1maemo1_armel.deb
-Size: 398988
-MD5sum: ec674ea0dbc375aa3b189b292d7e34bb
-SHA1: 0bc10a02f77a50b1806883aee45e6354511b3ac4
-SHA256: f9a2f362a0e07455f4e9b3cb8d74dbb619081ec6eb569dfd19200fb1f74bdcd7
+Size: 399000
+MD5sum: b19671337da0aa6e7e932e2b06345ad4
+SHA1: 242d00fbf01d705017296b392d553162406b35fa
+SHA256: 5e807f99d7cf32a6ba3ed12a7f33f5a128381ceb1cdb1f8b7ad293106e5db047
 Section: user/utilities
 Priority: optional
 Description: strace 6.19 system call tracer
@@ -2037,10 +2115,10 @@ Maintainer: elPytel
 Installed-Size: 52
 Depends: ncurses-base
 Filename: pool/main/terminfo-256color/terminfo-256color_1.0-1maemo2_armel.deb
-Size: 3108
-MD5sum: b41bb6ce1aca94d30baa0a1ee5d3502c
-SHA1: 9c2e537bdc2de64e88f70e94dbb5c6f7e3f5801c
-SHA256: 95ae69339c8d22b531b80424c87af581646be1d29f91aa0e02c18d8b17286d99
+Size: 3110
+MD5sum: f519a44abe317e1ca78936d7f0dbcfb0
+SHA1: c3a62a1d0550d1f827a57da873df12363aacfc79
+SHA256: 6b3078fcd5d0e1afe9fddc13b5580e85cc206ec87c7e86b5d46752dd7fb1c0b9
 Section: user/system
 Priority: optional
 Description: Terminfo for 256-colour terminals (xterm-256color, screen-256color, tmux-256color)
@@ -2055,10 +2133,10 @@ Maintainer: elPytel (build of upstream tig by Jonas Fonseca and contributors)
 Installed-Size: 780
 Depends: libc6 (>= 2.5), git
 Filename: pool/main/tig/tig_2.6.1-1maemo1_armel.deb
-Size: 263406
-MD5sum: ea084de58135bd9f254de0046ace2319
-SHA1: bbe12a0a9ce72eeb8ea5155263b9c8037b1aaec8
-SHA256: 5e724b65830449e51789fe8b79c0604b329a7d5ffb505e1c9eb8978dc21beb22
+Size: 263410
+MD5sum: 63acbcd121ba3a45ec403524597bb99f
+SHA1: 18de833e8c31ab6278527a8f670bcc8c972858d5
+SHA256: b0233381548350a37c02de9518e8c278b9881e9cc065386c10a41195ea0c5656
 Section: user/development
 Priority: optional
 Description: tig 2.6.1 text-mode interface for git
@@ -2074,10 +2152,10 @@ Maintainer: elPytel (build of upstream tmux by Nicholas Marriott and contributor
 Installed-Size: 1344
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/tmux/tmux_3.8-1maemo1_armel.deb
-Size: 540270
-MD5sum: 0aa347292da4925de737f2984d211926
-SHA1: 93054ae1babab1264688e0c91228988e7ccc2de5
-SHA256: 293e005673a9680204044a9eee42dc5eb4c462bd1b8901766db23980cd2624b1
+Size: 540272
+MD5sum: 0fc46055d48a194f2784835ac64d0d52
+SHA1: b694160fa4a56fb904125b952a77e459dc70ef4d
+SHA256: d046e4fe79a4f675802fb54b32dc05621d4ee60656ec10807c2798791f482166
 Section: user/utilities
 Priority: optional
 Description: tmux 3.8 terminal multiplexer
@@ -2087,7 +2165,7 @@ Description: tmux 3.8 terminal multiplexer
 Xb-Maemo-Display-Name: tmux
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwkVLhB9jpQM
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MNQhJ9GeG
  AAAIA0lEQVRYw72Ye3AV9RXHP+e3N4977948SHiEkISH4R2hAQuKGLU8ZhTEGSzQKkpVmFYdBQrT
  YkcI+MAOBUWLPARatYpUK7Uz9YFCG1QECfgAKYUIJYARCCTkndy7e/rHLmARQigTzz+fnZ2z5/f7
  nt/5nd39Cb51756fX1DAOWbf5vGKFz2mv+JRuvgOx2hda+dBSz2W3+6x5Ccea/5y2nHv3h07iopA
@@ -2153,10 +2231,10 @@ Maintainer: elPytel
 Installed-Size: 136
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/tty-clock/tty-clock_2.3-1maemo2_armel.deb
-Size: 23450
-MD5sum: 1b153ac3fa4d12a8bfeb14557adf15e6
-SHA1: 5b65ff8563efad62e71bfe2cb59f0c1979bd5df9
-SHA256: caa478ba7bab30fd940f6bc9101742504dc94897773127bfcef20183f7d829ff
+Size: 23452
+MD5sum: 2792b25dc8dd9356728007f9daa4c050
+SHA1: c96f3f0ebe66bc829f9e8f5a180c7f61a8b9ce4d
+SHA256: bb7abef42fa950c1e8bf94f11a19bfd94925efefde85b908ebadbde05031c6fc
 Section: user/utilities
 Priority: optional
 Description: Digital clock for the terminal
@@ -2167,7 +2245,7 @@ Description: Digital clock for the terminal
 Xb-Maemo-Display-Name: tty-clock
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKFyisrTJW
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MNQk+81cQ
  AAAHiklEQVRYw92Ye3QU1R3HP3d2N4/NZvN+kBghrUF5FUqCFHlEAYEQoOWZRnmLtIAFJVAVpOUc
  INYA1gPYNnoQFAwQiEBA2xK0hEo4mBDoQSCGR3ilJrC7JGySTfYxt3/MRCJy+qDFePr957Mz5zfn
  fr8zs3fu/Ql0de7cu3dqKnfIkqHxoTyNke9pFA/qBde5v4rWIK9otE3VeP4pjQ07WgsrK8vLi4tB
@@ -2211,10 +2289,10 @@ Maintainer: elPytel
 Installed-Size: 31736
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/vim9/vim9_9.2.1302-1maemo1_armel.deb
-Size: 7572288
-MD5sum: 2b179cf350db04ba72b6047a586d9a6f
-SHA1: 9640a4a77033386abc0fa7763a2ed1522d8a1ee2
-SHA256: ba32803a8a639e33aa460136522415558432383e47eea6a4602430492dbc81f7
+Size: 7572372
+MD5sum: 67724bb95536f531dd2402de45ebb8db
+SHA1: 62d5bdc42c69705c60233fbd30595dac398dd569
+SHA256: 555eeaef14e2121a07f1721c544dd4a54860be883fd664d58bc2f4b9f084b1b0
 Section: user/utilities
 Priority: optional
 Description: Vim 9.2.1302 text editor for the terminal (command vim9)
@@ -2224,7 +2302,7 @@ Description: Vim 9.2.1302 text editor for the terminal (command vim9)
 Xb-Maemo-Display-Name: Vim 9
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCwcKADZTIYuj
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4MNQqn+gaq
  AAAIJ0lEQVRYw72YeXTUxR3AP7O7yYZsLnIKTQjHhkMCGBKDlMsSW8v1iKLJ426tiFpo+2qQRxGV
  YhFrn1herVIsKFRAEISqiApojPiqAualQk4CSzgkWXJsDjZ7Tf+Y2dxpArx2/vm83+78fr/5zHe+
  M/MbgS5Dh44dO2UKHUrIA4rW7YrROxXFIF2hkv9tiVWQFxTt8xXL5io27PNXLCk5dSo3F0QHkVUK
@@ -2271,10 +2349,10 @@ Maintainer: elPytel (build of upstream WeeChat by Sébastien Helleu)
 Installed-Size: 11140
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/weechat/weechat_4.10.4-1maemo1_armel.deb
-Size: 5592148
-MD5sum: 6773d8e365ef8dc47356f58d3f458a2b
-SHA1: 933a96e7e9b5b3b6cd0ce246ff000631767f951c
-SHA256: 566bd8fd602bf692b6268618c341fb3a6575b095c6abc3f75dde68d365fca9b5
+Size: 5592198
+MD5sum: c7bff0c742592e7bcc487ea8498dcefb
+SHA1: f2a9b7e0edbd43ef05c4a2981e3939fe961253b4
+SHA256: 7ceba62851360eabfef07543baa2624d6a334773964299b25777648d69f45a93
 Section: user/network
 Priority: optional
 Description: WeeChat 4.10.4 chat client (IRC)
@@ -2291,9 +2369,9 @@ Installed-Size: 3788
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/wget/wget_1.25.0-1maemo1_armel.deb
 Size: 1870724
-MD5sum: b766f229d6665da3eca19af80d1fbc38
-SHA1: 74d7944a582e1dec0021d85402129529fd5c787a
-SHA256: fe8072d3327572340aa4c3a6981b862c73a977050dadaef480166195554a7427
+MD5sum: 0501703488dfc3d1ecdcd5a16a19698d
+SHA1: eff83456447c730ae53676d79d7376905b3bc45e
+SHA256: aa33231abea29071b9288aa19c6f5e6317bac76391e10b88ebe9a9a4bd0eb815
 Section: user/network
 Priority: optional
 Description: GNU Wget 1.25.0 (HTTPS with TLS 1.3)
@@ -2308,10 +2386,10 @@ Maintainer: elPytel (build of upstream newt by Red Hat and contributors)
 Installed-Size: 272
 Depends: libc6 (>= 2.5)
 Filename: pool/main/whiptail/whiptail_0.52.25-1maemo1_armel.deb
-Size: 82250
-MD5sum: cdaa561755a9f27dcb96d4aa30ecaac2
-SHA1: c9583c08cc2d0fd0a54236ec835986f837c37b1a
-SHA256: 1a7a717ab3b6319a86f1bc77b571ffec14b2c59786dc872b6599f23ca6cb1465
+Size: 82268
+MD5sum: 0f926b79c744acb3c93f7a1dc0beb17d
+SHA1: dcb8db982bd878f4440cc0910419348bb5db1d82
+SHA256: 579d3374bde3e92a9528fffe42f96f7b113ded5307c79a97c36ff7c48444b546
 Section: user/development
 Priority: optional
 Description: whiptail (newt 0.52.25): dialog boxes for shell scripts
@@ -2326,10 +2404,10 @@ Maintainer: elPytel (build of upstream wireguard-go and wireguard-tools by Jason
 Installed-Size: 3180
 Depends: libc6 (>= 2.5)
 Filename: pool/main/wireguard-go/wireguard-go_0.0.20250522-1maemo1_armel.deb
-Size: 1323388
-MD5sum: 62858cf859d5c71d29268f5bbec3c7fd
-SHA1: 6a77358e7d355e5802f18dfd0530fbf7be352d01
-SHA256: bd6e4d02e4d65b3c365b6d42b6b7e2065c82de55efd0462f6e605c2d31eaa2b6
+Size: 1323394
+MD5sum: d58034a333fc0a21feed3474995305c0
+SHA1: 85ad5601bb45df221ec0f070341312f30ac2e52f
+SHA256: ffbe2a73ad842a1a808b9b591cfe05f622e45e8c5072220117e5cf0d38f0d0d6
 Section: user/network
 Priority: optional
 Description: wireguard-go 0.0.20250522: WireGuard VPN in user space, with wg and wg-n900
@@ -2364,10 +2442,10 @@ Maintainer: elPytel
 Installed-Size: 864
 Depends: libc6 (>= 2.5), zlib1g
 Filename: pool/main/wordgrinder/wordgrinder_0.8-1maemo2_armel.deb
-Size: 273664
-MD5sum: b351a0d7255d4a84c75ad2b0ce0636a2
-SHA1: 0dff36525ef37456d8d4d147f16c5ef3e3cf99a4
-SHA256: 8044612383f2b5e77389ca526625f58aedddecf814c0af258215861a424fd266
+Size: 273670
+MD5sum: 382c4da5f4fe25cae4026d210bd4672b
+SHA1: 25672d31a7ea9e43108f5a1b9c7eba4e2c986dad
+SHA256: 4cb0089a1b74f2804d49fbec2b39a1b16a76f37125806ed0812a134245a2b175
 Section: user/office
 Priority: optional
 Description: Console word processor
@@ -2377,7 +2455,7 @@ Description: Console word processor
 Xb-Maemo-Display-Name: WordGrinder
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfqCwYWKS/ejIH5
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfqCw4MNRK0lp78
  AAAITElEQVRIx22Wa2xc1RHHf+fcc+++1+td767XG9shzhs77wChhAAlCdAGgWgFBVpaVaiV+pBQ
  H0ilHypRtUVq1VZUiBZRUSm0VRGPCgINaShRCCRpEjuJ4ziJHTu2E6/X3l2v9/249/QDpqJSRxrN
  fJiZ/+gvzUPwf+TJx/cwk1kwVvQkQ6Y0upFinZCyL5MrvPyL514dBBzAfv6Zb+lypeavVRvqxb0H
@@ -2424,10 +2502,10 @@ Maintainer: elPytel
 Installed-Size: 1808
 Depends: libc6 (>= 2.5)
 Filename: pool/main/xml-tools/xml-tools_2.15.4-1maemo1_armel.deb
-Size: 849000
-MD5sum: bfdef3e800e4735aef86a7f4e3edcafe
-SHA1: e8716219a5439474efb4ee04a4d250b1397b1150
-SHA256: 6aea02d2f7ec2b4f6f74bc7182ad88ee28f4671c9d38d5649fae99ce4a6ceabd
+Size: 849002
+MD5sum: 72de021add91ff4b6b09cc9e7619277c
+SHA1: 8ae41ac3121f0d117f7762748c8f9f75d104dc0a
+SHA256: d2472ff54736169965a28d262b5f8e718cbbd826e38918ce33ff2d3c23c5630e
 Section: user/utilities
 Priority: optional
 Description: xmllint and xsltproc (libxml2 2.15.4, libxslt 1.1.45)
