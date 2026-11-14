@@ -132,6 +132,42 @@ Description: apt over HTTPS with TLS 1.2/1.3 (through curl 8)
  The original method is kept as https.distrib and restored when the package is removed. Certificates are always verified (CA bundle of the curl package); Acquire::https::Curl-Insecure "true" turns it off, Acquire::https::CaInfo selects another bundle.
 Xb-Maemo-Display-Name: apt-transport-curl
 
+Package: apt-transport-curl
+Version: 0.1-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 60
+Depends: curl, apt-transport-https
+Filename: pool/main/apt-transport-curl/apt-transport-curl_0.1-1maemo2_armel.deb
+Size: 5372
+MD5sum: b543c73d9c4021a9f4d0b209f86d243f
+SHA1: b10df0a4eff1d7a2bfd111cce13534fd62318cf4
+SHA256: 03ab59590a6fd53f1db09d9ff1c58b402b135124b0c76068f4cd268d12b26f1a
+Section: user/system
+Priority: optional
+Description: apt over HTTPS with TLS 1.2/1.3 (through curl 8)
+ Replaces the apt method /usr/lib/apt/methods/https (old libcurl with OpenSSL 0.9.8, TLS 1.0 only) by a script that runs /usr/bin/curl. Repositories on GitHub Pages and other modern HTTPS servers then work with apt and the Application Manager.
+ The original method is kept as https.distrib and restored when the package is removed. Certificates are always verified (CA bundle of the curl package); Acquire::https::Curl-Insecure "true" turns it off, Acquire::https::CaInfo selects another bundle.
+Xb-Maemo-Display-Name: apt-transport-curl
+
+Package: apt-transport-curl
+Version: 0.1-1maemo3
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 60
+Depends: curl, apt-transport-https
+Filename: pool/main/apt-transport-curl/apt-transport-curl_0.1-1maemo3_armel.deb
+Size: 5538
+MD5sum: aa165685263077e61ea3cca7b1babcbc
+SHA1: 549c1bba6b66b9dde361e64aba030841a0122377
+SHA256: ca13190af3e65dbc590a3ffa20b2d3600f7a52944bc7b8e58d5eb3c95c17dcd1
+Section: user/system
+Priority: optional
+Description: apt over HTTPS with TLS 1.2/1.3 (through curl 8)
+ Replaces the apt method /usr/lib/apt/methods/https (old libcurl with OpenSSL 0.9.8, TLS 1.0 only) by a script that runs /usr/bin/curl. Repositories on GitHub Pages and other modern HTTPS servers then work with apt and the Application Manager.
+ The original method is kept as https.distrib and restored when the package is removed. Certificates are always verified (CA bundle of the curl package); Acquire::https::Curl-Insecure "true" turns it off, Acquire::https::CaInfo selects another bundle.
+Xb-Maemo-Display-Name: apt-transport-curl
+
 Package: bash5
 Version: 5.3-1maemo1
 Architecture: armel
