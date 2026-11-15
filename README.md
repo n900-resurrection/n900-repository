@@ -12,8 +12,8 @@ The apt of the phone speaks TLS 1.0 only, so first install two packages by hand:
 ```sh
 dpkg -i curl_<version>_armel.deb apt-transport-curl_<version>_armel.deb
 ```
-Take the **newest** version of each file in the directory. For `apt-transport-curl` that is **0.1-1maemo3 or newer**: older versions can leave the Application Manager hanging on "Preparing installation" (see below).
-`apt-transport-curl` needs `curl` and the system package `apt-transport-https` (it is on a stock Maemo 5). Without `curl` the method has nothing to run
+Take the **newest** version of each file in the directory. For `apt-transport-curl` that is **0.1-1maemo4 or newer**: older versions can leave the Application Manager hanging on "Preparing installation" (see below).
+`apt-transport-curl` needs `curl`, the system packages `bash3` (`/bin/bash`) and `coreutils-gnu` (GNU `mktemp`, `sha256sum`; check with `dpkg -l bash3 coreutils-gnu`, install them from Extras first if missing) and `apt-transport-https` (it is on a stock Maemo 5). Without `curl` the method has nothing to run
 (since 0.1-1maemo2 the method says so: `install the package curl`); `/usr/share/doc/apt-transport-curl/check.sh` (also `apt-transport-curl-check`) prints the state of the installation. Sources and documentation of the package: [apt-transport-curl](https://github.com/n900-resurrection/apt-transport-curl).
 
 Then add the source (`/etc/apt/sources.list.d/n900.list`):
@@ -34,7 +34,10 @@ dist = fremantle
 components = main
 ```
 
-The Application Manager reads the repository with the apt of the phone, so over HTTPS this works only after **`curl` and `apt-transport-curl`** are installed (the file offers `apt-transport-curl`; the Application Manager pulls `curl` in as its dependency). Use `apt-transport-curl` **0.1-1maemo3 or newer**: up to 0.1-1maemo2 the Application Manager could hang for ever on "Preparing installation" or while refreshing the lists (the method wrote its first message to apt in two pieces). If it still hangs, install with `apt-get` in a terminal; `apt-transport-curl-check` shows what is wrong.
+The Application Manager reads the repository with the apt of the phone, so over HTTPS this works only after **`curl` and `apt-transport-curl`** are installed (the file offers `apt-transport-curl`; the Application Manager pulls `curl` in as its dependency). Use `apt-transport-curl` **0.1-1maemo4 or newer**: up to 0.1-1maemo2 the Application Manager could hang for ever on "Preparing installation" or while refreshing the lists (the method wrote its first message to apt in two pieces). If it still hangs, install with `apt-get` in a terminal; `apt-transport-curl-check` shows what is wrong.
+
+## Keep your list of repositories short
+The addresses that Maemo 5 ships with (`downloads.maemo.nokia.com`, `repository.maemo.org`, Ovi) are dead and slow every refresh down; the Extras-devel and Extras-testing indexes are large. Remove the dead sources and keep only repositories that are alive and that you trust (a working Extras mirror such as `maemo.plan9.de`, this repository). The Application Manager regenerates `/etc/apt/sources.list.d/hildon-application-manager.list`, so disable its built-in entries in its catalogue list (or with `<disabled/>` in `/etc/hildon-application-manager/catalogues`). Details: the blog post "Using the N900 repository on the phone".
 
 ## Layout
 ```
