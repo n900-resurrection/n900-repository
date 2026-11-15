@@ -298,6 +298,66 @@ Xb-Maemo-Icon-26:
  PjW/19juGm7RJ2mHVpLfmxy0isCiG5R3E5SVpPEXs/WSa9T35mv0Q5KhusE7nC3oqxGOGJC38PvW
  XfXZfUiyZma3jx6r3KEdGhN+KsdYuXreN84HbxTL/8tB438AZEFS0/18AUgAAAAASUVORK5CYII=
 
+Package: apt-transport-curl
+Version: 0.1-1maemo4
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 60
+Depends: curl, apt-transport-https, bash3, coreutils-gnu
+Filename: pool/main/apt-transport-curl/apt-transport-curl_0.1-1maemo4_armel.deb
+Size: 8168
+MD5sum: 440453ef50acf55f7035b2ad79536c1e
+SHA1: 0abd770364aac0d8212e57de8a5090c131777175
+SHA256: ee930f7a72fbd51f369803a7e1f4cea340376599a172c4f6dd2f7a54780b76b8
+Section: user/system
+Priority: optional
+Description: apt over HTTPS with TLS 1.2/1.3 (through curl 8)
+ Replaces the apt method /usr/lib/apt/methods/https (old libcurl with OpenSSL 0.9.8, TLS 1.0 only) by a script that runs /usr/bin/curl. Repositories on GitHub Pages and other modern HTTPS servers then work with apt and the Application Manager.
+ The original method is kept as https.distrib and restored when the package is removed. Certificates are always verified (CA bundle of the curl package); Acquire::https::Curl-Insecure "true" turns it off, Acquire::https::CaInfo selects another bundle.
+Xb-Maemo-Display-Name: apt-transport-curl
+Xb-Maemo-Icon-26:
+ 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
+
 Package: bash5
 Version: 5.3-1maemo1
 Architecture: armel
@@ -446,10 +506,10 @@ Maintainer: elPytel
 Installed-Size: 164
 Depends: python3.11, python3-hildonlite (>= 0.4.0), xserver-xorg-input-evdev-mouse
 Filename: pool/main/bt-kbmouse/bt-kbmouse_0.1-1maemo1_armel.deb
-Size: 34620
-MD5sum: 0038bc83f2a08dcd123d27f83f8b4320
-SHA1: 7e00a95c900f75499d589615c756bf6e07b3a0a1
-SHA256: cb515e6f462f88fede1b941a456a54da7344315b6cddfa241bf302621e589dbb
+Size: 34626
+MD5sum: fa05c256bc684a1cb71edbd5c610a2e0
+SHA1: 3ffb1e4ff0cc62a5850d9c447758daca4f2f717f
+SHA256: fd8465af0275cafc94e40a5b03f4359453602168a828fbef433043e1eb8b1280
 Section: user/system
 Priority: optional
 Description: Bluetooth keyboard and TrackPoint: layout, pointer, scrolling and settings
@@ -460,7 +520,7 @@ Description: Bluetooth keyboard and TrackPoint: layout, pointer, scrolling and s
 Xb-Maemo-Display-Name: Keyboard and mouse
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMRFKd94s
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhH0KbEH
  AAAK0klEQVRYw9WYeVhU1xmH33NnhnVgIGyyiMgmoFU2JUVF4ooJaNRGrbXGNqaNSVOTGKMxWuPa
  NBrrkhqtsUlNlSi4IoKoGBQXIogRF0Bcwg6CyDLDCDP39o8ZGts+bZ+28Un7/fPeZ+bcM7937nPO
  nPkE1goNjY4eMYK/KV2MhcFJFrr5WCiesw6o4/GWtwVKmoXNtRZWZFvYWtQzsLz80qW8PBB/LSK2
@@ -1519,10 +1579,10 @@ Maintainer: elPytel
 Installed-Size: 152
 Depends: python3.11, python3-hildonlite (>= 0.4.0), calendar-backend, curl
 Filename: pool/main/ical-sync/ical-sync_0.1-1maemo2_armel.deb
-Size: 33506
-MD5sum: ee6479cb207a42c21488a89075d2ad0a
-SHA1: 09b74789fa90453d6267aeb369ec107f66a070ab
-SHA256: 35610f878c3ca2533ce7bb72906f9d18acb5fd6fdb2567f60e1b4a950395abdc
+Size: 33500
+MD5sum: 4eeb71b8c3e7e172e22bc01cebd0b6cf
+SHA1: 761cd19c0b63c8649bacc7156a3877ad6aaf91b9
+SHA256: b43ff473af90b2e083adf69cffa624f80b78ab6bfc463b83d8c304cf9f68fa3e
 Section: user/office
 Priority: optional
 Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calendar
@@ -1534,7 +1594,7 @@ Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calend
 Xb-Maemo-Display-Name: Calendar sync
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OOg9TjDqE
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhSEQ0WI
  AAAM+ElEQVRYw72YaXhURfaH37q3t2wdk7AYCCQk7GvCDoIsIrI4cQMMqIAaFGQXBgcR/aszIiPb
  CDIyBAREAwSREMAoSEKEgGASgUTIYiCGLCTpkKWzdfe99f/QPW4zOvph5nz51X3qPOe5b9V5zqkq
  gce6du3ff9Qofmb+A9zaeYJbg9q5VUz1OJTx37Vgt8gEt9pK3VqQ7NbajH865uVlZp4+DeKnIGK7
@@ -2715,10 +2775,10 @@ Maintainer: elPytel
 Installed-Size: 92
 Depends: python3.11
 Filename: pool/main/python3-hildonlite/python3-hildonlite_0.4.0-1maemo1_armel.deb
-Size: 14400
-MD5sum: bab7bfb1bb4835575ab453c0d04cf866
-SHA1: acc1adc34a22075d992777b4ae73fbef9d14a663
-SHA256: 87b4979a6940f27e439f8f2de7c9cbd5857d227188268e8a222f7998c9fb9a9a
+Size: 14398
+MD5sum: 727a1096d13d4cf0a367df11fa14f20f
+SHA1: 1e16d3d4f88bacaa3d21758a665139e97ce0cd96
+SHA256: 7a6040fc5c51ab1b8aa5267bd455f59a9cf8c0b4c6689dea53154435ce3b856a
 Section: user/development
 Priority: optional
 Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
@@ -2728,7 +2788,7 @@ Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
 Xb-Maemo-Display-Name: hildonlite (Python 3)
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMSVrwyqZ
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhJtIOC9
  AAAHbklEQVRYw92YaXRV1RXHf+fe917yEpJAgoSEmRgkAwrEdlVUECgxGAsooBEkiUuSBbQuBMqq
  iypCqwQq0NhFaSsuW7CgIBTSNsxkQtRCCaMiqUwhAwmEzHPe3f1w7ws1YQhm8cH+v/zfu3efc/f/
  nL33GRQWBg0aPnzUKNrAL8rk+2NMDgg2WU21DIq5twgyST4xuazI5G92m1x51G2Yl5ebm50N6ttC
@@ -3229,9 +3289,9 @@ Installed-Size: 104
 Depends: python3.11, python3-hildonlite (>= 0.2.2), gstreamer0.10-plugins-camera, libomap3cam
 Filename: pool/main/selfie/selfie_0.6-1maemo1_armel.deb
 Size: 19502
-MD5sum: a437646f518bd7cc849ba7ec6180c3cc
-SHA1: 6a825cb4f9230cda2260c14366d534545330028f
-SHA256: 550ea9d67dc8f0c02a975c4e37617ac29285696f1b276a212a0182623c0a1f2f
+MD5sum: cca2142d66a525d2634d15010fc6d48e
+SHA1: c242492b7cccee9fb6e71c286b33f76931c9f1fd
+SHA256: 42d033b71c68c8c8166f37aea18032323710c01bbdba07a6721d67d53de61aca
 Section: user/multimedia
 Priority: optional
 Description: Live preview of the front camera, a photo button and the camera button (test application)
@@ -3239,7 +3299,7 @@ Description: Live preview of the front camera, a photo button and the camera but
 Xb-Maemo-Display-Name: Selfie
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMhFhWo3v
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhcdShQy
  AAAIeUlEQVRYw9WYe1RVVR7HP/tcQCHkQsjYjIYhFxBEkYfPTMAmGpMBLYHKxsq0mexlTq1mGpso
  J1eZZlPUZPkaDRTtIU5KZY2YpjM2gDwURURQ0RE15CFw4Z6z5499LlzRWmkrZ+a31l2fc+/9nb32
  d+/f/p3f+QlMCw2NiYmPp4dZhyvablH0v15R3Gk6nOTHtZ8qyA2KZ48rVm1RbCxxOlZWFhVt3w7i
@@ -3506,10 +3566,10 @@ Maintainer: elPytel
 Installed-Size: 124
 Depends: python3.11, python3-hildonlite (>= 0.4.0), sfeed (>= 2.4-1maemo4), curl
 Filename: pool/main/sfeed-hildon/sfeed-hildon_0.1-1maemo4_armel.deb
-Size: 29824
-MD5sum: 54340612c519d6c8b9d2c983d7549381
-SHA1: 6e57680bf2c646b9f3bcc8221dd1a0401c106ca2
-SHA256: 37725ac54549125d6c2791aefe8efdcdb1f03cac46a9660e20cfb9aa00d55f18
+Size: 29822
+MD5sum: 00c8097571190bc5254d837de8d18988
+SHA1: 6631040b2906587133619f6bfa3607f69de1f586
+SHA256: 3ba3b2d2e1cd196d6d7e34a310412b31080dcb44cd562c8f24a3e8404c853e61
 Section: user/network
 Priority: optional
 Description: Native RSS/Atom and podcast feed reader on top of sfeed
@@ -3522,7 +3582,7 @@ Description: Native RSS/Atom and podcast feed reader on top of sfeed
 Xb-Maemo-Display-Name: Feed reader
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMhOPVOzD
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhn68jk1
  AAAKyElEQVRYw72YeXQVRRaHv+p+W7aXxAAhYQkxSBJiWBNZZFFwCCjiEkBxwAUUd8SFowMDOKAQ
  UEYWZY14QBCVQUVGRFEjDGCEABIyskW2kIQ8sr3krXnvdc0f3RHHDRzPeP/59amu6q6vbtW9VSUw
  rFOnHj0GDuRHFt1T145DEQiIS6QaL4oYFfqLPMswKuUEuZ0rQLlLrOAYiBEs4TiI5WIwdUAICUAT
