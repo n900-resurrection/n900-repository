@@ -61,6 +61,69 @@ Xb-Maemo-Icon-26:
  AniU1QBaIroKOykguorfaSWnfK/kfq6NtVPT3d4fbM/BNWw0uteaDjM6Lq09DzybhIqtg2LrdKPx
  v1tWhSMSBsm/AAAAAElFTkSuQmCC
 
+Package: age
+Version: 1.2.1-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream age by Filippo Valsorda and contributors)
+Installed-Size: 6280
+Depends: libc6
+Filename: pool/main/age/age_1.2.1-1maemo2_armel.deb
+Size: 2672408
+MD5sum: 0d8d2501dbc0eaf07af3b8bbaa2e3a15
+SHA1: d4f93967ff214fc9446b9c0a0357fa0ae9077ec1
+SHA256: c435bceb6bf588ac3b6870fe7f85ffefbc219e384bace099cc6e7409870ae5f6
+Section: user/utilities
+Priority: optional
+Description: age 1.2.1 simple file encryption (age, age-keygen)
+ age 1.2.1: encrypts files with a passphrase (age -p file > file.age) or for public keys (age-keygen -o key.txt; age -r <public key> file > file.age;
+ age -d -i key.txt file.age). Small, modern (X25519, ChaCha20-Poly1305), no configuration like gpg. Built for Maemo 5 with Go (static).
+ Upstream: https://age-encryption.org
+Xb-Maemo-Display-Name: age
+Xb-Maemo-Icon-26:
+ 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
+ v1tWhSMSBsm/AAAAAElFTkSuQmCC
+
 Package: amfora
 Version: 1.11.0-1maemo1
 Architecture: armel
@@ -82,6 +145,69 @@ Xb-Maemo-Display-Name: Amfora
 Xb-Maemo-Icon-26:
  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
+ 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
+ JCO53LYAAAAASUVORK5CYII=
+
+Package: amfora
+Version: 1.11.0-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream amfora by makeworld and contributors)
+Installed-Size: 16212
+Depends: libc6
+Filename: pool/main/amfora/amfora_1.11.0-1maemo2_armel.deb
+Size: 5759244
+MD5sum: 38e226ab9c7fe64b1e134b27a9849567
+SHA1: bceb956ec7da5398612ba998d738fee9f4565113
+SHA256: 12268ede1bdbb89fb641103ad8a4f4adecbb54fe4ad13fffffa3e0ccc491ebdb
+Section: user/network
+Priority: optional
+Description: amfora 1.11.0 browser for Gemini space
+ Amfora 1.11.0: a terminal browser for the Gemini protocol (small, text-only pages over TLS 1.3, no ads, no scripts). Start it from the menu, press Ctrl-L
+ or type a gemini:// address (for example gemini://geminiprotocol.net), Tab/Enter follow links, q quits, ? shows the keys. Servers are trusted on first use (TOFU).
+ Built for Maemo 5 with Go (static). Upstream: https://github.com/makew0rld/amfora
+Xb-Maemo-Display-Name: Amfora
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxELJQQHtWiw
  AAAI4UlEQVRYw7WYe1hVZRaH37XPDc4BJUDJ0MoLSl4oFckmEzWxGk1HozKvXawZKR0ty7B6pIvZ
  UGkN5ZRpYzHeHvWRlDQqI9JwNPKCJSqQDhgKKPfD5XDO/uaPvXGUZyZRx/XPyz58t9+3vv2ttZdg
  Ws+eAwbExtLKAuIN9vjUYOgag9LVbFDG1bWOBlSRwTOTDRY8ZLBuU0vDY8f27cvKAmklJNFAbJbB
@@ -160,6 +286,67 @@ Xb-Maemo-Display-Name: apt-n900
 Xb-Maemo-Icon-26:
  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
+ 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
+ d3pumvz315EAAAAASUVORK5CYII=
+
+Package: apt-n900
+Version: 0.2-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 56
+Depends: apt, dpkg, sudo, dialog
+Filename: pool/main/apt-n900/apt-n900_0.2-1maemo2_armel.deb
+Size: 8774
+MD5sum: 713cab01014e035c3797b61e50d4991b
+SHA1: f74029a6bdb2c540ecde16358a66e6986584de85
+SHA256: cf1ed546bd6384f3e4b4a9bcbc7bdf5188879ab375cf67d3b12d29f86e919702
+Section: user/system
+Priority: optional
+Description: Friendly apt command (list --upgradable, search, show) over apt-get
+ Adds /usr/bin/apt with the commands of modern apt: apt update, apt list --upgradable, apt upgrade, apt install, apt search, apt show, apt files, apt owns, and apt tui (apt-tui: a dialog based menu to upgrade, search, install and remove). It only calls apt-get, apt-cache and dpkg-query: nothing of the system package manager is replaced.
+Xb-Maemo-Display-Name: apt-n900
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMIB6C73MK
  AAAI5ElEQVRYw9WYe1jUVRrHP+c3A8zABHLzwsU7eElSRNPSFAUETTEtVzdb3Fxx06y1tX0qNkvW
  XSttn7Vsy9I0rSxDXckb3lJKU7mZ6SoKpCIBaqBc5gLM73f2j/mNN3xCK3effZ9nnu/MnPM78/2e
  97zvvOcV6BYZ2bfv0KHcYH4xLuya5MLAEBeKCfqECu6stXOBzHBhVbkLi7NcWJPvnnjqVEFBdjaI
@@ -358,6 +545,66 @@ Xb-Maemo-Icon-26:
  PjW/19juGm7RJ2mHVpLfmxy0isCiG5R3E5SVpPEXs/WSa9T35mv0Q5KhusE7nC3oqxGOGJC38PvW
  XfXZfUiyZma3jx6r3KEdGhN+KsdYuXreN84HbxTL/8tB438AZEFS0/18AUgAAAAASUVORK5CYII=
 
+Package: apt-transport-curl
+Version: 0.1-1maemo5
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 88
+Depends: curl, apt-transport-https, bash3, coreutils-gnu
+Filename: pool/main/apt-transport-curl/apt-transport-curl_0.1-1maemo5_armel.deb
+Size: 10638
+MD5sum: 04aab2920faa859c297d460fb63afbd7
+SHA1: ef542d36a3c3568c7e251c684cb04ad3e940c131
+SHA256: 0d64d791e763ded159170f0524a38b990b4c4c6969e9734079ab129c4268aa34
+Section: user/system
+Priority: optional
+Description: apt over HTTPS with TLS 1.2/1.3 (through curl 8)
+ Replaces the apt method /usr/lib/apt/methods/https (old libcurl with OpenSSL 0.9.8, TLS 1.0 only) by a script that runs /usr/bin/curl. Repositories on GitHub Pages and other modern HTTPS servers then work with apt and the Application Manager.
+ The original method is kept as https.distrib and restored when the package is removed. Certificates are always verified (CA bundle of the curl package); Acquire::https::Curl-Insecure "true" turns it off, Acquire::https::CaInfo selects another bundle.
+Xb-Maemo-Display-Name: apt-transport-curl
+Xb-Maemo-Icon-26:
+ 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
+
 Package: bash5
 Version: 5.3-1maemo1
 Architecture: armel
@@ -365,10 +612,10 @@ Maintainer: elPytel
 Installed-Size: 1112
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/bash5/bash5_5.3-1maemo1_armel.deb
-Size: 582440
-MD5sum: f024997b7f3325478f131e878cf6ab24
-SHA1: 7ffe77517474b89d8f499079f5c870cc74f6856c
-SHA256: 8be581e32ed1c446f93ba607476a8f05b9c72e92d2e473b59b911dd51804eb89
+Size: 582444
+MD5sum: cee97d6ee167b03e578ad32d49feb232
+SHA1: 811a0f72169610324c19059a7fd9bff8e512a840
+SHA256: 12fe26a9353588a1be2bc05bd4371505b71ee98a1d97f700a174f1f182d09c4a
 Section: user/system
 Priority: optional
 Description: GNU Bash 5.3 shell (next to the system bash 3.2)
@@ -377,7 +624,7 @@ Description: GNU Bash 5.3 shell (next to the system bash 3.2)
 Xb-Maemo-Display-Name: Bash 5
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMQ+weONP
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMIzUFftmJ
  AAAIdUlEQVRYw9WYe1RVVR7HP/ucy71yuRcUzBQhVOzhaCGvFCNF88Gy1GoqLcfyPfamHMdqpdaq
  Vc3oaijHHmZpKmlixFQWmoivSiQx8JGCGZKP0kEQ9AL33rP3/HHO9YUFNrpmzW+tu773nLP3b3+/
  v/3be5/zE1h2zTUJCf36cZ6FJZrYNd3EiEgTxd1WgyNcXutggso2seqwifvyTDyxLdCwrKy4eMMG
@@ -499,6 +746,126 @@ Xb-Maemo-Icon-26:
  wStvYylYf1C/osRcYkFmdmzSz0HbirLnW74GgvgjHwOYjggWHYwGESx6mymnfC/lumpjbTN5X+gP
  XvDBNWw0GmtNxYnKd2vPZ74ioeP6iWS74kbj/wCtGHNEYl33TQAAAABJRU5ErkJggg==
 
+Package: bat
+Version: 0.26.1-1maemo3
+Architecture: armel
+Maintainer: elPytel (build of upstream bat by David Peter and contributors)
+Installed-Size: 5284
+Depends: libc6
+Filename: pool/main/bat/bat_0.26.1-1maemo3_armel.deb
+Size: 3014280
+MD5sum: d8ad86e64c86a766cbb19a818f59c092
+SHA1: d186e4b421f8b5acd3c593877087351ace80fe1f
+SHA256: 68692a4b1605f1575371acd04a3f341ba7f2b68b48766228da5d4352fd201fe3
+Section: user/utilities
+Priority: optional
+Description: bat 0.26.1 cat with syntax highlighting and line numbers
+ bat 0.26.1: shows files like cat, but with syntax highlighting, line numbers and paging (bat script.py, bat -p README.md, bat --list-languages).
+ Built for Maemo 5 with Rust as a static binary, without the git markers of the margin. The pager is cat by default (the less of the phone has no colour support): set BAT_PAGER to change it. Needs a terminal with colours (the menu terminal has them).
+ Upstream: https://github.com/sharkdp/bat
+Xb-Maemo-Display-Name: bat
+Xb-Maemo-Icon-26:
+ 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
+
+Package: bf-interpreter
+Version: 0.1-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 76
+Depends: libc6 (>= 2.5)
+Filename: pool/main/bf-interpreter/bf-interpreter_0.1-1maemo1_armel.deb
+Size: 8194
+MD5sum: 4f44b3cc55cfec102b76184198ac1abd
+SHA1: 734ff02fd175804fdd818926c3072258d9a0174d
+SHA256: 83907f090f22db65d841a61831f787be0d7531429407fb96dc5f797989cae8af
+Section: user/development
+Priority: optional
+Description: Brainfuck interpreter
+ A small Brainfuck interpreter written in C (command: bf file.bf). The tape grows when the program needs it.
+ An example is in /opt/bf-interpreter/share/examples/hello_world.bf.
+ Built for Maemo 5 (armel, glibc 2.5). Upstream and author: https://github.com/elPytel/BF_interpreter (MIT)
+Xb-Maemo-Display-Name: BF interpreter
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMIzh7z6U0
+ AAAHv0lEQVRYw92Ye1QU9xXHP3d2l11YQEX0pICKiA+s+ETwlaIoWp/xEWNiBBO1GluNVk2Nxiba
+ JD6SnOMjtTmtTcVEG1HUVo3maBMlio2nCCj1hS8UQUEUg7x3d379YwZ7Araxiu05vf98d87cnXs/
+ v/ubOzNXMK1du+7dY2OpY74TDA3/o6GBnxgqLU2HIp6sNTdEXTO0ONHQixMNLUuudczJychITQWp
+ A7LYkNjjhr42xtCofoY6d5l+r5pa/oSBnKauM8OZ+aQfNfR9M5/UGNNvufW7/481V+TTOENb/KxO
+ gC51jgOeMFCtLTXE1zwcbubR+VtDE0zwVDRzIY4ZuqC1CbL4v5ToY1ptnrV5O4+ZQG1NwqhWaAiA
+ XqlOYgP3cr0ab9DHKhtWwBf7/xqjvkW1quUwgQKX4EEH35kqi+sAER8+FaM+hKEzOkaqARD+WeBR
+ 9Qkoi5qNBogBThH3ANRushGgGvd3YrnwPHkg35m1HCaQTDQTSWarOoHAqLjI9XSDkUsjw1UU+Kyw
+ h5EPajsZCFBIKYC8I9dwg9ckS0tKgYXEo7hfSdVOLUMDzwB9OnZQIeoNNEBHGaEbhCi5lsNa75Qy
+ AlkGamOogcx9122yFDKb5CWLH9j8LZPwgPu03h5vCPUPyFLbYdTtzl3pAR83PdZKqqEqzDWI5hA/
+ NuJlNRRcdk8wfpDZNO95+RWUHKw4RCeQ0dIZBdppCcAF2Mz7Wj0amfYvz1znLoA2jUzcoA2Ug3hA
+ +0CWUANBWY28OQjhuc0K2ASdxwe71XJo3aHpaJUMARud58mEqnzXj2kOg4Lbb1cjYZFnyCI9FRKS
+ ou8pJ4S+3rRIbQOewh+AClyPUyrtYR3VFDYj4LPVK4kCmJrWe6XuhsRhMc8pH2gR2qSKPTB35IC/
+ qxwYMajTWdUHDo+5cFO2woqvDkzW+sPRIxcLZSM8E9E5RHWByTkx/ZUXWEplP1Wgssl/nG1ofVhH
+ 2cZUFJSvqdlECKy/+nWWFgQ/PPKDWLUaEmZGx6lxsGrnwWLpDcUB5RtlHjwd2Wa0WgWDkyOiVTw4
+ JtnGcwv2RZ7uLbPg65KLSZSCJ0WNwwHSiSAU4NPQQO2M1w6VwSisoLzU77CAGqKSsELJyIpiIiHv
+ 85J3GQ7ZQQXjJAYK/1y6QoDKJNdNQsE/xrGLHEibfilC8iA999oyWQF3Eiq60xXoxGoSQauUtgA4
+ 8TK2REMBmc8hzwm9Dd7Q7XiLErUEuh9pOQ0nZPW9PkjeBEt/bS3VkO+5O1aGwoYFaXPwBrevvgEn
+ yEo5hYIv5pxJkS9BP6B24AVaGzlFF9As4sEN2OkAgM2M/4gg9YHs5u+J0hMFu+JPLiMbQpIbh8h+
+ KP1lZROeA+nFDRQQyF8B1F5isYArS7+OH8jThKMALywAslDiUWARcXEbAA8uwIIDpwng9XgQDway
+ GA1CIgkCyLEXzZfpcG5DYVesoC0WCztBS5FqdO63d5oaL5AykPYPTM4XJw5gAX+SfKCCuxQDu1iu
+ ZgDXOEUaIGjGEjye1e9y5gNPq5S2uMA6SSunErQkKcUNlFH9wCsJGhpQwDkyQG1Rr6tnQfppF7QJ
+ 0PZEr+mDc6HXj8bv+Gk6NM9ufTFiLihNf1sPbbgKPXTbrmfKqJH6g5qlBoO+Tfd4FoL0lYva82DL
+ dyR4DwXVXj+gpkFRwBX3mRfBf3Oz94JugN+xwL8Etwc1S7VWBQ0H9NBt+34F8jlDOqgXlbf+DdgX
+ +Rzyq4FmzUOLOzghZGrHa9HxUJJzozp3GJwvT5u5T0Hp5Vvp+R2h+nBZTakDCGKV+jngwwucNGOU
+ PEmgasopBVzUUAV8y03yQBZpvbR0CPfpmRq/EoKjOrzUIxFq9lcWlQFFn1+Zd/YXcGN3TmhWGbCT
+ KbwBkiRlsgCYIG/LfMCNashmUGv1t5wHNy5gNpslE9gpNhkGuA0widAOW6IgIC74zTYp4PNmo+EB
+ diiRgldyD0DhR5fjTs+Hyk6l+0r6AdGM5icNn/j3AClzZsAEFa1n6m9Bq4Iu7/ZJge4jh/VJ/Bis
+ IV5d7Rngae3aUfMBZPTa+97GdXAieE9i0kTwnu3fLSAfog+OKZhuh7C9PQfE3QAWEKkqQH2jUvgN
+ cIMLnKTBulpt3rUc5pYrfsfQMsVl0jnki+1Vh8PnWXCE+2U0bgf0Ez9tBOBDM9aD62L10Sp/uOm8
+ tCb7FBT6XQ447QHfDQE+zZ1gnePlcKwGSRWnlgi28/Y1ji2gbbNesa0F8nmfL4A07vHM4/KUfWRy
+ iAl0wRx2pN+Sq9o4LWVEl8vr0mccKocrozPCU/eC5/eusJpLIHvkFZkD2LDjDSIiFgHK6cZtKHv5
+ TuPCk0ChOsY80CZbJ1ijoc3qqGlxgWBLtf/W2wHVQyq236sCvGUnS4E1wMJHBUq/anI0qzP1iV1j
+ dLNPy7mk/qa+bLFY3SKX8yA9ZIS8BFgNEKPC/yaGBxc1QF9eYC54tfbu67sFtDzLWcuvwbW7ylpx
+ Bzx3XVNqOgNhEiUD/lOQvOWG3h+SzK3T5VKLUOjoCccJkx4y4LVGEgMQ1Q8rdhzmGEs9xBjLgg0v
+ II3PWAPVMyta3BsDnCOTScBa3mITSE+JkXhAf+BVvm+M9ZWZd+0Y659fHv8vg8Z/ADdG3LJvQ0kC
+ AAAAAElFTkSuQmCC
+
 Package: bt-kbmouse
 Version: 0.1-1maemo1
 Architecture: armel
@@ -506,10 +873,10 @@ Maintainer: elPytel
 Installed-Size: 164
 Depends: python3.11, python3-hildonlite (>= 0.4.0), xserver-xorg-input-evdev-mouse
 Filename: pool/main/bt-kbmouse/bt-kbmouse_0.1-1maemo1_armel.deb
-Size: 34626
-MD5sum: fa05c256bc684a1cb71edbd5c610a2e0
-SHA1: 3ffb1e4ff0cc62a5850d9c447758daca4f2f717f
-SHA256: fd8465af0275cafc94e40a5b03f4359453602168a828fbef433043e1eb8b1280
+Size: 34622
+MD5sum: 51c05264cbd41bea96f8a10732fea6f8
+SHA1: 670c6e7bb763734c23be03010fcea60b69329309
+SHA256: d7a8aed9490a5d0262eb422dbaf1f0f502b19bc9cdc7b0889c6f5d95e0b1889c
 Section: user/system
 Priority: optional
 Description: Bluetooth keyboard and TrackPoint: layout, pointer, scrolling and settings
@@ -520,7 +887,7 @@ Description: Bluetooth keyboard and TrackPoint: layout, pointer, scrolling and s
 Xb-Maemo-Display-Name: Keyboard and mouse
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhH0KbEH
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMIzkMyJWi
  AAAK0klEQVRYw9WYeVhU1xmH33NnhnVgIGyyiMgmoFU2JUVF4ooJaNRGrbXGNqaNSVOTGKMxWuPa
  NBrrkhqtsUlNlSi4IoKoGBQXIogRF0Bcwg6CyDLDCDP39o8ZGts+bZ+28Un7/fPeZ+bcM7937nPO
  nPkE1goNjY4eMYK/KV2MhcFJFrr5WCiesw6o4/GWtwVKmoXNtRZWZFvYWtQzsLz80qW8PBB/LSK2
@@ -579,10 +946,10 @@ Maintainer: elPytel
 Installed-Size: 1080
 Depends: libc6 (>= 2.5)
 Filename: pool/main/busybox37/busybox37_1.37.0-1maemo1_armel.deb
-Size: 605044
-MD5sum: fc06f626416c812c6268d89e91b9fc8b
-SHA1: 7b61ebc8f2f11f8717b37f7dba7c62615a5ab3e7
-SHA256: c6ec069c675c96b1c17e6123c86ee438200c8ef999b7c1212dad1b71ad14f589
+Size: 605082
+MD5sum: efe97864044cb48841f18617b8ca66db
+SHA1: f162cd6dac2f3eca12aa4c096bdd636ede8970f2
+SHA256: 4747d3fbf81903521e9a4e57586e60404b1d24a0b5d9032d5d8b19a2b0abcf7a
 Section: user/system
 Priority: optional
 Description: BusyBox 1.37.0 (modern coreutils, ash, awk, sed, tar, ...)
@@ -591,7 +958,7 @@ Description: BusyBox 1.37.0 (modern coreutils, ash, awk, sed, tar, ...)
 Xb-Maemo-Display-Name: BusyBox 1.37
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMRLTfo+W
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMIzvixvSO
  AAAIx0lEQVRYw7WYeXQUVRbGf6+q0+nudKezQEJWlgRERoaEsImMyRhBFBBXiMgoYuKgGTFHDwph
  GUWFGQMOgo6ggIKCICCIMBJkSUQlsqOIrDGAJrgkgSzdSbqr3vxR1aCAJ0TlntPn665+9er77n33
  1ntXYFqnTt27p6dzgbnTDEweaGBkrIHibnNABVfWYgyQKwysLDfw2AYDz+4ODDxyZM+e4mIQvxQi
@@ -640,10 +1007,10 @@ Maintainer: elPytel
 Installed-Size: 532
 Depends: maemosec-certman-tools
 Filename: pool/main/ca-certs-n900/ca-certs-n900_1.0-1maemo1_armel.deb
-Size: 121026
-MD5sum: 38c3b7fb273ddda628a28e4188b2b7f2
-SHA1: d99b408412b459bb37c51d69dce2c48257b370cf
-SHA256: baf17343da347b5bad2c532851b3be60368ccc10c250c7cf5f586bac6345aed4
+Size: 121028
+MD5sum: 9dc74b208045aaa62bfe53a3637fed86
+SHA1: 0e6e151bea3ac98bca37f5217c0275cfa992cc6a
+SHA256: ef0759f996e97ebc2b923342843531b893458298fa961cd287e4f57449378a18
 Section: user/system
 Priority: optional
 Description: Current Mozilla root certificates for MicroB and other Maemo programs
@@ -653,7 +1020,7 @@ Description: Current Mozilla root certificates for MicroB and other Maemo progra
 Xb-Maemo-Display-Name: ca-certs-n900
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMROkeb8A
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJAFri7v7
  AAAIl0lEQVRYw92Ye1xVVRbHv/tczr0XLg8RAVHkqYgCTkjmiBpYmNiopWBWpqakaZljjTZazdg0
  OYN98qOWr0Lz2ZA24qOpUSNFSwcN5eVHUR45lhkq4kXl4eWePX+cc/2Ujl3mY/3RrH9+57H2Put3
  1tprr7UFhsTE9O6dksJN4pekY9d0HQM66ShGGwrn+HklRAf5oY513+pYtVNH+xGX4qlTR4/u2wfi
@@ -701,10 +1068,10 @@ Maintainer: elPytel
 Installed-Size: 4608
 Depends: libc6 (>= 2.5), libglib2.0-0, zlib1g, libtinymail-camel-1.0-0
 Filename: pool/main/camel-lite-ssl3/camel-lite-ssl3_1.1.92cssu7-2maemo1_armel.deb
-Size: 2141498
-MD5sum: 87264d4e59c80c495122a0fc84b53d32
-SHA1: 0169176a69f67a01e55f0acf7acc840d230db862
-SHA256: 13e19b0b7635442d6c058a354d1ea6cff5f1aa4601bb9b9c548acb4e7d19463d
+Size: 2141502
+MD5sum: d79ec234af25746192d5724b375a5f45
+SHA1: 803e0acd40542ed92b9f580b3a88d5421756f896
+SHA256: 52e9f6f5aa4afb7209b7e77240bf7a220d96875bf0e72795f7f25562cea8dca9
 Section: user/network
 Priority: optional
 Description: camel-lite with OpenSSL 3: Modest with TLS 1.2/1.3 (replaces the system library, reversible)
@@ -712,7 +1079,7 @@ Description: camel-lite with OpenSSL 3: Modest with TLS 1.2/1.3 (replaces the sy
 Xb-Maemo-Display-Name: Modest TLS 1.3 (camel-lite)
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMRQ6HSqj
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJALygupB
  AAAIRklEQVRYw92Ye3RNVx7HP/uce29ubiKRXBGRLISJt3pkykwo4lW1hrSECBVWK5jOTKesomPa
  aU3polMjFSVeU+NRlMbbhLZJtKiQpDSh3s96RCQkIq9779nzxzk31VxKqTWr8/3nex577/P7/vbv
  /PZvb4GB5s07derRg1rwj9T5V/11tjfUWQw1Glzh8SJEJ7le56LLOp9K07kkx93wxInc3N27QfxQ
@@ -779,10 +1146,10 @@ Maintainer: elPytel
 Installed-Size: 300
 Depends: libc6 (>= 2.5)
 Filename: pool/main/cbonsai/cbonsai_1.4.2-1maemo2_armel.deb
-Size: 110400
-MD5sum: e045e97c0a971fc76150e8be113e5245
-SHA1: 5916fbd907557de62abd9bf7c3916c22be3e6bac
-SHA256: accbc2a20cb04098f3910061e9f26f6122bfc43a3c294527153478a60b8f2942
+Size: 110392
+MD5sum: ff6e2db1af94ee563fa0a97c5effe533
+SHA1: 1c1ddf1c25dcc1b1d28d89578c470426cfa9b40a
+SHA256: 60d771fdc8efdec9909dd5768dea83a5ea0d9b5f0ab1b69384cf7be6eb05e8d3
 Section: user/other
 Priority: optional
 Description: Bonsai tree generator for the terminal
@@ -793,7 +1160,7 @@ Description: Bonsai tree generator for the terminal
 Xb-Maemo-Display-Name: cbonsai
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMRVNGho1
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJAQb4U90
  AAAJI0lEQVRYw82Ye3RU1RXGf+feeSTkMeQ5AhHIUhIDASwhCgEMJDzSCoIUCVURdYGAiC+wS1gs
  lUqx1iyKgoqPVtTKo1WhQSEUFjZAgggmQDAGYqkGyPtJZiYzuTP39I97Iw8NBGzXcv/zzVn3PL5v
  73P2nLMFpiUkDBmSns4lFppt4I0bDIx+z0DR2+xQy//XYg2QFQbW32fgN3cb6Nrc0fHkyaKi/HwQ
@@ -864,10 +1231,10 @@ Maintainer: elPytel
 Installed-Size: 164
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/cmatrix/cmatrix_2.0-1maemo2_armel.deb
-Size: 38374
-MD5sum: 2f9aca2142af945f0dcdc283bdcf81d4
-SHA1: 43cbd6ad1d7d42c6a8939775fc8022e871395b4b
-SHA256: 4bd5f8beb263f8150bded98efcb0d2bdf451e0ef9f1b810e3ee35342ddef2b92
+Size: 38380
+MD5sum: 1b17a0366d8f0c32d26f411f9416638d
+SHA1: ad8649732cc1a5294b29c19a82de0f29f6ec1bf4
+SHA256: 9679aee50ffdc9dd1040c2ae7455719a25cb40981da725760ef4f3a150044678
 Section: user/other
 Priority: optional
 Description: Matrix-style falling characters in the terminal
@@ -878,7 +1245,7 @@ Description: Matrix-style falling characters in the terminal
 Xb-Maemo-Display-Name: CMatrix
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMRbUE0uP
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJAb17y5Y
  AAAJi0lEQVRYw92YaXRV1RXHf/vcN4VMEBACyBTGqswBpKCpIvNUqxShYB0WUgFBUBBBXUUF6RKo
  A7RWhTIUAWtxrDJjmGQUmSGAQtIQxgSSF5K8vHt3P7ybkMBiEbNWv3R/+b9719nv7t/ZZ9yCa82a
  tWuXksJ1FjM4ok0+imiNxRGV+m6D8/xvrWZEND2iFx+N6ImhEQ2uKGmYlvb996mpINeBTIlIyo6I
@@ -984,6 +1351,66 @@ Xb-Maemo-Icon-26:
  A0NBBIpOZsjJa0KuuTZWmsm7qT/YtAb3sdFo5JoFJxau5p7HPEVCUX+LYLvjRuN/AJNxQ5m32lN0
  AAAAAElFTkSuQmCC
 
+Package: curl
+Version: 8.23.0-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 1592
+Depends: libc6 (>= 2.5.1-1eglibc27)
+Filename: pool/main/curl/curl_8.23.0-1maemo2_armel.deb
+Size: 852208
+MD5sum: be09e25e302c64c8d7d390474876bcf5
+SHA1: dc03dfb95d290c21bc12c13a5be4bfe4bfe9df77
+SHA256: cd37878016fa42416e4b8bba3d72d628dd5f8fef204b0ef85bac05f5a2f09b48
+Section: user/network
+Priority: optional
+Description: Command line tool for transferring data with URLs (TLS 1.3)
+ curl 8.23.0 with mbedTLS 3.6.7, built for Maemo 5. Supports HTTPS with TLS 1.2/1.3,
+ so it works with servers that the system OpenSSL 0.9.8 of the device cannot talk to.
+ Installed in /opt/curl, with a link /usr/bin/curl. Upstream: https://curl.se/
+Xb-Maemo-Display-Name: curl
+Xb-Maemo-Icon-26:
+ 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
+ AAAAAElFTkSuQmCC
+
 Package: dialog
 Version: 1.3-20260721-1maemo1
 Architecture: armel
@@ -991,10 +1418,10 @@ Maintainer: elPytel (build of upstream dialog by Thomas E. Dickey)
 Installed-Size: 396
 Depends: libc6 (>= 2.5)
 Filename: pool/main/dialog/dialog_1.3-20260721-1maemo1_armel.deb
-Size: 189802
-MD5sum: 57c6234bce1d4cd72a0fbf4666487984
-SHA1: c091f851396d40bef14ac37b2768cc6b4d18b105
-SHA256: 315d808a04d5238ecc4e2c140ad15b8b068a3126d747ed6a6192136875cc1c46
+Size: 189810
+MD5sum: 16c18111fcfb438680df10340551b201
+SHA1: 141f6e7381f97c8b1009dea16e924be1b0ff3683
+SHA256: f9100a13ce99d01308349b589edb3d9187c3ae975275f5537ca66863cbf58615
 Section: user/development
 Priority: optional
 Description: dialog 1.3-20260721: dialog boxes for shell scripts
@@ -1003,7 +1430,7 @@ Description: dialog 1.3-20260721: dialog boxes for shell scripts
 Xb-Maemo-Display-Name: dialog
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMRgzq2aI
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJAeC6B7O
  AAAJUUlEQVRYw9WYaXQUVRbHf+/1lnQ6OyJhiSELENmJiAKaEBBQcUGBsAiiBkdEPSAyKAoDDi4z
  oqKMzriAijggiyCILAESnEAkQFhNMIEJAhK2Tkhi0kl3db35UNWAIAOM8GHuOX3+VV3vvbr/u7y6
  7wpMadGiU6fUVM6T8BQDE/saGN3YQDHQHFDGtZUYA9QiA91HDdy/2sDK7YGBxcUFBRs3gvg1EfGR
@@ -1109,6 +1536,67 @@ Xb-Maemo-Icon-26:
  hBFyyg9CrrU2Vrqhu7k/2LwGHdho1HPNhA0TN3LPA0+R0HDeItja3Wj8HwWRT9DLwPOBAAAAAElF
  TkSuQmCC
 
+Package: fd
+Version: 10.5.2-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream fd by David Peter and contributors)
+Installed-Size: 3028
+Depends: libc6
+Filename: pool/main/fd/fd_10.5.2-1maemo2_armel.deb
+Size: 1408664
+MD5sum: b7458505223995614e46abda5141bdd2
+SHA1: a07998a8fbb8289e142c4e929fabe93bbda17638
+SHA256: 382b51470d00a31c2a117f8b50784e83c5b6a511510603fc8ac64c076429e46b
+Section: user/utilities
+Priority: optional
+Description: fd 10.5.2 simple, fast alternative to find
+ fd 10.5.2: finds files by name with a regular expression, coloured output, respects .gitignore, skips hidden files and runs commands on the
+ results (fd -e png -x ls -l). Example: fd report ~/MyDocs   or   fd -e deb. Built for Maemo 5 with Rust as a static binary.
+ Upstream: https://github.com/sharkdp/fd
+Xb-Maemo-Display-Name: fd
+Xb-Maemo-Icon-26:
+ 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
+ TkSuQmCC
+
 Package: file
 Version: 5.48-1maemo1
 Architecture: armel
@@ -1116,10 +1604,10 @@ Maintainer: elPytel (build of upstream file by Christos Zoulas and contributors)
 Installed-Size: 10800
 Depends: libc6 (>= 2.5)
 Filename: pool/main/file/file_5.48-1maemo1_armel.deb
-Size: 553650
-MD5sum: 1a2cb0f2540013011116d06ef3455fc2
-SHA1: 01c7831c11f968cae2dfdfc86b16781e5b426ab4
-SHA256: 4ad4b425349db207bacc14e0c533e4030aa9f0f5bba7e478634f611fb402911c
+Size: 553656
+MD5sum: 0d3d8244418ec98196e778a3dfcd29f4
+SHA1: 0379b730ede9a259c68eec1bf6b03d6c006e07be
+SHA256: 548609a82daff37db5461049aa7b3de1bd0bf5167953f0f0ff7b4ebab9454dca
 Section: user/utilities
 Priority: optional
 Description: file 5.48 file type detection
@@ -1129,7 +1617,7 @@ Description: file 5.48 file type detection
 Xb-Maemo-Display-Name: file
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMRrdpQek
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJAllUDPJ
  AAAIoklEQVRYw9WYe1RVdRbHP79z7uVyrwgG8gwnFRUVHyNI6kSKkvaYyF6MlqVJmGXm2BobjRnL
  amqcUcteq1WmqWMmRY45NvkM35Yi2mjoEktSFAtBHhe4eLlnzx/nXB+QoZaz1uy17vpyz973x/7u
  39779ztbYUmXLomJgwbRREKSTOx0i4lhMSaqDMuglKsr0SbIRyaWnzDx8GoTq3b7DQ8dKijYtAnU
@@ -1233,6 +1721,68 @@ Xb-Maemo-Icon-26:
  YylYflS/uogMuoMc1ZKrnYPmz/f9qWkzEMl0PgEwHBElWhgCIkokGCmn/CDl2mtjGYf9ja39wVYf
  XMVGo77WVOyoXFh7QQSLhIb7fyRbhxuN/wV6pYCRVgwVeAAAAABJRU5ErkJggg==
 
+Package: fzf
+Version: 0.75.0-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream fzf by Junegunn Choi and contributors)
+Installed-Size: 4500
+Depends: libc6
+Filename: pool/main/fzf/fzf_0.75.0-1maemo2_armel.deb
+Size: 1813868
+MD5sum: 97f208ce7701db246c9f8aa8d47657c4
+SHA1: ae5bec56c72e5203c5a5adb857e93a2e0047b457
+SHA256: a1e8ad95610077ec69e28c43544759bf97add34e41b3727156c992ff2d912057
+Section: user/utilities
+Priority: optional
+Description: fzf 0.75.0 fuzzy finder for the command line
+ fzf 0.75.0: an interactive filter for lists. Pipe anything into it (ls | fzf, history | fzf, find . -type f | fzf), type a few letters of the
+ line you want and press Enter. With bash 5 the key bindings come from: eval "$(fzf --bash)" (Ctrl-R history, Ctrl-T files, Alt-C directories).
+ Built for Maemo 5 with Go (static, GOARM=7, the 2.6.28 kernel needs the patched toolchain of this project). Upstream: https://github.com/junegunn/fzf
+Xb-Maemo-Display-Name: fzf
+Xb-Maemo-Icon-26:
+ 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
+
 Package: git
 Version: 1:2.56.0-1maemo2
 Architecture: armel
@@ -1254,6 +1804,70 @@ Xb-Maemo-Display-Name: git
 Xb-Maemo-Icon-26:
  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
+ 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
+
+Package: git
+Version: 1:2.56.0-1maemo3
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 21424
+Depends: libc6 (>= 2.5.1-1eglibc27), curl (>= 8.23.0)
+Filename: pool/main/git/git_2.56.0-1maemo3_armel.deb
+Size: 11476548
+MD5sum: ceae1c987480632ec0c9c7836842d60d
+SHA1: 3f20bcfe9d0b32225e0bead9ed7cbfdccbf74716
+SHA256: bac5863ecd9d5763d5dfa12b0726d8192f43610563fb8c7b74fa5f3cae5d8a3d
+Section: user/development
+Priority: optional
+Description: Distributed version control system (modern, HTTPS over TLS 1.3)
+ git 2.56.0 built for Maemo 5, linked with libcurl and mbedTLS so that it can clone from
+ HTTPS servers such as GitHub (the old git 1.6.2 of the device cannot). Installed in /opt/git,
+ replaces the git 1.6.2-1 package. Upstream: https://git-scm.com/
+Xb-Maemo-Display-Name: git
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxELJTAmAZwF
  AAAJNklEQVRYw7WYe1TU1RbHP+f3G2BmGEAxeShavjDfAuK10iUoBubrWnpz+cjlO3yl1r2WpuWy
  0ptmmrfWNSsNe2Ne36GIglfKVEivpiBggApUgspjZmD4/c79Y36j5SN1hXutWd95nDm/73fvffY5
  ZwsMCw+PjOzblxssIMqNbRPc2KSZG8VIY0Ap99dC3SCT3Vhe4sb8FDdezfIMPHs2OzsjA8TvhYj1
@@ -1363,10 +1977,10 @@ Maintainer: elPytel (build of upstream gPodder by Thomas Perl)
 Installed-Size: 2760
 Depends: python (>= 2.5), python-gobject, python-gtk2 (>= 2.12.1-6maemo10), python-hildon (>= 0.9.0-1maemo12), python-feedparser (>= 5.0.1), python-dbus, python-osso, python-simplejson, python-mygpoclient (>= 1.4), python-conic, curl, quickjs
 Filename: pool/main/gpodder/gpodder_2.20.3-2maemo4_armel.deb
-Size: 633988
-MD5sum: 28a719144869e6362d6d49bd7c186f79
-SHA1: 383543ea69d06a46f0387962baf493d967fef2b8
-SHA256: 4cfb77e4fa2b967f3042f40476443fb9cdcf0a7132a5700146e8e5bcb255bf0d
+Size: 633990
+MD5sum: 3c76aaeddffeb86a91ffc7489bc34e48
+SHA1: 01dc66bd8cd6331eb1df85450d482df5d04e5a3a
+SHA256: def540200b9b83ab944d82866533bb6374089ecf4efdf83040cce32dc707139d
 Section: user/multimedia
 Priority: optional
 Description: A podcast aggregator for the Nokia N900
@@ -1377,7 +1991,7 @@ Description: A podcast aggregator for the Nokia N900
 Xb-Maemo-Display-Name: gPodder Podcast Client
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMSFsru6A
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJAuLXlLl
  AAAJQElEQVRYw92Ye1RU1R7HP/ucgRkQZpBBFIxAVFLMVLDUykea+MhXPlDsJuWFsmvd6Hm717KH
  t9Trq3tt+WRZWpZvzMpHpkaJL5SHaRKaICPKAL4AAWHm7PvHnDESJq3VXat1f/98Z53z23v/vvv3
  2985+yfQLSoqJqZvX24wS6wL2w12oTXUhWKc7nCe/62FuECud+GFcy48td2FV464HfPzs7LS00H8
@@ -1428,10 +2042,10 @@ Maintainer: elPytel (build of upstream gurk-rs by boxdot and contributors)
 Installed-Size: 22776
 Depends: libc6
 Filename: pool/main/gurk/gurk_0.10.2-1maemo1_armel.deb
-Size: 9751790
-MD5sum: 6f78aa4c3f80c1cbe93dc92f38d23596
-SHA1: 22fb0bd799efc42042d169c9d668be34189c6784
-SHA256: 02ed31862f6b925e5e6d2ae53b3673a5f91252d046df22005924b8e7ed73e17b
+Size: 9751782
+MD5sum: 66819c1aa9f8c0c131b566e593090992
+SHA1: 6dcfa3f8e12ba1f6f5e87eb4f71a1c1c844c71ed
+SHA256: f9cba40969688f6cffe7d41361a98d18bcb9c7dc450765a4bd73e3e552095af8
 Section: user/network
 Priority: optional
 Description: gurk 0.10.2 Signal messenger client for the terminal
@@ -1442,7 +2056,7 @@ Description: gurk 0.10.2 Signal messenger client for the terminal
 Xb-Maemo-Display-Name: gurk (Signal)
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMSL1p786
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJAwVOsdG
  AAAJaklEQVRYw7WYeXBUVRaHv/Pe6+6ks0AgE8CEgJFNDGbYBWQT0cGIImYgSMJgSqkoCLgAMoU1
  IDiAKDgou4yO7ANoIbiAcRggoEKUXQiEJQsCEkhIOukk3f3u/PFeGDAmipTnn9+r7ruc7y7n3HsF
  21q16tChd29+YqFJlrb4wNLI1ZbK7XaBH/l9LcoSlWdp4XBLc4ZZ6tlYXfDEie++27ED5Ccgky3p
@@ -1513,10 +2127,10 @@ Maintainer: elPytel
 Installed-Size: 528
 Depends: libc6 (>= 2.5)
 Filename: pool/main/htop3/htop3_3.5.3-1maemo2_armel.deb
-Size: 224322
-MD5sum: 9435e68ad4bfe9a85f5370d10a59edc6
-SHA1: bc1ab3daf51144249d89c18be89f437a87bf0df4
-SHA256: 27705e044482ef248f14cb0c714e8c1456d8f1f657aa39e4ac5cd9559d0e2ef4
+Size: 224330
+MD5sum: ea2b4a4f3b82fc986210209eecd3920a
+SHA1: 56c1cabf3ae539c7a6880cad6a185c16fae40507
+SHA256: f02832f4a9502afebac52ecb21ed2ef5c6ae7307639910d24283dd08197f0880
 Section: user/system
 Priority: optional
 Description: Interactive process viewer (htop 3.x)
@@ -1526,7 +2140,7 @@ Description: Interactive process viewer (htop 3.x)
 Xb-Maemo-Display-Name: htop 3
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfqCw4OMSbyynsj
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfqCxEMJBF2PKuf
  AAAE/klEQVRIx5WVTWxUVRTHf+e+58hAlRZrW0ottJHP2gQVoUQxGk1cuDdRXPgZ3agkLt1CWGlM
  XGKiC6MrF26MiUaFBBEUlBQkFUlalM4MTPtmpm8+3n3v3ePiTUuBMZazeS/n3nP/95z7/58jBz84
  eBRlQzqQfm0ft3tRjgCPAilwCngdeAGYOjR8iOX23uX3ALYCnwNHgN3OiPfOR+HxfEtf+6pv7YmZ
@@ -1579,10 +2193,10 @@ Maintainer: elPytel
 Installed-Size: 152
 Depends: python3.11, python3-hildonlite (>= 0.4.0), calendar-backend, curl
 Filename: pool/main/ical-sync/ical-sync_0.1-1maemo2_armel.deb
-Size: 33500
-MD5sum: 4eeb71b8c3e7e172e22bc01cebd0b6cf
-SHA1: 761cd19c0b63c8649bacc7156a3877ad6aaf91b9
-SHA256: b43ff473af90b2e083adf69cffa624f80b78ab6bfc463b83d8c304cf9f68fa3e
+Size: 33504
+MD5sum: f147b0d71bd2515ecc7156130990f635
+SHA1: 06e62bc99e3eb6ad55044febe784952d85907698
+SHA256: 24bb10e6a890a7671a2b3ad13898298341330fda5d1a7c5f8d5a6ecafca842cc
 Section: user/office
 Priority: optional
 Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calendar
@@ -1594,7 +2208,7 @@ Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calend
 Xb-Maemo-Display-Name: Calendar sync
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhSEQ0WI
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJBLvNfol
  AAAM+ElEQVRYw72YaXhURfaH37q3t2wdk7AYCCQk7GvCDoIsIrI4cQMMqIAaFGQXBgcR/aszIiPb
  CDIyBAREAwSREMAoSEKEgGASgUTIYiCGLCTpkKWzdfe99f/QPW4zOvph5nz51X3qPOe5b9V5zqkq
  gce6du3ff9Qofmb+A9zaeYJbg9q5VUz1OJTx37Vgt8gEt9pK3VqQ7NbajH865uVlZp4+DeKnIGK7
@@ -1662,10 +2276,10 @@ Maintainer: elPytel (build of upstream irssi by the Irssi project)
 Installed-Size: 6432
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/irssi/irssi_1.4.5-1maemo1_armel.deb
-Size: 2731202
-MD5sum: 128c225bb7a1e492c7420373f4777c0e
-SHA1: c9d2b69c38f5ddf473c783d37bdc00376a2027bb
-SHA256: 936ea230c9d29e03f0a2181befdf0b9253e467fe4c79c255b36a456d87c2580a
+Size: 2731204
+MD5sum: 497c85e77a08a607a6432002b35e4dfa
+SHA1: 5954fec9d04ec8da6e7511e7975cae5b8008e6ef
+SHA256: 2b72799da7a7ecf03c70fcd155505b634c4869eb9a22897d315544c6da2afd38
 Section: user/network
 Priority: optional
 Description: irssi 1.4.5 IRC client
@@ -1675,7 +2289,7 @@ Description: irssi 1.4.5 IRC client
 Xb-Maemo-Display-Name: irssi
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMSgVclYk
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJBQGVl8Q
  AAAIcElEQVRYw8WYeVBUVxbGf/d1083SQMBdRAZRXKMCbuOKgoobLonbkBgX0HGNZTSpGBM1mYxj
  JmOpM5lSURmJa6FRyyWKCy6oxH3fUWMU0RE3sKG3d+eP9xqNShSN46nq+rpfn3f7fOee8/V9R6Bb
  eHhkZJs2PGH+URpWj9OwTGUNRW/d4Qav1yppINM0zMvR8OImDe8fcjueP3/48M6dIH5NRCRrGK0v
@@ -1779,6 +2393,69 @@ Xb-Maemo-Icon-26:
  IeerjbXL5H21P3h1DW5ho9HYaxaCsPD93vOaN0nouH8i2G660fgfEwxvE2uhh2UAAAAASUVORK5C
  YII=
 
+Package: jq
+Version: 1.8.2-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 852
+Depends: libc6 (>= 2.5)
+Filename: pool/main/jq/jq_1.8.2-1maemo2_armel.deb
+Size: 345526
+MD5sum: 472ff1bc724e59937ee5d3f2fcf73e03
+SHA1: a07a109672318aca1fe123ee40eee781d6317c5a
+SHA256: 661d225ce33a2a6531ab8840f5d048ab35a8cf081de2a7645911772225ccc4ef
+Section: user/utilities
+Priority: optional
+Description: Command-line JSON processor
+ jq 1.8.2 built for Maemo 5 (armel, glibc 2.5). Filters and transforms JSON,
+ used for example with the Audiobookshelf API. Regular expressions via the bundled oniguruma.
+ Upstream: https://jqlang.org/
+Xb-Maemo-Display-Name: jq
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxELJQeevDkK
+ AAAI0klEQVRYw72YeXRU9RXHP/dNZiaTBEISsiDEZEiICwiGsKM1rBJLQVHAQosIBhRU6PGgBQVE
+ WooVFK2EI1txASPSiq1QkB2RNcQgNIQs7NkwIfsMWeb9+sd7g4imA57Se86c78y83/u97/d37+++
+ +7uCaQkJXbs+8ADXWXCSgfFDDAy7zUAZaQ4o5tZaGwPUpwaWFxmYv8XAqqPegbm5mZl79oD8UIis
+ MDDZnGh6fwOTvjEwaJY5cKWJNbdYUAsTnzKgdoGBRxMNXLLTwN3mwqrU6wT1qzb5WgxsH9DsowRB
+ gAoqqQJ1XP2bHJBIiSQcSCAO5y2Wy2mXqddj4K6WmvGlpXlh+lqfQrzWQCONwAR+wyjQZmjjZQhQ
+ zCmOABqCdqsFeXl6ebd0mY/sYO6RpLk+59DQENAf1Mfrr0BMVXRM2wSYMeH5WZMVpKQNeiR5I7Ca
+ NP4M5HOac7damJd3hyGmoLDHDAyK83mvGWrqgMpVlyHCHb4hbDA8NmL4synR0O1P9869pyfI72SK
+ TARVrEoo/Yl5bFixAjZsWL+fFw0N7ZrfN2Re3mGP+ZksHzevpDR7jw0bNlBpaqX6ENSr6gtVDufr
+ L64pSoelZSvHfXgJ8hecHnN2Aah4tVzNB4mVGGYA8TixgapVVhUOeoTeUx8FBBFIIMgvpZe0B5Wv
+ yhUgBZIle0HL0jZpy4BAAggAFAr1I3YfmDqCTUFX06+nOT1qgVqs3gX/hfYI+wro0Dou2TkPbJW2
+ MdbecCz3xJrs7VDWUHaqogOwnTeJBcIJIxSUS9lUBIRMbTUx+EFIevHeOZ36AGMYKcMgp3fevIIU
+ iDoS0SV8I1RWVGVVn4SCr89sPZcH3Mt9pADhtCbsR/S82dblhy8zHa8OqTxVAWFtQ50h++DFimkt
+ Ji+E2za3WRw5GfxT7fPtL8Fnq7+YvLUU3nQuPbHyY9Bv07vqj0DgpkBrwGCYnjklbeI4GNJyQN9f
+ LIOaRbUz6vbD+XYXniwsBGdpbNntHWCna2/i/haw4NziA0vTwXPIk+HJAhkqQ2RA83R95yHTwXK3
+ RIkVLm+uOFxZA4tPv7t2RSN8sCb9nr8ngt8y6wg/f7CPs1faXgLCCKUV6OGGoI6Fdz6R8CEMPJB8
+ uO9MOLHxZN9cBa+0m1++KBUKI4o3lE6E0IyQ3a1WgW22taM1C4glmnZAE57m4+dmBHkdtVBeld+D
+ +/0rMVfS4cikzDnf5sDxlOzvcvaBZ0TT656vgQwy+RbQ0VFAFsc5CbHTb09rmwb+cfZP7PGw6429
+ qQeWwJ5F+3sd6gabOn+5dOcYcI93V7oXA3cQT3tAR6HfKMubEEQ9DTSAPCeT5AmwpFvmaiPB8oAW
+ rdUDCSYBDx50U5AO9KYHiWCLsu2w/RqYzDRmQt0Ut8O1GWSSjJA+4Frv7nnlG2ga1bTYcwjoJl3p
+ fONCvOZ7D/1c88MPC6i1rGcjVLSu2Fp1HNRxdQ8lEL/MuS12PDhC/TX/ZIjf5AyL6QyOSMdb/i5g
+ nlrIEmAd0P//Icj7nrjARYqAOly4gBBCaAU0GXtPi5GW0gTZn55qk7cNilaVdCyxwdBRQ54eMA3C
+ Z7beGaqBMzumJPor0H6r9dFKgGOEmbkr/mYE+Q45L/FqqqkBfavKUOdAd+nheg9gLjNlOshO+Scf
+ g7Kp1ioe1H51WGWCfC7L5BU4l3qhf+Fg+EvP91a9vwhyHfmDT38OoctDXmv1KOxbf/COjEqoLaxd
+ XvcksFZWsOTnBIYvK6OcChAllXIGIvuElYWmgeMhx07/M9C1c5dWnexgb7Kn2mOh8vmqSdU7QLeo
+ 9qofaANFSQXoJ/ST6hJsc+1yf7UUDo478lFmHugj9efU6+BMjL0U3QUeXTNsXcoGEAsPyTbgPJD2
+ PxSkPlLr1WdgPW993XoXTLZOmDL2W+j7Xs+EpPsgqCBwdGA3uBhXeKB4Khx8+sjYb0YBT6sOqh8Q
+ JVWSBTJI+hEBFFEiXaCme22/umHg6ehp0guAOeqP/A1UDzVNLwc9QwUqB9BgJKMbLYV8e+h+6S3d
+ wbPe85pnImyv352xbzhkz8pJzcuA+q4Nf23oD/n3F5w9+w/IHZ237UwLkGfkWZkNDGMPDwMaDjQg
+ igjCQS5KthwEy4uWh7U7oaikJK/0NLzxq3csy6dCcefS/EvZoO5TL6hRIMfkgvwBiCGats3TNc9D
+ Dx4zfn5ivrqCE6+O8BaLRRRTCp5yvYXeGZSoUOUEjqp27AVbQqS/HbA/1HqqvQDqu5/v5C4Az8uu
+ Xh4B6SFFkgzYceIAMN8uAThwgBqqRqsJoP9LP6XrIC4plhzQqrVsbTNGzddsLVdlHkBHW7weauO9
+ 8iPJ3vdJFJGEg+VuTWlFgMJNIahMpdgP2kSVIb3Anhzzlv/bELQqKbtlIri/y51etwJqHz9aXT0F
+ WKde5l3AwZ0EAi7cuEHWyxpZChbdolv0a0IskAAczQm5at6TbbCZ5VS6+cc4nyF4fZnfgm4Egypr
+ fFLfArrFPUP/AOQN2yo5AdrogGDLQSCKVNoCOvVmCaNdnfFa+1nHBy9vlW56qHyDgbUFplDfU4hx
+ 0KOE99RF0DYFBfp1B72NK9uTDJfrN86+dB6anJUvNG0FtUhfrboAbxPHbEBRgQJ6i4uBIAOknQwH
+ FJ7/4olmzMu7fIO5SnlmF+XovBuew3ywJEuYDIXGO4rP1QdBzcYjEVVjoTHzst7oB5JojZap4Hgm
+ Pi4ACNh217GgdyDg67sbg1aDrWdEqj0JqFYHqQS4mcrNa17eeVtMD1WbZ/MlZpOkk9ljuIHegndF
+ 7UTjDzJJ2yKzgCI1mLPAdi1HQkCbHxRoyQRth32HZSQQxGGCwTOhtsYTCgzgMo2AMj8CvkPO2yRZ
+ Mtar47q0vfsTA5+6+TaWhv0HdUc7mUV7UMOvfKmXQd26rDk1+4AQnmcNgLkQoXKFQSChcrsZcto1
+ IeerjbXL5H21P3h1DW5ho9HYaxaCsPD93vOaN0nouH8i2G660fgfEwxvE2uhh2UAAAAASUVORK5C
+ YII=
+
 Package: libsignal-purple
 Version: 0.1-1maemo1
 Architecture: armel
@@ -1786,10 +2463,10 @@ Maintainer: elPytel
 Installed-Size: 128
 Depends: libc6 (>= 2.5), libpurple0, telepathy-haze, signal-bridge
 Filename: pool/main/libsignal-purple/libsignal-purple_0.1-1maemo1_armel.deb
-Size: 21052
-MD5sum: 1fcef8f0df34b2fc59e707ac9a91942c
-SHA1: e16cd26e2eb399c92a7fdb31a0b5b79d6493fff9
-SHA256: c03b31fd766f77b598c031c57ec593f8c0967fb4b40938be1b49267afe830737
+Size: 21054
+MD5sum: fbb6ed351ecf2afed1f4cc2a191b94c7
+SHA1: 3dc556a6d8eafe1145d9ff9e8a9a03c4aa754b9e
+SHA256: 2458f34e1cdb43346f9858c76c2356cadcb96fb13117071734571d7453286bb3
 Section: user/network
 Priority: optional
 Description: Signal in the Maemo messaging UI (libpurple plugin over signal-bridge)
@@ -1798,7 +2475,7 @@ Description: Signal in the Maemo messaging UI (libpurple plugin over signal-brid
 Xb-Maemo-Display-Name: Signal (libpurple plugin)
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMSr7fDcI
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJBboWD48
  AAAIZ0lEQVRYw92Ye1RVVR7HP+fcR8i9l0eADo94gw5CisSoaSo0pmlSy0fCJMKkUK7Jx8zSiVoa
  2mijs9RYJpiGaaTkazTLXE4rUxttwhJfoIgaosJVfKKA93rvPXv+OOeSI1Ja+kfz/edzzzn78fve
  s/fv7L0lNMXG9ujRvz+3yTtJZfRglX5BKqVRWgErD1aBKsR6lZfqVZ7YprJxn7tgdXV5+a5dIP2v
@@ -1897,6 +2574,129 @@ Xb-Maemo-Icon-26:
  WIvROTkz7x4Kxg+VRm+OzaGMa1yZbjUepv7S0Nox1hS//lRjrKX+dDVjrH2GZu3177t2EFfbBHUM
  Gl8xNHGjobZ/+MNa+h1+qkHjJUNvjDY0/zeG2mu/+2sGjf8HRvPeMZVZgd8AAAAASUVORK5CYII=
 
+Package: links
+Version: 2.30-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream Links by Mikulas Patocka and contributors)
+Installed-Size: 4800
+Depends: libc6 (>= 2.5), zlib1g
+Filename: pool/main/links/links_2.30-1maemo2_armel.deb
+Size: 2351660
+MD5sum: c442ba77c9cecb197e5b4f81aab209a2
+SHA1: dd636898a380678f68336cc49b2d4f6cf431b3a6
+SHA256: c029cb6a7993cf7b7dd06ebd0ab4c0a4cf15fa5351611b36053e71c0ba6fc46d
+Section: user/network
+Priority: optional
+Description: links 2.30 text web browser with TLS 1.3
+ Links 2.30, a text mode web browser with menus, tables and frames, for Maemo 5. HTTPS uses a private static OpenSSL 3, so modern
+ sites (TLS 1.2/1.3) open, unlike in the stock browser. Start it from the menu or with: links https://example.org  (Esc opens the menu).
+ Certificates are verified against the bundled Mozilla CA list (/opt/links/etc/cacert.pem, override with SSL_CERT_FILE).
+ Upstream: http://links.twibright.com
+Xb-Maemo-Display-Name: Links
+Xb-Maemo-Icon-26:
+ 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
+
+Package: mandoc
+Version: 1.14.6-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 1636
+Depends: libc6 (>= 2.5)
+Filename: pool/main/mandoc/mandoc_1.14.6-1maemo2_armel.deb
+Size: 652492
+MD5sum: cd595dafa326be674c605ecddf90b898
+SHA1: bfa6fd65230e484589bd7de33b5afc6792a91162
+SHA256: 261dd414d8801bb069ef0d5a9a88c5dd4ed1b387e798681f74464c1e3348cdfc
+Section: user/utilities
+Priority: optional
+Description: man page viewer: man, apropos, whatis
+ mandoc 1.14.6 built for Maemo 5 (armel, static). The phone has only the BusyBox man, which needs nroff and cannot show a page. This package formats man pages itself and
+ installs man, apropos, whatis and makewhatis in /usr/local/bin. The search path includes /opt/<package>/share/man of every package (set at login in /etc/profile.d/mandoc.sh).
+ Open a new terminal, then: man mandoc.
+ Upstream: https://mandoc.bsd.lv/ (ISC licence)
+Xb-Maemo-Display-Name: mandoc
+Xb-Maemo-Icon-26:
+ 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
+
 Package: mc
 Version: 1:4.8.33-1maemo2
 Architecture: armel
@@ -1904,10 +2704,10 @@ Maintainer: elPytel (build of upstream mc by the Midnight Commander team)
 Installed-Size: 4060
 Depends: libc6 (>= 2.5)
 Filename: pool/main/mc/mc_4.8.33-1maemo2_armel.deb
-Size: 1145862
-MD5sum: 349e038ab872a1550c0f305bed719f12
-SHA1: f5e5d76ede3b598aa6994e788766571c6250b3d9
-SHA256: 888e21ae346d7f31527dea6c789812d2c0651df97b6473a4f3c1ee7b025cf4fc
+Size: 1145852
+MD5sum: fe9cae9ee31871c8f339e59e300ee27f
+SHA1: 4112734779cb9343dc40607a9eabf2c5afc0e2da
+SHA256: c61892e993d8b92d77e4db63f2c94b9dec0b757e8dd75300d0ec690638e55d8a
 Section: user/utilities
 Priority: optional
 Description: mc 4.8.33 two-panel file manager
@@ -1917,7 +2717,7 @@ Description: mc 4.8.33 two-panel file manager
 Xb-Maemo-Display-Name: Midnight Commander
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMSwSH5I9
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJBgP4BM7
  AAAIJklEQVRYw9WYe3BU9RXHP+d3N5tNsrAkmwcRUCBBEQzvFGktUqiAU4qKqFCVNzJAB1Mc6BTF
  IjB0WiwPqQ4ipUglCCRKRWpiRJSXqAkPeSqv8EpEk5CQZDe7m72//nHvIqBOkirT6Xdm57t3729/
  93zP75zzu78j2Lj11h497r6b6+DpaXH6YIu9N1ksD9kDSrmxSLVIb7S4vMTiE3kWVxVFBn7xxd69
@@ -2039,6 +2839,69 @@ Xb-Maemo-Icon-26:
  v9pYSwPhmtpYO03N/Tiw7kuNuEv16SqNRvOEof16U6PXBoYlBhz+X43Gk6ZWDTP1+EhTnZuaHJsa
  jf8FlWeLwYCbdzgAAAAASUVORK5CYII=
 
+Package: micro
+Version: 2.0.15-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream micro by Zachary Yedidia and contributors)
+Installed-Size: 12532
+Depends: libc6
+Filename: pool/main/micro/micro_2.0.15-1maemo2_armel.deb
+Size: 4947010
+MD5sum: 2468d42b102c7f37f7d2b1315b272aa9
+SHA1: 67707eca2d0328dcbb7c7f31a9eb993b823f958c
+SHA256: 31dc54a3af65eb98b13c741574fe9c2fd5ced338b7ad67a9d7b067dc3819d81b
+Section: user/text
+Priority: optional
+Description: micro 2.0.15 terminal text editor with normal keys
+ micro 2.0.15: a small editor for the terminal that works the way most people expect: Ctrl-S saves, Ctrl-Q quits, Ctrl-C/X/V copy, cut and
+ paste, Ctrl-F searches, Ctrl-E opens a command line (help, set, plugin), the mouse works. Syntax highlighting for many languages. An easier alternative to vim
+ and nano on the N900 (the Q key and the arrows are on the keyboard). Built for Maemo 5 with Go (static). Upstream: https://micro-editor.github.io
+Xb-Maemo-Display-Name: Micro
+Xb-Maemo-Icon-26:
+ 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
+ jf8FlWeLwYCbdzgAAAAASUVORK5CYII=
+
 Package: microb-nss
 Version: 3.28.6-1maemo2
 Architecture: armel
@@ -2046,10 +2909,10 @@ Maintainer: elPytel
 Installed-Size: 2800
 Depends: libnss3, libnspr4
 Filename: pool/main/microb-nss/microb-nss_3.28.6-1maemo2_armel.deb
-Size: 1346306
-MD5sum: 9d8fa9ebec594439ed471f5443b59192
-SHA1: 1fddf3b075d47892ab5d05692715ca42cf3c62ea
-SHA256: da03f57d1ffba06bb0e991232cdd604b0e19f822d3232194909db6f5a4e5dadb
+Size: 1346312
+MD5sum: ccc8c36523515fc21626d41eee0cadbf
+SHA1: d8b81fce5ecec9051ccc0364d136f9806517b31d
+SHA256: 6154c7a2acc61f10d69008df4b3623b7d2163c65329e7e2ad955a811104e5083
 Section: user/network
 Priority: optional
 Description: NSS 3.28 with TLS 1.2 for the MicroB browser
@@ -2058,7 +2921,7 @@ Description: NSS 3.28 with TLS 1.2 for the MicroB browser
 Xb-Maemo-Display-Name: microb-nss
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMTAGHs5y
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJBl45yOt
  AAAIH0lEQVRYw92YeVQV5xnGf9/duOybgAgiyhLqjqjHEI2KwTVq5GjVxoUmakzaaqzHupxo0tYV
  g8ctSkI8JsHdqHXBrSLSaF1q3LGBGG0QRUS5gnjh3gvz9Y+Z6wpKk3hy0uef587MO999npl3nvnm
  E2iIjm7XrmtXHoN3nMqRvVX2b6SyGKIVFPF8EayS3Kzy7esqX9qrctnXzsL8/FOncnJAPGpEpKvc
@@ -2118,6 +2981,67 @@ Xb-Maemo-Display-Name: msmtp
 Xb-Maemo-Icon-26:
  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
+ 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
+ a3Wj8T+MvmaMjelVJAAAAABJRU5ErkJggg==
+
+Package: msmtp
+Version: 1.8.34-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 3484
+Depends: libc6 (>= 2.5), curl
+Filename: pool/main/msmtp/msmtp_1.8.34-1maemo2_armel.deb
+Size: 1714736
+MD5sum: 08f3845d2e4d7c50342dd0b9114943af
+SHA1: 4c56d293d4c138c4c000dbf4a29830aa76b888b3
+SHA256: f1c7ce444197dd6064949b655c62435291f6f55144496c7528c615e81c3f3dd8
+Section: user/network
+Priority: optional
+Description: msmtp 1.8.34 SMTP client (TLS 1.3), sendmail replacement
+ msmtp 1.8.34 for Maemo 5 with OpenSSL 3. Sends mail through an SMTP server with login over TLS,
+ for example smtp.centrum.cz port 465. Mutt needs it because Mutt without Cyrus SASL cannot log in to SMTP.
+ Installed in /opt/msmtp, link /usr/bin/msmtp.
+Xb-Maemo-Display-Name: msmtp
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxELJQ7nYIGu
  AAAId0lEQVRYw9WYaXRV1RXHf+e+9zK8vCRkZApDEoYGGSSRBRQwISAEGwWFCErFytRAC8WlLCoC
  ViiWRV01IJZBRI1KsYJArQrEGGUeQxgykMRMJAFM8iBkfO/l3dMP9z6mACEq7er+8r/3nn333f99
  zt7nni3QpUePyMjoaG4R3ygNu8VpGNBBQ5GgK1zg/kp7DeSnGlaVa5i/S8PqEy7F3Nz09O++A3Ez
@@ -2237,6 +3161,66 @@ Xb-Maemo-Icon-26:
  9CICm+is7tO3KX/K5BxnqOwA1HKGGkDhRIL2rHsXbTcI3RojIoBacrHfMdAdbzT+GweGJMrHBmhL
  AAAAAElFTkSuQmCC
 
+Package: mutt
+Version: 2.4.3-1maemo3
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 4244
+Depends: libc6 (>= 2.5), curl, msmtp
+Filename: pool/main/mutt/mutt_2.4.3-1maemo3_armel.deb
+Size: 2088112
+MD5sum: 4066e9dba9a8982f9174cedd5cfcacb2
+SHA1: 629ec01f5e484bdb43bc49d48314ae4db7fec903
+SHA256: a93ba46384d480a384a59d22b7d88641e468b4b6a4e8aa1e2fcc27d276b66905
+Section: user/network
+Priority: optional
+Description: Mutt 2.4.3 terminal e-mail client (IMAP/SMTP over TLS 1.3)
+ Mutt 2.4.3 for Maemo 5 with OpenSSL 3, so it can talk to servers that require TLS 1.2 or newer
+ (for example Centrum). Replaces the old mutt 1.5.20. Installed in /opt/mutt, link /usr/bin/mutt.
+ Example configuration: /opt/mutt/share/doc/mutt/muttrc.centrum.example.
+Xb-Maemo-Display-Name: Mutt
+Xb-Maemo-Icon-26:
+ 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
+ AAAAAElFTkSuQmCC
+
 Package: mutt-hildon
 Version: 0.1-1maemo1
 Architecture: armel
@@ -2295,10 +3279,10 @@ Maintainer: elPytel
 Installed-Size: 132
 Depends: python2.5, python-gtk2, python2.5-hildon, libsqlite3-0, curl, msmtp, mutt
 Filename: pool/main/mutt-hildon/mutt-hildon_0.4-1maemo1_armel.deb
-Size: 29432
-MD5sum: 681c9c7e0e906c4c57cd78186ca2387f
-SHA1: 492682db147ddaed14b846124918f174527d1394
-SHA256: ce5477d71a8a79fcced5afdffdcf95bdbbcb6ba664985aa532b45c8ca46cda40
+Size: 29438
+MD5sum: 5aa2eb76d874c19ce5e01db61f839610
+SHA1: cf27c9f79e09dfde36169df0979eca7cdbf6c705
+SHA256: 73f3168dde792c3e885761b090876e5baf4b57d297329f0f8582f9da12932245
 Section: user/network
 Priority: optional
 Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
@@ -2306,7 +3290,7 @@ Description: Hildon GUI for the Mutt/msmtp mail setup (IMAP over TLS 1.3)
 Xb-Maemo-Display-Name: Mail (Mutt)
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMTOfF5/I
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJBuW6UKB
  AAAIJElEQVRYw82YfVAV1xmHn7N7L/IlaBBRAUUE1FER8QNDnQSMZtSYVqGIUSpqjNXGMdaYVDom
  MyamapsYkhoVpeI3iqIpoNYSQ0gVjYqJjJ9grBHxc6xcuIBwuXv6x+69KooaOzL9zVyevczZs+/v
  vue8u/sKDIWFRUa++CJN5B2hM2S4Tp9AnWK8MeAqz1YddcjtOm9d1nl+j07LCcfA0tLjxwsLQdxv
@@ -2352,10 +3336,10 @@ Maintainer: elPytel
 Installed-Size: 1024
 Depends: libc6 (>= 2.5)
 Filename: pool/main/nano/nano_9.3-1maemo1_armel.deb
-Size: 332384
-MD5sum: 9a03f7f2177ba76b554fe2c053ec9a2f
-SHA1: 0452eb8a04a656bd3ec8fe21c3e2f92980f6be79
-SHA256: ab60a207498c456994f69c8b247f81714c5afb36f5f6e45b927dd3ceaffa1d1a
+Size: 332386
+MD5sum: 71a67c1471d9be4a61d871ce62816f8c
+SHA1: 5d4188c603b88974c6c9fa06cba3b6515c1235a3
+SHA256: bc3051aefaf2867fc3c56cf620427c1036023ea0f1a9aab4443b01bd276866b8
 Section: user/utilities
 Priority: optional
 Description: GNU nano 9.3 text editor for the terminal
@@ -2365,7 +3349,7 @@ Description: GNU nano 9.3 text editor for the terminal
 Xb-Maemo-Display-Name: nano
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMTQBcwpr
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJBwIjdci
  AAAJX0lEQVRYw72Ye1RVVRrAf9+5Dy5wRVDATMFHvhWflA80EyvJaqnZQy00x5lJy3yU5lhjumqs
  nJrGcU2WVpqPVEYp1GxpKoIoaiJioSI+SBHkDcK9Fy5wz54/zsWcmpIxnf3P76yz9j77/PZ3zj7f
  +QRv69Spb9+hQ/lJsz9usMNag8EbDEo7b4cibm8LNaAuGSx52uC58QYd8Q0ds7PT05OTQX4iMt/A
@@ -2417,10 +3401,10 @@ Maintainer: elPytel (build of upstream ncdu by Yoran Heling)
 Installed-Size: 192
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/ncdu/ncdu_1.22-1maemo1_armel.deb
-Size: 49784
-MD5sum: d1f9844dc7b02237571f847686c421b9
-SHA1: 9be016be7111cbdcd535a30d896f8df10e8c542a
-SHA256: 31454c2431c7ddceb812f7e8329c95a81be3e76e88fb41222038b3296489c98b
+Size: 49776
+MD5sum: ac8b280508f8f2d7e4f86c6887308285
+SHA1: e4df2958f7828b3723b7081beeef506946735dcb
+SHA256: 8cba5d62b6e15c2c5948e4fa5b928a652324e2d936172ebaf2a056cb32b344cc
 Section: user/utilities
 Priority: optional
 Description: ncdu 1.22 disk usage browser
@@ -2430,7 +3414,7 @@ Description: ncdu 1.22 disk usage browser
 Xb-Maemo-Display-Name: ncdu
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMTV2dDr9
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJB1/iue0
  AAAGq0lEQVRYw8WYa3AV5RmAn3fPJeQkwdwMAk1KMAnBWKZgqKQJhCKoHSsQ0IEEg7Vjh4q0aAGr
  1dLoaJkWwRRmBKY1ZSgxZFAHYpUUGWlMsdxMsVEuARtCCBBykdCcJOey+/XHt4dKQqGtSfr+eWbP
  vrv7Pnv222+/V7AjLW3ChNxcekXkA5opWzTjX9eUZDvhIgMbCRrqjGbrAs1T+Zqdb4YS6+pqaqqq
@@ -2471,9 +3455,9 @@ Installed-Size: 60
 Depends: busybox
 Filename: pool/main/ntp-sync/ntp-sync_0.2-1maemo1_armel.deb
 Size: 6146
-MD5sum: 6d5bcd6eabc74288bb354975cf7bf1cc
-SHA1: ece459a22764e9e13b0e15406ee5bbc10288d914
-SHA256: 2291720df250552898112fcec4e2c45f052496410b877985097a305ae8a74b3f
+MD5sum: e8ced26d9e2e9cf065f4b9c9594648a3
+SHA1: 8ae1933c4a3acbc83d003f11b3f379f6cf19052e
+SHA256: b8d08bc84be6f2dde0de282a1758a818557eefb561da96c6058164233c6baf1b
 Section: user/system
 Priority: optional
 Description: Set the clock over NTP (works without a SIM card)
@@ -2483,7 +3467,7 @@ Description: Set the clock over NTP (works without a SIM card)
 Xb-Maemo-Display-Name: ntp-sync
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMTeYelvR
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJB+RhIaY
  AAAJAElEQVRYw9WYa1RVZRrHf+/eHM4BDqBgKgEhghJZiIo30hHClPESmVA6pWVLbXWZxvIya1yp
  Y7V05ZSZNTO6SjKLCdMK856XyEsSKuQNQ1BBERUE5Ho4h3P2Ox/2Pt6YQks/zLPWWf+z937W+z7/
  5/JeHoEh3bv37j1kCDeIfx8dI5N1DLxbR5FmKJznzkqQDnKNjlXlOhZv0bH2oFvxxIm8vO+/B3E9
@@ -2553,10 +3537,10 @@ Maintainer: elPytel (build of upstream OpenSSH by the OpenBSD project)
 Installed-Size: 25100
 Depends: libc6 (>= 2.5)
 Filename: pool/main/openssh/openssh_10.6p2-1maemo2_armel.deb
-Size: 11576050
-MD5sum: cfb2c47944b7aaa4fa68a45ed6150531
-SHA1: af8b3017e5c91611382f4c1fed9add32b61e9a80
-SHA256: 4766baf97b684135172b3981d2b6de60e10ead7d275ead7cd371e9f288a92435
+Size: 11576054
+MD5sum: 4bcd3c639c1c7118f6be87948d27830a
+SHA1: a4cc655f9b22cd20fe1868d6c6a196cf05b61c8a
+SHA256: 19f5d4f9543448e6ec01e6bf599b2028cdbdd631d04c5d6dfb15a948a018498d
 Section: user/network
 Priority: optional
 Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), alongside the system one
@@ -2567,7 +3551,7 @@ Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), along
 Xb-Maemo-Display-Name: OpenSSH 10.6p2
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMTgIxUZA
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJCAn4qul
  AAAIrklEQVRYw9WYeXBUVRbGf/e9TnfSS0JIQBOCBBLCtElBwpaEQrYgMDiQsgQVmdFCwRVHBJ2a
  yqBAuRQqODAuyCoVUFYRFTQhGJaRScKWhISAAWWRRcGEhCyd7s57d/54r4OCDgHEqvmqXn293Dp1
  vnPOPe/eIzCRkNCz58CBXIawXgbHjzA4ItpgMdZccJabiyiD5DqDq84YfDTH4Np9gYWVlfv379gB
@@ -2616,10 +3600,10 @@ Maintainer: elPytel (build of upstream Profanity by James Booth and contributors
 Installed-Size: 10532
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/profanity/profanity_0.19.0-1maemo1_armel.deb
-Size: 4660702
-MD5sum: 20e34da8b3886861910e5b882cd96cc2
-SHA1: ba2d8957d56d0d5c82a884a320ab7eac5b14870a
-SHA256: 68322a776d8f745b4dff0b6385aa9331e1c84c7247ac3379afcfb8b6415ac162
+Size: 4660700
+MD5sum: 1fc3908ca5960a1070f01f7216743162
+SHA1: 0c68d8d7a4906b7d2770b6abd1b0f04ecb4ece50
+SHA256: eec98a0f1b8a351c236e7ee5df9bc698cba46b18a0e6113a4843fc6b63551b0f
 Section: user/network
 Priority: optional
 Description: Profanity 0.19.0 XMPP (Jabber) client
@@ -2630,7 +3614,7 @@ Description: Profanity 0.19.0 XMPP (Jabber) client
 Xb-Maemo-Display-Name: Profanity
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMgAL6q0d
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJCbOgQ6Q
  AAAIqUlEQVRYw9WYe1RVVR7HP/vcy71wuYCAQ/FQUxRRSkNGe/sus5zUlVAuxywTG6hIapxlZo6P
  tOmpNjNaY5ppvpZWrpppLCmEVJSCQPIFiEqo+OD9upd7z97zxz2XFDW1crXmt9Zd33vO2ee3v999
  fvu39/4JDIuJ6ddv0CDaWVCCB7vf68HQCA+KRKPBSa6thXtAbfJg1QkPlm71YF2et2FxcX5+VhaI
@@ -2680,9 +3664,9 @@ Installed-Size: 120
 Depends: libc6 (>= 2.5), libpurple0, telepathy-haze
 Filename: pool/main/purple-echo/purple-echo_0.1-1maemo1_armel.deb
 Size: 15402
-MD5sum: 81000cbc7e1ac1bd03139cf28fa1ddfa
-SHA1: 18881872583024c9467c598bf97f06d390288afe
-SHA256: 4ab7afdf423edfa8922f6c8fa0cc29b724879f36850e220f574bc14d695454be
+MD5sum: 7577fe40bee56711279ca2083c2d9b99
+SHA1: 9c738adc74a4f1f4ad43a8a05e278fa58d388eac
+SHA256: 44f1e5e89668001c31136088e2ce2b2fab386380a655f54c2a0686f86b8c56f3
 Section: user/network
 Priority: optional
 Description: Echo test protocol for the Maemo messaging UI (libpurple/haze)
@@ -2691,7 +3675,7 @@ Description: Echo test protocol for the Maemo messaging UI (libpurple/haze)
 Xb-Maemo-Display-Name: purple-echo
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMgLl5Mwx
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJCgpOSOX
  AAAIEUlEQVRYw92YeVRVxx3HP3MfPNm3J8gmgghiUFL3uBwxWNTGalqUo7FxSzHVJnrUVJOYVA0x
  qcaa0NaFqNlcjlvUapqYxESxEhuJiLhgxN2ogKis78ED3kz/uPepAa2eoqcn/f3zeWfu3Jnf987v
  93szIzAsNrZLl8REGplvV53tBuu0hOoUqUaHIh6uhehQm3Vev6Lz9Oc6K3KdHQsLDx3auxfEj4WI
@@ -2775,10 +3759,10 @@ Maintainer: elPytel
 Installed-Size: 92
 Depends: python3.11
 Filename: pool/main/python3-hildonlite/python3-hildonlite_0.4.0-1maemo1_armel.deb
-Size: 14398
-MD5sum: 727a1096d13d4cf0a367df11fa14f20f
-SHA1: 1e16d3d4f88bacaa3d21758a665139e97ce0cd96
-SHA256: 7a6040fc5c51ab1b8aa5267bd455f59a9cf8c0b4c6689dea53154435ce3b856a
+Size: 14396
+MD5sum: 71202175b453ef84e2cf80ec1835ea5b
+SHA1: 580ae0d016783efbc4e08d2c2cc86642131b6a69
+SHA256: bc7289228de4bcea49dbe888605c2db3ac574e058ecdb3eb6947954c92c806b4
 Section: user/development
 Priority: optional
 Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
@@ -2788,7 +3772,7 @@ Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
 Xb-Maemo-Display-Name: hildonlite (Python 3)
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhJtIOC9
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJBABO5sJ
  AAAHbklEQVRYw92YaXRV1RXHf+fe917yEpJAgoSEmRgkAwrEdlVUECgxGAsooBEkiUuSBbQuBMqq
  iypCqwQq0NhFaSsuW7CgIBTSNsxkQtRCCaMiqUwhAwmEzHPe3f1w7ws1YQhm8cH+v/zfu3efc/f/
  nL33GRQWBg0aPnzUKNrAL8rk+2NMDgg2WU21DIq5twgyST4xuazI5G92m1x51G2Yl5ebm50N6ttC
@@ -2828,13 +3812,13 @@ Package: python3.11
 Version: 3.11.18-2maemo1
 Architecture: armel
 Maintainer: elPytel
-Installed-Size: 72288
+Installed-Size: 72284
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/python3.11/python3.11_3.11.18-2maemo1_armel.deb
-Size: 23765836
-MD5sum: 11f43bc22863879c10dcddc90a5b6f64
-SHA1: 681232e1020b60cfb493ba7ded070d012735519f
-SHA256: 63ef0b55c45f3a3e041206285e0f4ce334daf919c9e53e94b0719377a9e7255f
+Size: 23765844
+MD5sum: c7ae5a4881ac3419ebc8a38f20b6f6c6
+SHA1: ba2e0fc2bb87c5bfc56df0ed55d59db31705ae3c
+SHA256: 30e3817b2ec17f1d570b4fd46c8baf954614cc35658ec15832dc3a568f28fdd2
 Section: user/development
 Priority: optional
 Description: Python 3.11.18 for Maemo 5 with TLS 1.3 (ssl), sqlite3, ctypes, readline and pip
@@ -2842,7 +3826,7 @@ Description: Python 3.11.18 for Maemo 5 with TLS 1.3 (ssl), sqlite3, ctypes, rea
 Xb-Maemo-Display-Name: Python 3.11
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMgOS4/yn
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJCrHN0K7
  AAAIqUlEQVRYw9WYe1RVVR7HP3tfuLyuoOAjFFABMcxiIaDiI01U1CmdTMNHYWOWsXRK81EaNeO4
  aobRmUpXTYW28lFpr6VFk1SoqCCKUEaCICGiCJgo93Lhgpd79vxxz6VJx0An16z5rnXX95x79tnn
  +92/395r759AR0TEkCFjxnAV/GKcHD7JyQG9nSxm6g1quLUIdJL60Mn1551cvsfJ5gJXw7KywsLs
@@ -2892,9 +3876,9 @@ Installed-Size: 884
 Depends: libc6 (>= 2.5)
 Filename: pool/main/quickjs/quickjs_2026.06.04-1maemo1_armel.deb
 Size: 438282
-MD5sum: 10d69f97e54e12946747bc5cf4c115b9
-SHA1: 6838af06552139e44109c22bc3ce862f8db310ef
-SHA256: 43301ea416c99a5277c0823a949a6ffe12230e0c4195a95e9444ba943b4f1bd5
+MD5sum: b7a81b3957e384f590975f1e1f42d07e
+SHA1: d32224759c1df6ff7ea98029a59cd1b7194d01db
+SHA256: 94a9f6ed80bd53d2d8a07861fa24ab5f27612a1094a0e2ee8c04a8ead5d99617
 Section: user/development
 Priority: optional
 Description: Small JavaScript engine (ES2023), runtime for yt-dlp
@@ -2903,7 +3887,7 @@ Description: Small JavaScript engine (ES2023), runtime for yt-dlp
 Xb-Maemo-Display-Name: QuickJS
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMgwCXOE2
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJDVKP09O
  AAAIh0lEQVRYw7WYe1xVVRbHv/scuOeCFxAoeSiDpFI5miKk5UwfsLLUj0mRD0bNKR+g1JjVx8pH
  WtHH8dWUTdGUikaWj5xyHMePlS9KlFQwzMx8IhpkCtwrLy+Xc/b8cc7RXs6VSdc/v/vYa531W3ut
  dfZeAksSE3v1Sk3lZxKWbGLnASZGxpoohlkLqri2EmOC/MDE6koTj24y0VNiLzx8uLS0sBDET4mI
@@ -3102,6 +4086,76 @@ Xb-Maemo-Icon-26:
  N8baZuorH5l6YYx1/tv9zKDxNlPT1poaH+rn0i7k8EcNGstMrb7D1O8nmep8/5zjuUHjfwHmunMt
  ql/CXQAAAABJRU5ErkJggg==
 
+Package: ranger
+Version: 1.9.4-1maemo4
+Architecture: armel
+Maintainer: elPytel (build of upstream ranger by Roman Zimbelmann and contributors)
+Installed-Size: 2208
+Depends: python3.11
+Filename: pool/main/ranger/ranger_1.9.4-1maemo4_armel.deb
+Size: 585446
+MD5sum: e97eace4e71bd95779b0577ae06e6b24
+SHA1: 30f257f011aea4d2f9fa6eeeae16ab3e600ad799
+SHA256: a0c69fcb5b0c7cd8f5831f6abd58be44488491f35ee18108fb86d2c146d49e7e
+Section: user/utilities
+Priority: optional
+Description: ranger 1.9.4 console file manager
+ ranger 1.9.4, a console file manager with VI key bindings, for Maemo 5. It runs on the Python 3.11 of the package python3.11.
+ Run ranger in the terminal (arrow keys or h j k l, q quits). Images, PDF, HTML, audio and video open in the applications of the phone (Image Viewer, PDF Viewer, Browser, Media Player), text in vim; only directories and plain text are previewed.
+ Upstream: https://ranger.fm/
+Xb-Maemo-Display-Name: Ranger
+Xb-Maemo-Icon-26:
+ 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
+ ql/CXQAAAABJRU5ErkJggg==
+
 Package: ripgrep
 Version: 15.2.0-1maemo1
 Architecture: armel
@@ -3123,6 +4177,66 @@ Xb-Maemo-Display-Name: ripgrep
 Xb-Maemo-Icon-26:
  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
+ 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
+
+Package: ripgrep
+Version: 15.2.0-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream ripgrep by Andrew Gallant and contributors)
+Installed-Size: 4120
+Depends: libc6
+Filename: pool/main/ripgrep/ripgrep_15.2.0-1maemo2_armel.deb
+Size: 1797300
+MD5sum: ad12556f9429bb72ac40ef9a76bcfb38
+SHA1: 42bbcec398ac920fc1b019dd038cfb8c1e598cda
+SHA256: d6d538b1fbf53b92972a8d26fa896e8c77edbd1d335d3299541d409396d90645
+Section: user/utilities
+Priority: optional
+Description: ripgrep 15.2.0 fast recursive text search (rg)
+ ripgrep 15.2.0 (rg): searches directories recursively for a regular expression, respects .gitignore, skips binary and hidden files, and is
+ much faster than grep -r. Example: rg -n 'TODO' ~/src   or   rg --files | rg png. Built for Maemo 5 with Rust as a static binary (without PCRE2).
+ Upstream: https://github.com/BurntSushi/ripgrep
+Xb-Maemo-Display-Name: ripgrep
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxELJSLVuO1N
  AAAIU0lEQVRYw9WYe3BV1RXGf3ufm3vzOMkNCSQgCQFCeAkNEC2KAYKAlUpNBRktMJQyUCqgzRSR
  SstDGXQUHzFUKgqoICASlRIpgchzgrzDI4Q3FKIhISYh7+Tm5pzdP+654T3ctDKdfv98Z87Ze9/v
  W2vvde5ZAgudO/fpM3AgN8GZ4OFOj3s4/D4Pi1HWgELuLdp4SK3zcOllD5/L9HDFIe/AM2dycnbu
@@ -3221,6 +4335,65 @@ Xb-Maemo-Icon-26:
  PrRjrc6j77yMpWH5Xv6KFGk8AKq/K1NWwNXVh6bU7AaC+SPLAAxHhAgXvUCEiGgj5LQbQu5WZazt
  ht3X64PXfXAfC436WvPBhg/frT0vvElC4vyBYLvjQuP/AC9STImyT4uUAAAAAElFTkSuQmCC
 
+Package: rsync
+Version: 3.5.2-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream rsync by Andrew Tridgell, Wayne Davison and contributors)
+Installed-Size: 660
+Depends: libc6 (>= 2.5)
+Filename: pool/main/rsync/rsync_3.5.2-1maemo2_armel.deb
+Size: 372874
+MD5sum: 9e15fb9a834d78f2eede66fbac3f014b
+SHA1: 1ea67994bf29f866877eceb935bea81ca02ed999
+SHA256: d0b14ea64edef7961fa4a08776278a03cba0611d177619681908e36d7e25db5f
+Section: user/network
+Priority: optional
+Description: rsync 3.5.2 file synchronisation over SSH
+ rsync 3.5.2 for Maemo 5: copies and synchronises files and directories, sending only the differences (rsync -avz --progress ~/dir user@host:backup/).
+ It uses the ssh of the phone as the transport (the same rsync must be on the other side). Built for armel, glibc 2.5, without the optional compression
+ and checksum libraries. Upstream: https://rsync.samba.org
+Xb-Maemo-Display-Name: rsync
+Xb-Maemo-Icon-26:
+ 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
+
 Package: screen
 Version: 5.0.2-1maemo1
 Architecture: armel
@@ -3281,6 +4454,66 @@ Xb-Maemo-Icon-26:
  VGM8ywGMQAQJB51BBInfGCmn/FfKVdbG2mHovtcfvBeDp9ho1Peaig2Vir3ngadIaNh/Jtkeu9H4
  H/KWLzNfz08lAAAAAElFTkSuQmCC
 
+Package: screen
+Version: 5.0.2-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of GNU screen)
+Installed-Size: 464
+Depends: libc6 (>= 2.5), libncurses5
+Filename: pool/main/screen/screen_5.0.2-1maemo2_armel.deb
+Size: 242014
+MD5sum: 474455d81f3a3b3f3c2235eaa507baca
+SHA1: 053baac2aab28768dd2468ad7b18ebcd1fb5aa23
+SHA256: 85c03731a20a8d53b4d3fcff202a246dabc4c684093c22582d307da1620ee58c
+Section: user/utilities
+Priority: optional
+Description: GNU screen 5.0.2 terminal multiplexer
+ GNU screen 5.0.2: several programs in one terminal, detach and reattach later (screen, Ctrl-A d to detach, screen -r to come back, Ctrl-A c a new window,
+ Ctrl-A n/p next/previous, Ctrl-A [ scrollback). An alternative to tmux for people who know it. Sockets go to ~/.screen. Defaults in /opt/screen/etc/screenrc.
+ Built for Maemo 5 with the ncurses of the phone. Upstream: https://www.gnu.org/software/screen
+Xb-Maemo-Display-Name: screen
+Xb-Maemo-Icon-26:
+ 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
+ H/KWLzNfz08lAAAAAElFTkSuQmCC
+
 Package: selfie
 Version: 0.6-1maemo1
 Architecture: armel
@@ -3288,10 +4521,10 @@ Maintainer: elPytel
 Installed-Size: 104
 Depends: python3.11, python3-hildonlite (>= 0.2.2), gstreamer0.10-plugins-camera, libomap3cam
 Filename: pool/main/selfie/selfie_0.6-1maemo1_armel.deb
-Size: 19502
-MD5sum: cca2142d66a525d2634d15010fc6d48e
-SHA1: c242492b7cccee9fb6e71c286b33f76931c9f1fd
-SHA256: 42d033b71c68c8c8166f37aea18032323710c01bbdba07a6721d67d53de61aca
+Size: 19500
+MD5sum: 82805fbc5933c4e1aa0450fdfbe93db1
+SHA1: 9e5b6e6c9e2904f3038d0c62041f11f179ecbc85
+SHA256: 34d3346044ab0d8da3b7c5390d9cf2b132c3b1607a4ceaa77a367e4b41cfb894
 Section: user/multimedia
 Priority: optional
 Description: Live preview of the front camera, a photo button and the camera button (test application)
@@ -3299,7 +4532,7 @@ Description: Live preview of the front camera, a photo button and the camera but
 Xb-Maemo-Display-Name: Selfie
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhcdShQy
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJDekMS5i
  AAAIeUlEQVRYw9WYe1RVVR7HP/tcQCHkQsjYjIYhFxBEkYfPTMAmGpMBLYHKxsq0mexlTq1mGpso
  J1eZZlPUZPkaDRTtIU5KZY2YpjM2gDwURURQ0RE15CFw4Z6z5499LlzRWmkrZ+a31l2fc+/9nb32
  d+/f/p3f+QlMCw2NiYmPp4dZhyvablH0v15R3Gk6nOTHtZ8qyA2KZ48rVm1RbCxxOlZWFhVt3w7i
@@ -3485,10 +4718,10 @@ Maintainer: elPytel
 Installed-Size: 508
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7), curl
 Filename: pool/main/sfeed/sfeed_2.4-1maemo4_armel.deb
-Size: 102704
-MD5sum: 570b063e0c626fc3c541edbbf8b57c47
-SHA1: f4a90895462eaa4a5d750684433859eb01dc50bb
-SHA256: ce63a9bd560fed3a21202c008ca1f746af98fc2f7f71cf20a409b07be9fe12e0
+Size: 102700
+MD5sum: 18d81d517765cc623b03df7ffdc35615
+SHA1: 357c351022fad71a4bf374f4ecf2c60278f80717
+SHA256: a87f95942d7e10da17c4036103800b7e4841d30c1a5da2fbfc01f608d6dc31b0
 Section: user/network
 Priority: optional
 Description: sfeed 2.4 RSS/Atom feed and podcast reader for the terminal
@@ -3497,7 +4730,7 @@ Description: sfeed 2.4 RSS/Atom feed and podcast reader for the terminal
 Xb-Maemo-Display-Name: sfeed
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMhL4U9xV
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJDg0jjPz
  AAAIdElEQVRYw92Ye3AUVRbGf7enJ5MwCc8hmxggBNQFQQIxoEA08hDxhRDXQp4K7gZBRdwVU4ui
  goHi6SJKLSCIGhQQSHxgQUCQiSxETMVAsgtETHglITiQdzmZ6e67f3Q3siFbu6Dwh+efr6rndt/v
  u6fP6fmOwIqbb05ISE6mSYSPNvHGj0z0fGCi6GQtOMe1jUgT5CkTfRNNPD7WxPpN9sLi4vx8rxdE
@@ -3567,9 +4800,9 @@ Installed-Size: 124
 Depends: python3.11, python3-hildonlite (>= 0.4.0), sfeed (>= 2.4-1maemo4), curl
 Filename: pool/main/sfeed-hildon/sfeed-hildon_0.1-1maemo4_armel.deb
 Size: 29822
-MD5sum: 00c8097571190bc5254d837de8d18988
-SHA1: 6631040b2906587133619f6bfa3607f69de1f586
-SHA256: 3ba3b2d2e1cd196d6d7e34a310412b31080dcb44cd562c8f24a3e8404c853e61
+MD5sum: 2a2d3bbadbde88b9e65a8225dfb59e33
+SHA1: b12e09b42ae1df503e2082b4f2edda8895164dd5
+SHA256: d52c9eade3cf7cdba9d347874234f08b2d4811332461fcbc190f53160f3e5df9
 Section: user/network
 Priority: optional
 Description: Native RSS/Atom and podcast feed reader on top of sfeed
@@ -3582,7 +4815,7 @@ Description: Native RSS/Atom and podcast feed reader on top of sfeed
 Xb-Maemo-Display-Name: Feed reader
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw8THhn68jk1
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJDragFLf
  AAAKyElEQVRYw72YeXQVRRaHv+p+W7aXxAAhYQkxSBJiWBNZZFFwCCjiEkBxwAUUd8SFowMDOKAQ
  UEYWZY14QBCVQUVGRFEjDGCEABIyskW2kIQ8sr3krXnvdc0f3RHHDRzPeP/59amu6q6vbtW9VSUw
  rFOnHj0GDuRHFt1T145DEQiIS6QaL4oYFfqLPMswKuUEuZ0rQLlLrOAYiBEs4TiI5WIwdUAICUAT
@@ -3640,10 +4873,10 @@ Maintainer: elPytel
 Installed-Size: 14784
 Depends: libc6 (>= 2.5)
 Filename: pool/main/signal-bridge/signal-bridge_0.1.0-1maemo1_armel.deb
-Size: 6486204
-MD5sum: 9f81c4c940ccb30bb54eeca9e3295e7d
-SHA1: a9bd0a349cdc53dd2af9b48d44b14a0adf2820bf
-SHA256: f605a909d4b389cc2e25e9b52d77cbb66f77a90b81f0606decc030f9b7a791d2
+Size: 6486216
+MD5sum: 46a3014b244cc7ea05209d9fca6dd4aa
+SHA1: 32dee22faa5ae182daf56881d61b8fe708f3d7a1
+SHA256: 4753cf97e8dc07632285b6494004fae1c835093632bdd0edeeb7f45061a79696
 Section: user/network
 Priority: optional
 Description: Signal daemon (presage) with a local socket, for the messaging UI plugin
@@ -3652,7 +4885,7 @@ Description: Signal daemon (presage) with a local socket, for the messaging UI p
 Xb-Maemo-Display-Name: signal-bridge
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMhQRMHlg
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJDuth2JJ
  AAAIZ0lEQVRYw92Ye1RVVR7HP+fcR8i9l0eADo94gw5CisSoaSo0pmlSy0fCJMKkUK7Jx8zSiVoa
  2mijs9RYJpiGaaTkazTLXE4rUxttwhJfoIgaosJVfKKA93rvPXv+OOeSI1Ja+kfz/edzzzn78fve
  s/fv7L0lNMXG9ujRvz+3yTtJZfRglX5BKqVRWgErD1aBKsR6lZfqVZ7YprJxn7tgdXV5+a5dIP2v
@@ -3720,10 +4953,10 @@ Maintainer: elPytel
 Installed-Size: 248
 Depends: libc6 (>= 2.5)
 Filename: pool/main/smb/smb_0.1-1maemo2_armel.deb
-Size: 91160
-MD5sum: 1df37cb26323015ae288b2bc291babb3
-SHA1: be3dc663bae991706b8dfa527cd7f4d9d4509a9a
-SHA256: 0826751f0abe621bcc8e22d0c70e9b35b6e492e9c5407ad45e30aac0c91a0003
+Size: 91156
+MD5sum: 10eeeb5c1d0e385f9370029c7b740f9f
+SHA1: 88b7a44187a566a63070f93fc1a18c49453daa11
+SHA256: 851ffade455db346963987bf79732c75012826107adc18f0af2f99894d05f137
 Section: user/network
 Priority: optional
 Description: SMB2/SMB3 command-line client (ls, get, put, ...)
@@ -3734,7 +4967,7 @@ Description: SMB2/SMB3 command-line client (ls, get, put, ...)
 Xb-Maemo-Display-Name: SMB client
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMhb/PhhM
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJQLrmdsA
  AAAIrUlEQVRYw9WYe1RVVR7HP/vcF/dyAQW1dEDkKaRmPiCxLAixNNLKLI00K3F6RzqWOZq5anIe
  aDpTtsosJTNfozajofgec6RQ1PDRQAiaaZogz3u53HvOnj/OuVJaI2q21nzXuut77z177fP97v3b
  v733T2AgPr5371tv5TyE9NE59g6dwzrpLEYYDU5yddFRJ7lC56oTOn+9XufaPf6GpaXFxdu3g/ix
@@ -3783,10 +5016,10 @@ Maintainer: elPytel (build of upstream strace by the strace project)
 Installed-Size: 1048
 Depends: libc6 (>= 2.5)
 Filename: pool/main/strace/strace_6.19-1maemo1_armel.deb
-Size: 401412
-MD5sum: a180ea88753ff21b74f5b5bfcb427fa9
-SHA1: 85d01d905501a7489ddec9053567b70531826bb6
-SHA256: 86fe7b2d1cb1bcf7db9fd14ae59e4d223098e43477d3eb31ba52daafc3517b25
+Size: 401408
+MD5sum: 84b844d7a048496ad3ea0c7e9867acdf
+SHA1: a82d1d4164800d64d4cd2e716dd6c70d051c6e10
+SHA256: 43d290230acbf7d9b7b54d9649b17fbf7a6a9c9f8ca3675997805335ffb65849
 Section: user/utilities
 Priority: optional
 Description: strace 6.19 system call tracer
@@ -3796,7 +5029,7 @@ Description: strace 6.19 system call tracer
 Xb-Maemo-Display-Name: strace
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMheIOSja
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJQQC+n41
  AAAINklEQVRYw9WYe3RNVx7HP/vce5OIK2keQkKKJIqaUe90pONZGlrUVLzLKjLjtVAWM8uqV6nV
  GYrRqUdbrepjxWBojbdUzKrWNAT1FgnxSILcm3fuTe49e88f51yvmBHFzJrfP997ztn3t7/ffX6/
  397nJzDtmWfatu3ShXssuJ2BcYkGhkUZKJLMAXk8WYs0QG000JFr4IVdBhYf8Q08fz4j48ABEHcL
@@ -3861,10 +5094,10 @@ Maintainer: elPytel
 Installed-Size: 52
 Depends: ncurses-base
 Filename: pool/main/terminfo-256color/terminfo-256color_1.0-1maemo2_armel.deb
-Size: 5468
-MD5sum: 9f845eb2107a2be5d4631b3e06436758
-SHA1: 914e472e255656caf366a757b4aef98d6bb035ff
-SHA256: c227e40d6bb9772024fa458900695a900d2821e82ac026bff1a4d75316fb102e
+Size: 5470
+MD5sum: 091d3be64781a88c2663c33202b3596b
+SHA1: 0bd212d64cb33b385685560c41045e0d9e3f95d6
+SHA256: e807f7590dfa2f561b8608e839327551d7d108c22192ac504598bd5cc8af16e7
 Section: user/system
 Priority: optional
 Description: Terminfo for 256-colour terminals (xterm-256color, screen-256color, tmux-256color)
@@ -3873,7 +5106,7 @@ Description: Terminfo for 256-colour terminals (xterm-256color, screen-256color,
 Xb-Maemo-Display-Name: terminfo-256color
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMhlvgQXd
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJQV1/U6j
  AAAH6ElEQVRYw92Ye1BVxx3HP3vugwtcQJ6CWhQUKiNEAdGqWAUlmmo1Wp+1akahoQ/bjJiYaLQ1
  ahonsfER45Mm9Y3PSNRkjBUcX/gAoigiPpBYRGIQEYTKvZztH+dcRNFgY5xM+p05893Z89s9v+/u
  /n67ZwU6QkOjovr04SF4RGvcYaDG3q00FiN1g1KeLQI0kls1Lr+u8aXPNa7MdhgWFubkHDwI4kEh
@@ -3975,6 +5208,70 @@ Xb-Maemo-Icon-26:
  oCVzWQ+gOyJQ1DEaRKC4U0855bqUa2qMlabbfW0+eM0Ht3HQqOjDFV99uKLc4HlPk9Cw/5dku+lB
  438AumqjFA+b1OwAAAAASUVORK5CYII=
 
+Package: tig
+Version: 2.6.1-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream tig by Jonas Fonseca and contributors)
+Installed-Size: 828
+Depends: libc6 (>= 2.5), git
+Filename: pool/main/tig/tig_2.6.1-1maemo2_armel.deb
+Size: 294234
+MD5sum: e3b266a7dd55cab56fad983b1d149179
+SHA1: 8608a5fb4cdffc21853495997895703eea7d7d9d
+SHA256: e22e070422720dd6b4934fb44036457c7613a50e570c017411ddcc77801b2d7a
+Section: user/development
+Priority: optional
+Description: tig 2.6.1 text-mode interface for git
+ tig 2.6.1: browse the history of a git repository, diffs, files and branches, stage changes line by line. Run it in a repository (tig, tig status,
+ tig blame file, tig show). Keys: Enter opens, q closes, h shows the help. It uses the git of this repository's git package (modern git with HTTPS).
+ Built for Maemo 5 with a static ncursesw (UTF-8). Upstream: https://jonas.github.io/tig
+Xb-Maemo-Display-Name: tig
+Xb-Maemo-Icon-26:
+ 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
+ 438AumqjFA+b1OwAAAAASUVORK5CYII=
+
 Package: tmux
 Version: 3.8-1maemo1
 Architecture: armel
@@ -3983,9 +5280,9 @@ Installed-Size: 1344
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/tmux/tmux_3.8-1maemo1_armel.deb
 Size: 540278
-MD5sum: 2ca529f2815942253042172580fc972d
-SHA1: 5af0f21c87091f1247549a926ec0964331795c7e
-SHA256: eae85547c5ced1c53c4a87374386ece82c65951e284738d130c69fe850a46220
+MD5sum: d4bd8611a98631b8cb005fd21c1fd48d
+SHA1: 0f4113f7528becd46647cc5bf7fe7be0dabcc6e5
+SHA256: 2de03412282547aeff1731352277f467a9bdcbf9c3f54731a9319607871566af
 Section: user/utilities
 Priority: optional
 Description: tmux 3.8 terminal multiplexer
@@ -3995,7 +5292,7 @@ Description: tmux 3.8 terminal multiplexer
 Xb-Maemo-Display-Name: tmux
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMhuBj2Tx
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJQbs9B8Z
  AAAIA0lEQVRYw72Ye3AV9RXHP+e3N4977948SHiEkISH4R2hAQuKGLU8ZhTEGSzQKkpVmFYdBQrT
  YkcI+MAOBUWLPARatYpUK7Uz9YFCG1QECfgAKYUIJYARCCTkndy7e/rHLmARQigTzz+fnZ2z5/f7
  nt/5nd39Cb51756fX1DAOWbf5vGKFz2mv+JRuvgOx2hda+dBSz2W3+6x5Ccea/5y2nHv3h07iopA
@@ -4061,10 +5358,10 @@ Maintainer: elPytel
 Installed-Size: 136
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/tty-clock/tty-clock_2.3-1maemo2_armel.deb
-Size: 23446
-MD5sum: 1d7c70ee92731d824d987295d2f8d237
-SHA1: 1620b43a84fc2b259760f3412eeb210b027616e6
-SHA256: f0c6d66bdca5b92f06254506e2a3c0f514acd71388b110201378b8dc4e8318d1
+Size: 23452
+MD5sum: 78b3b20cf3245a805887933730efb688
+SHA1: ebb84bf46812ff81f1577544bad14002da73caf9
+SHA256: c0685f5b2b2e7f1443cb9696f2d4d2c19aa98bc1e496ad515c320327c9bcffee
 Section: user/utilities
 Priority: optional
 Description: Digital clock for the terminal
@@ -4075,7 +5372,7 @@ Description: Digital clock for the terminal
 Xb-Maemo-Display-Name: tty-clock
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMhwf6/FS
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJQgLTDIe
  AAAHiklEQVRYw92Ye3QU1R3HP3d2N4/NZvN+kBghrUF5FUqCFHlEAYEQoOWZRnmLtIAFJVAVpOUc
  INYA1gPYNnoQFAwQiEBA2xK0hEo4mBDoQSCGR3ilJrC7JGySTfYxt3/MRCJy+qDFePr957Mz5zfn
  fr8zs3fu/Ql0de7cu3dqKnfIkqHxoTyNke9pFA/qBde5v4rWIK9otE3VeP4pjQ07WgsrK8vLi4tB
@@ -4116,13 +5413,13 @@ Package: vim9
 Version: 9.2.1302-1maemo1
 Architecture: armel
 Maintainer: elPytel
-Installed-Size: 31740
+Installed-Size: 31736
 Depends: libc6 (>= 2.5), libncurses5 (>= 5.7)
 Filename: pool/main/vim9/vim9_9.2.1302-1maemo1_armel.deb
-Size: 7572368
-MD5sum: ceb8a090d894fa426a3f84b3296b1edb
-SHA1: 68784b2ff5a30934d8abf995f0b7d788135eb128
-SHA256: 8c9cd4f98f27dbf00917d1b46215803f3b19326f0ccd1ad4d1ca3161eccbf6f1
+Size: 7572370
+MD5sum: 35c940d9d779b8f5e0e7612e9330a461
+SHA1: 6986eea0d3ae256a8d4382991cad6d1961c227d1
+SHA256: abdb8473feed1958a0eb993c700f4fe12cf285b686a1e4a1e382ad3d5308b587
 Section: user/utilities
 Priority: optional
 Description: Vim 9.2.1302 text editor for the terminal (command vim9)
@@ -4132,7 +5429,7 @@ Description: Vim 9.2.1302 text editor for the terminal (command vim9)
 Xb-Maemo-Display-Name: Vim 9
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMh1o7MHE
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJQl8SwKI
  AAAIJ0lEQVRYw72YeXTUxR3AP7O7yYZsLnIKTQjHhkMCGBKDlMsSW8v1iKLJ426tiFpo+2qQRxGV
  YhFrn1herVIsKFRAEISqiApojPiqAualQk4CSzgkWXJsDjZ7Tf+Y2dxpArx2/vm83+78fr/5zHe+
  M/MbgS5Dh44dO2UKHUrIA4rW7YrROxXFIF2hkv9tiVWQFxTt8xXL5io27PNXLCk5dSo3F0QHkVUK
@@ -4179,10 +5476,10 @@ Maintainer: elPytel (build of upstream WeeChat by Sébastien Helleu)
 Installed-Size: 11140
 Depends: libc6 (>= 2.5), curl
 Filename: pool/main/weechat/weechat_4.10.4-1maemo1_armel.deb
-Size: 5594750
-MD5sum: 7554ddcc128f456054c67d0e51321498
-SHA1: 8dafa2aa7d0bb3848c76e2c7b8cc8d1f3044dc79
-SHA256: 6cad28182a0ab7b1e78e94e1919ab81b53ef6a319a7f44fa2e11e46125e43e16
+Size: 5594754
+MD5sum: d5e02ef62150d7627c15b721b75e8f6e
+SHA1: 03f953189b3ded48fee67482cb36ef9def99352b
+SHA256: 5799b5f7f032bf639d2e42c2fb7cf9144bce0cfb2e07553540d0ca10a2150319
 Section: user/network
 Priority: optional
 Description: WeeChat 4.10.4 chat client (IRC)
@@ -4192,7 +5489,7 @@ Description: WeeChat 4.10.4 chat client (IRC)
 Xb-Maemo-Display-Name: WeeChat
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMiAwhI3V
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJQ17JsaR
  AAAIu0lEQVRYw9WYfVSUVR7HP/dhGGAYREApCFREQFBSRHNtbUPzpcxSWUwzsjCtpNXY3KzYLKvd
  OmXb0VbL3tSlUFE0ds09WivYlkXmu+AbIKCAiLyozCsz89z943lGSz3lS57Ofs+Z852Z5859vt/f
  797f3Ocn0BEfP2DA7bdzAYJTNe51p8ZhkRqLifqAE1xfRGgk12rc0qBx5SaNz+z0DjxyZNeuL78E
@@ -4295,6 +5592,67 @@ Xb-Maemo-Icon-26:
  ywgFeU/bTrUGWv51+Omm/UBvFvEOgDYRXqKNO0F4iWAt5JQuIXe1MtZXmt+d9cHOObiOhUbHWtNh
  QsfFteeEM0motF4m2HpcaPwvL0uUA1pHVMcAAAAASUVORK5CYII=
 
+Package: wget
+Version: 1.25.0-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 3832
+Depends: libc6 (>= 2.5), curl
+Filename: pool/main/wget/wget_1.25.0-1maemo2_armel.deb
+Size: 1910618
+MD5sum: 11f78318044a9bb31b6a46db18ef927e
+SHA1: fea080027f1a707fcf647d18492eff323386d03d
+SHA256: f88201eddd07e0c0e079a267baf67a49461db2714bfb0740eaca880d68c532cf
+Section: user/network
+Priority: optional
+Description: GNU Wget 1.25.0 (HTTPS with TLS 1.3)
+ GNU Wget 1.25.0 for Maemo 5, linked with OpenSSL 3. Upgrades wget 1.10.2 of the device.
+ Installed in /opt/wget, with a link /usr/bin/wget. Certificates: /opt/curl/etc/ssl/cacert.pem.
+Xb-Maemo-Display-Name: Wget
+Xb-Maemo-Icon-26:
+ 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
+
 Package: whiptail
 Version: 0.52.25-1maemo1
 Architecture: armel
@@ -4355,6 +5713,66 @@ Xb-Maemo-Icon-26:
  nRcMvI2l4H9B/YoWBcSDnNG5TWuGb9dVP+HaCwTzEG8BGI4YIjq5HsQQMdwIOeW8kOurjbXTsLun
  P9jjg0vYaNRzzYQdE9/lng++IqHh/i/BNuBG438ABU5VEfxz2DgAAAAASUVORK5CYII=
 
+Package: whiptail
+Version: 0.52.25-1maemo2
+Architecture: armel
+Maintainer: elPytel (build of upstream newt by Red Hat and contributors)
+Installed-Size: 276
+Depends: libc6 (>= 2.5)
+Filename: pool/main/whiptail/whiptail_0.52.25-1maemo2_armel.deb
+Size: 89170
+MD5sum: 28e7a428b73481a48a877701aafa32fa
+SHA1: 69fb88b690bb745fb20f7bc2b96a3a4d163f1298
+SHA256: ef1e8a79439366a0e0f1fc54d2785d514b5bd2cc0d076c0163ae84eb1028170e
+Section: user/development
+Priority: optional
+Description: whiptail (newt 0.52.25): dialog boxes for shell scripts
+ whiptail from newt 0.52.25: text-mode menus, check lists, input boxes, message boxes and gauges for shell scripts (whiptail --menu, --checklist, --msgbox, --inputbox, --yesno), compatible with the common dialog options. Small: slang and popt are linked statically.
+ Upstream: https://pagure.io/newt
+Xb-Maemo-Display-Name: whiptail
+Xb-Maemo-Icon-26:
+ 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
+
 Package: wireguard-go
 Version: 0.0.20250522-1maemo1
 Architecture: armel
@@ -4362,10 +5780,10 @@ Maintainer: elPytel (build of upstream wireguard-go and wireguard-tools by Jason
 Installed-Size: 3180
 Depends: libc6 (>= 2.5)
 Filename: pool/main/wireguard-go/wireguard-go_0.0.20250522-1maemo1_armel.deb
-Size: 1325982
-MD5sum: c58025b77fe798f17de8807ab04f13b6
-SHA1: 0619a7be84b70f8cc907449d1e141c82bfeda102
-SHA256: b9a6d50f25df22086f916368990e4bff2153df27f8cc41be2f39527b98a47233
+Size: 1325984
+MD5sum: c92e76fd37ea72483195eb1bfa4ca9ea
+SHA1: a11b16ff7a479f9a641a5831d5a057bc38b82d7d
+SHA256: 231d3ffae7d754061ea107928d3039b71eb3a222f32a942977dffe4b65b62cdd
 Section: user/network
 Priority: optional
 Description: wireguard-go 0.0.20250522: WireGuard VPN in user space, with wg and wg-n900
@@ -4375,7 +5793,7 @@ Description: wireguard-go 0.0.20250522: WireGuard VPN in user space, with wg and
 Xb-Maemo-Display-Name: WireGuard (wireguard-go)
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMiQ36UnM
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJQ+VKKe9
  AAAI10lEQVRYw9WYfVRUdRrHP7/LDMjMwPDm8B4pIYmA4rCRrigoa+rWmqltJdlZk1q1zHyp1dUs
  zc6W1ZJtuyrqpp2kkjZPZJpERqmFISJmmviSvAwDIsqLyDDce/ePuZNmcRwrz559zpnznZn73Hu/
  3+d5fr/73EegWb9+gwePGMEVZra68KYxLgyOcKGYrDnUc30t3AXqFheetbnw+A4Xtux3Ox47Vl5e
@@ -4444,10 +5862,10 @@ Maintainer: elPytel
 Installed-Size: 864
 Depends: libc6 (>= 2.5), zlib1g
 Filename: pool/main/wordgrinder/wordgrinder_0.8-1maemo2_armel.deb
-Size: 273668
-MD5sum: b064374878de66be9f72e6113704eb47
-SHA1: e36ae20482108d021ba802200c337d7b907d08fd
-SHA256: d78f8e748605b8f006babfcc8378089ea3b3742d549d6b342c0e37c991559b57
+Size: 273662
+MD5sum: dc5c651f1052a0f098d533f31c0ca9a0
+SHA1: a45cfba039bfaadf15cc532fb8b9fefc85077e79
+SHA256: 9b0421c79e5a846563c6ea6e57e5b201e9fa7baf468d9ef2b3fc9df83e2dae99
 Section: user/office
 Priority: optional
 Description: Console word processor
@@ -4457,7 +5875,7 @@ Description: Console word processor
 Xb-Maemo-Display-Name: WordGrinder
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfqCw4OMiVA7nla
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRAD/AP8A/6C9p5MAAAAHdElNRQfqCxEMJRAYIKpI
  AAAITElEQVRIx22Wa2xc1RHHf+fcc+++1+td767XG9shzhs77wChhAAlCdAGgWgFBVpaVaiV+pBQ
  H0ilHypRtUVq1VZUiBZRUSm0VRGPCgINaShRCCRpEjuJ4ziJHTu2E6/X3l2v9/249/QDpqJSRxrN
  fJiZ/+gvzUPwf+TJx/cwk1kwVvQkQ6Y0upFinZCyL5MrvPyL514dBBzAfv6Zb+lypeavVRvqxb0H
@@ -4519,6 +5937,67 @@ Xb-Maemo-Display-Name: XML tools
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
  AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCw4OMibZ5yjg
+ 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
+
+Package: xml-tools
+Version: 2.15.4-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 1832
+Depends: libc6 (>= 2.5)
+Filename: pool/main/xml-tools/xml-tools_2.15.4-1maemo2_armel.deb
+Size: 863068
+MD5sum: 3c7e30c226f76d897e3a619c67539aa3
+SHA1: 6bb73ac209a736c3be7cf471f95bfedf21d10d19
+SHA256: 02f1b258a52da20be16c237e853812bbfb7a8c8b1387487f07927a11a335c2a8
+Section: user/utilities
+Priority: optional
+Description: xmllint and xsltproc (libxml2 2.15.4, libxslt 1.1.45)
+ Command-line XML tools built for Maemo 5 (armel, glibc 2.5), statically linked:
+ xmllint (well-formedness, XPath, pretty-printing, schema validation) and xsltproc (XSLT 1.0 with EXSLT).
+ The system libxml2 2.6.32 stays untouched.
+ Upstream: https://gitlab.gnome.org/GNOME/libxml2
+Xb-Maemo-Display-Name: XML tools
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxELJReDCylu
  AAAIVklEQVRYw9WYe1BU9xXHP7+7C7ssC8hD6gPUii+UiQ8qxkd8BN/BsY4aNVZjVKxijTSpGWo1
  mumkWs1EjUkTUzUM+AAlaow2Khp01AZFsb4YBEFABEVB3rAse3/9497VRmMUjc70zOx8795759zz
  Pb/v+T2OQLdOnXr1GjSIB8wrVMMOIzX0baWhmKi/UMzztZYayJ0alhZpePWAhhVnnS9mZaWnHzsG
