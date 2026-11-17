@@ -5272,6 +5272,71 @@ Xb-Maemo-Icon-26:
  oCVzWQ+gOyJQ1DEaRKC4U0855bqUa2qMlabbfW0+eM0Ht3HQqOjDFV99uKLc4HlPk9Cw/5dku+lB
  438AumqjFA+b1OwAAAAASUVORK5CYII=
 
+Package: tiny
+Version: 2.1-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 688
+Depends: libc6 (>= 2.5), pulseaudio-utils, terminfo-256color
+Filename: pool/main/tiny/tiny_2.1-1maemo2_armel.deb
+Size: 471732
+MD5sum: 1554d6bed198c2f4652062a36d1e01ea
+SHA1: c9907467d49e104f2dd156664759b1232078c071
+SHA256: 73060fa6ec173c3c524d16b09d2bc9982e30e454667b54b1a8bdee0bf966dee9
+Section: user/games
+Priority: optional
+Description: A quiz robot: a tiny neural network with a robot voice
+ TINY 2.1 is a question answering neural network with 367,000 weights that reads and writes letter by letter and knows about 3,500 facts (countries, elements, animals, sums, words in other languages). Outside them it makes answers up. It has a full-screen terminal interface with a live neural monitor and a robot voice. Port of the DOS program to the N900: the screen follows the size of the terminal.
+ Keys: PgUp / PgDn volume, Ctrl-A help, Ctrl-S sound, Ctrl-V voice, Ctrl-T creativity, Esc quit.
+ Upstream: https://github.com/WollyMonjac/Tiny-2.1 (port: https://github.com/n900-resurrection/Tiny-2.1)
+Xb-Maemo-Display-Name: TINY
+Xb-Maemo-Icon-26:
+ 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
+ gg==
+
 Package: tmux
 Version: 3.8-1maemo1
 Architecture: armel
