@@ -873,10 +873,10 @@ Maintainer: elPytel
 Installed-Size: 164
 Depends: python3.11, python3-hildonlite (>= 0.4.0), xserver-xorg-input-evdev-mouse
 Filename: pool/main/bt-kbmouse/bt-kbmouse_0.1-1maemo1_armel.deb
-Size: 34622
-MD5sum: 51c05264cbd41bea96f8a10732fea6f8
-SHA1: 670c6e7bb763734c23be03010fcea60b69329309
-SHA256: d7a8aed9490a5d0262eb422dbaf1f0f502b19bc9cdc7b0889c6f5d95e0b1889c
+Size: 34626
+MD5sum: f0e7490ec94ac42ac42a078f2e46ec0c
+SHA1: 152235ca24fc9883f3310e9185d67ef83ddd8c7c
+SHA256: 4ec225bee8574ba1c3d4c54a1bf2c698f361344bb920b4dddc72622a728d0e40
 Section: user/system
 Priority: optional
 Description: Bluetooth keyboard and TrackPoint: layout, pointer, scrolling and settings
@@ -887,7 +887,7 @@ Description: Bluetooth keyboard and TrackPoint: layout, pointer, scrolling and s
 Xb-Maemo-Display-Name: Keyboard and mouse
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMIzkMyJWi
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxMUCRcHSW4G
  AAAK0klEQVRYw9WYeVhU1xmH33NnhnVgIGyyiMgmoFU2JUVF4ooJaNRGrbXGNqaNSVOTGKMxWuPa
  NBrrkhqtsUlNlSi4IoKoGBQXIogRF0Bcwg6CyDLDCDP39o8ZGts+bZ+28Un7/fPeZ+bcM7937nPO
  nPkE1goNjY4eMYK/KV2MhcFJFrr5WCiesw6o4/GWtwVKmoXNtRZWZFvYWtQzsLz80qW8PBB/LSK2
@@ -1597,6 +1597,27 @@ Xb-Maemo-Icon-26:
  hBFyyg9CrrU2Vrqhu7k/2LwGHdho1HPNhA0TN3LPA0+R0HDeItja3Wj8HwWRT9DLwPOBAAAAAElF
  TkSuQmCC
 
+Package: ffmpeg
+Version: 9.0.2-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 5696
+Depends: libc6 (>= 2.5)
+Filename: pool/main/ffmpeg/ffmpeg_9.0.2-1maemo1_armel.deb
+Size: 2666582
+MD5sum: 1da0f12f87c67deb82e67e51b82912fc
+SHA1: 3b9bc15dfd28802dd256be9a4424b9a20c206d34
+SHA256: 23536470381fab648c126281c523e9e20907059f2c4ee5ee04953b7843bb6abb
+Section: user/multimedia
+Priority: optional
+Description: ffmpeg: remux and decode MP4/Matroska, H.264 and AAC (NEON)
+ ffmpeg 9.0.2 built for Maemo 5 (armel, glibc 2.5, NEON), a minimal static build: MP4, Matroska/WebM, MP3,
+ Ogg and AAC input; H.264, MPEG-4, VP8, AAC, Opus and MP3 decoding; MP4, NUT and raw output. No network protocols
+ (files and pipes only). It is much faster than the old codecs of the phone: 360p H.264 at about 39 frames per second.
+ Used for example to turn the fragmented MP4 files of video sites into plain MP4 (ffmpeg -i video.mp4 -i audio.mp4 -c copy out.mp4).
+ Upstream: https://ffmpeg.org/
+Xb-Maemo-Display-Name: ffmpeg
+
 Package: file
 Version: 5.48-1maemo1
 Architecture: armel
@@ -2193,10 +2214,10 @@ Maintainer: elPytel
 Installed-Size: 152
 Depends: python3.11, python3-hildonlite (>= 0.4.0), calendar-backend, curl
 Filename: pool/main/ical-sync/ical-sync_0.1-1maemo2_armel.deb
-Size: 33504
-MD5sum: f147b0d71bd2515ecc7156130990f635
-SHA1: 06e62bc99e3eb6ad55044febe784952d85907698
-SHA256: 24bb10e6a890a7671a2b3ad13898298341330fda5d1a7c5f8d5a6ecafca842cc
+Size: 33498
+MD5sum: 8492a2d3686283b2c042109240c3f551
+SHA1: 9c629484e4b582c68635fa3207bfa6d31df07987
+SHA256: 78d57c3461203767dce4a08bd4fdfd9ad90c221c7676ad50e161760d0e8915d3
 Section: user/office
 Priority: optional
 Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calendar
@@ -2208,7 +2229,7 @@ Description: Keep iCal calendars (Google Calendar, holidays) in the Maemo Calend
 Xb-Maemo-Display-Name: Calendar sync
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJBLvNfol
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxMUCRp5+BK7
  AAAM+ElEQVRYw72YaXhURfaH37q3t2wdk7AYCCQk7GvCDoIsIrI4cQMMqIAaFGQXBgcR/aszIiPb
  CDIyBAREAwSREMAoSEKEgGASgUTIYiCGLCTpkKWzdfe99f/QPW4zOvph5nz51X3qPOe5b9V5zqkq
  gce6du3ff9Qofmb+A9zaeYJbg9q5VUz1OJTx37Vgt8gEt9pK3VqQ7NbajH865uVlZp4+DeKnIGK7
@@ -2631,6 +2652,112 @@ Xb-Maemo-Icon-26:
  ZjtIF5ktu4D5DGZ0bp6fI+bu1EehUGmZmDETsMFFNE15Ou59zAQ27M5+QubDiw+4SRlXC+fgoRr3
  WIvROTkz7x4Kxg+VRm+OzaGMa1yZbjUepv7S0Nox1hS//lRjrKX+dDVjrH2GZu3177t2EFfbBHUM
  Gl8xNHGjobZ/+MNa+h1+qkHjJUNvjDY0/zeG2mu/+2sGjf8HRvPeMZVZgd8AAAAASUVORK5CYII=
+
+Package: llama-chat
+Version: 0.1-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 116
+Depends: python3.11, python3-hildonlite (>= 0.4.0), llama2c (>= 0.0.20240529-1maemo2), curl
+Filename: pool/main/llama-chat/llama-chat_0.1-1maemo2_armel.deb
+Size: 22278
+MD5sum: 13407b0620e988377b90c63f564f6d13
+SHA1: 47dc6a1bb0a61bab49184d3cc0666596f629de9b
+SHA256: d37833df8dd3e902e19835826259d366e44d65faa0a7abd436124724756c53c4
+Section: user/games
+Priority: optional
+Description: A chat window for tiny story-telling language models (llama2.c)
+ A touch application on top of llama2c. You write the first words or a turn of a story, the model continues it token by token (about three tokens
+ per second on the N900, roughly the speed of reading). The menu of the title bar opens the settings: the model, the temperature, the length of a turn, top-p
+ and how much of the story the model remembers. The list of models shows the ones that can be downloaded (stories15M, 61 MB; TinyStories 25M, 98 MB,
+ which is converted on the phone from the Hugging Face checkpoint); the downloads are checked by SHA-256, and your own models can be added in
+ ~/.llama-chat/models.json. Only models that fit in the RAM of the phone are offered. Upstream: this project (MIT); the engine is llama2.c by Andrej Karpathy (MIT).
+Xb-Maemo-Display-Name: Story teller (chat window)
+
+Package: llama2c
+Version: 0.0.20240529-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 1688
+Depends: libc6 (>= 2.5), curl
+Filename: pool/main/llama2c/llama2c_0.0.20240529-1maemo2_armel.deb
+Size: 1254744
+MD5sum: d3734b0104951597bc3c896024f33dce
+SHA1: e6e6b517e4b497a781ac3e17c7cdb8dd55cc6dc6
+SHA256: 1600c133d9daf04dc44ba7fb0c42f35d59cfc9cc62f40dcc5b617f68ad65340d
+Section: user/games
+Priority: optional
+Description: A tiny language model that tells stories (llama2.c)
+ llama2.c is Karpathy's inference engine for the Llama 2 architecture, one C file without dependencies. With the small TinyStories models it continues a few first words into a children's story: stories15M (15 million weights) runs at about 3 tokens per second on the N900.
+ llama-story asks for the first words of the story. The model of 61 MB is downloaded once to ~/llama2c on request; the tiny stories260K (1 MB) is in the package. llama2c is the engine itself (llama2c model.bin -i "Once upon a time"), llama2c-q8 reads int8 quantized models.
+ A model has to fit in RAM: bigger ones (stories42M, 167 MB) read the flash for every token and take half a minute per token.
+ Upstream: https://github.com/karpathy/llama2.c
+Xb-Maemo-Display-Name: Story teller (llama2.c)
+Xb-Maemo-Icon-26:
+ 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
+ YII=
+
+Package: maeshare
+Version: 1.0.0
+Architecture: armel
+Maintainer: Chih
+Installed-Size: 2352
+Depends: libqt4-declarative (>= 4.7.4), libqt4-gui (>= 4.7.4), libqt4-network (>= 4.7.4), libqt4-core (>= 4.7.4), libqt4-svg (>= 4.7.4)
+Conflicts: localsend
+Replaces: localsend
+Filename: pool/main/maeshare/maeshare_1.0.0_armel.deb
+Size: 649908
+MD5sum: 17a1a3d1362fe671e7bdc78b36354716
+SHA1: 080880111a1f70b3c99bbf7f68a5724ca1cb6560
+SHA256: f93fe3b6d7301e207563a75d85bef1e09c77d80c9dacfd3128fa2dab9c10cf31
+Section: user/network
+Priority: optional
+Description: MaeShare for Nokia N900
+ LocalSend compatible LAN file transfer for Maemo 5 (Fremantle).
+ Peer to peer over HTTPS inside the local network, no server involved.
 
 Package: mandoc
 Version: 1.14.6-1maemo2
@@ -3447,6 +3574,71 @@ Xb-Maemo-Icon-26:
  CbWxiu2CQ22s9zVX77HrvtKIu/K8/5tG41zNFPvTKL7UPizJThisRmO9ZmuB5qmFmp1vhBJDjcZ/
  AjFOZiO/YijaAAAAAElFTkSuQmCC
 
+Package: notpipe-hildon
+Version: 0.1-1maemo5
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 140
+Depends: python3.11, python3-hildonlite (>= 0.5.0), curl, nplay, ffmpeg
+Filename: pool/main/notpipe-hildon/notpipe-hildon_0.1-1maemo5_armel.deb
+Size: 25966
+MD5sum: dcd568846a794ac3694ee00030f6f07f
+SHA1: 95af354918e58ab68d1d940daa77065b4c09ef08
+SHA256: 33ef8a3863c6937c356bb3b93daf96a2cd5de4bbdba69d4401746c477c6aac0a
+Section: user/multimedia
+Priority: optional
+Description: A YouTube client with a touch interface (Invidious + nplay)
+ Search for videos, tap one and watch it: the application asks a public Invidious instance (not YouTube itself) for the list of
+ streams, downloads the picture (H.264) and the sound (AAC), which YouTube keeps in two files, and plays them with nplay, the player of this
+ project that does 240p smoothly and 360p mostly. 'Save to MyDocs' joins the two files into one MP4 without re-encoding. The settings are the quality,
+ the sound (normal or small) and the size of the cache; the list of Invidious instances is updated from api.invidious.io once a day and a call tries
+ instance after instance, skipping those that ask for a browser check. The idea comes from notPipe for old Android phones. Upstream: this project (MIT).
+Xb-Maemo-Display-Name: NotPipe (YouTube client)
+
+Package: nplay
+Version: 0.1-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 5164
+Depends: libc6 (>= 2.5), libsdl1.2
+Filename: pool/main/nplay/nplay_0.1-1maemo1_armel.deb
+Size: 2390332
+MD5sum: 909d765678068a883eb1368c280eeac2
+SHA1: ec9eb7dfa80bb55ebe59f347ed8fb60e714f0ac1
+SHA256: 36656ed8ccde570bbe5f128d84a923f31199f239b704bb19605aa87355abe6c2
+Section: user/multimedia
+Priority: optional
+Description: Video player with ffmpeg: 360p H.264 and AAC, no conversion
+ nplay 0.1, a small video player for the N900 built on the libraries of ffmpeg 9 (with NEON) and SDL. It plays the
+ H.264/AAC (MP4, fragmented MP4, Matroska/WebM) files that the old Media Player of the phone cannot: 240p smoothly, 360p mostly.
+ It can play the picture and the sound from two separate files (the way video sites deliver them) without joining them, uses the
+ hardware overlay of the phone, keeps the picture in step with the sound (dropping frames, then simplifying the decoding when the phone
+ cannot keep up) and uses the volume of the phone (Up/Down change it), seeks (Left/Right, PgUp/PgDn, touch) and shows a bar for both.
+ Usage: nplay [-n] [-N] [-s SECONDS] [-f] [-v] VIDEO [AUDIO]. Esc quits, space pauses.
+Xb-Maemo-Display-Name: nplay
+
+Package: nplay
+Version: 0.1-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 5192
+Depends: libc6 (>= 2.5), libsdl1.2
+Filename: pool/main/nplay/nplay_0.1-1maemo2_armel.deb
+Size: 2401548
+MD5sum: 4f8920bdc116296e4ad9db6fb9589740
+SHA1: cb65045aecb718e4cf2fba04a480058b73b60388
+SHA256: add70eae1dc848bd8128f0e088f5d2f75d91482d71143754c99ce4b6d3dd0509
+Section: user/multimedia
+Priority: optional
+Description: Video player with ffmpeg: 360p H.264 and AAC, no conversion
+ nplay 0.1, a small video player for the N900 built on the libraries of ffmpeg 9 (with NEON) and SDL. It plays the
+ H.264/AAC (MP4, fragmented MP4, Matroska/WebM) files that the old Media Player of the phone cannot: 240p smoothly, 360p mostly.
+ It can play the picture and the sound from two separate files (the way video sites deliver them) without joining them, uses the
+ hardware overlay of the phone, keeps the picture in step with the sound (dropping frames, then simplifying the decoding when the phone
+ cannot keep up) and uses and changes the volume of the phone (Up/Down and a slider), shows its controls with a tap on the picture like the player of the phone (a seek bar with the times, play/pause, 10 s back/forward) and Backspace quits.
+ Usage: nplay [-n] [-N] [-s SECONDS] [-f] [-v] VIDEO [AUDIO]. Esc quits, space pauses.
+Xb-Maemo-Display-Name: nplay
+
 Package: ntp-sync
 Version: 0.2-1maemo1
 Architecture: armel
@@ -3759,10 +3951,10 @@ Maintainer: elPytel
 Installed-Size: 92
 Depends: python3.11
 Filename: pool/main/python3-hildonlite/python3-hildonlite_0.4.0-1maemo1_armel.deb
-Size: 14396
-MD5sum: 71202175b453ef84e2cf80ec1835ea5b
-SHA1: 580ae0d016783efbc4e08d2c2cc86642131b6a69
-SHA256: bc7289228de4bcea49dbe888605c2db3ac574e058ecdb3eb6947954c92c806b4
+Size: 14402
+MD5sum: 2601ace8a45b676524e1e2c1917416d1
+SHA1: b2bad9597ad248daca4e40fd08df388a4a022a81
+SHA256: 91be9ca8bc1e047d391632b131fa66cf585f48ecb03b0b298df3bd7ee17dac3f
 Section: user/development
 Priority: optional
 Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
@@ -3772,7 +3964,63 @@ Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
 Xb-Maemo-Display-Name: hildonlite (Python 3)
 Xb-Maemo-Icon-26:
  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
- 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
+ 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
+
+Package: python3-hildonlite
+Version: 0.5.0-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 96
+Depends: python3.11
+Filename: pool/main/python3-hildonlite/python3-hildonlite_0.5.0-1maemo1_armel.deb
+Size: 15196
+MD5sum: 519b47aba3741a37f0f4c8da915e3f02
+SHA1: 5191044bdbacfc3f5b793817fb9e87a094d90a66
+SHA256: 22dc10f95ed59dc332bb18bf00c02496f691bedeb521aa3a268a06d57d931de6
+Section: user/development
+Priority: optional
+Description: Hildon and GTK 2 windows from Python 3 (ctypes layer)
+ Python module hildonlite: Window, Box, Label, Button, Entry (with completion), TextView, PannableArea, AppMenu, lists, dialogs and timers over GTK 2 and Hildon,
+ called through ctypes, because PyGTK exists only for Python 2 and PyGObject has no GTK 2 / Hildon typelibs.
+ Use: import hildonlite as hl. Examples: /opt/python3/share/doc/python3-hildonlite/examples. The same source installs with pip (pip install git+https://github.com/n900-resurrection/hildonlite).
+Xb-Maemo-Display-Name: hildonlite (Python 3)
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxMQBC+d7AAJ
  AAAHbklEQVRYw92YaXRV1RXHf+fe917yEpJAgoSEmRgkAwrEdlVUECgxGAsooBEkiUuSBbQuBMqq
  iypCqwQq0NhFaSsuW7CgIBTSNsxkQtRCCaMiqUwhAwmEzHPe3f1w7ws1YQhm8cH+v/zfu3efc/f/
  nL33GRQWBg0aPnzUKNrAL8rk+2NMDgg2WU21DIq5twgyST4xuazI5G92m1x51G2Yl5ebm50N6ttC
@@ -4522,9 +4770,9 @@ Installed-Size: 104
 Depends: python3.11, python3-hildonlite (>= 0.2.2), gstreamer0.10-plugins-camera, libomap3cam
 Filename: pool/main/selfie/selfie_0.6-1maemo1_armel.deb
 Size: 19500
-MD5sum: 82805fbc5933c4e1aa0450fdfbe93db1
-SHA1: 9e5b6e6c9e2904f3038d0c62041f11f179ecbc85
-SHA256: 34d3346044ab0d8da3b7c5390d9cf2b132c3b1607a4ceaa77a367e4b41cfb894
+MD5sum: 87b79b225920776382a1ca2e38b8c86b
+SHA1: 456a4566cf947bccc1bc03640a68b03b03c1d793
+SHA256: 5e6a2a9e8cb2abcdba44e27016184da6421f37a9f6648c344a4d3ac29ac6ea4e
 Section: user/multimedia
 Priority: optional
 Description: Live preview of the front camera, a photo button and the camera button (test application)
@@ -4532,7 +4780,7 @@ Description: Live preview of the front camera, a photo button and the camera but
 Xb-Maemo-Display-Name: Selfie
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJDekMS5i
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxMUCR8JkuY0
  AAAIeUlEQVRYw9WYe1RVVR7HP/tcQCHkQsjYjIYhFxBEkYfPTMAmGpMBLYHKxsq0mexlTq1mGpso
  J1eZZlPUZPkaDRTtIU5KZY2YpjM2gDwURURQ0RE15CFw4Z6z5499LlzRWmkrZ+a31l2fc+/9nb32
  d+/f/p3f+QlMCw2NiYmPp4dZhyvablH0v15R3Gk6nOTHtZ8qyA2KZ48rVm1RbCxxOlZWFhVt3w7i
@@ -4800,9 +5048,9 @@ Installed-Size: 124
 Depends: python3.11, python3-hildonlite (>= 0.4.0), sfeed (>= 2.4-1maemo4), curl
 Filename: pool/main/sfeed-hildon/sfeed-hildon_0.1-1maemo4_armel.deb
 Size: 29822
-MD5sum: 2a2d3bbadbde88b9e65a8225dfb59e33
-SHA1: b12e09b42ae1df503e2082b4f2edda8895164dd5
-SHA256: d52c9eade3cf7cdba9d347874234f08b2d4811332461fcbc190f53160f3e5df9
+MD5sum: c2d34adee6fe8b4d5b3e67f5bdb0d8f4
+SHA1: 2c70051eb2ed212e1b3bc50adfdd268b4e64174a
+SHA256: 6ecbc583ad89646283e64a6f82ddd6021203dd654b8f1bdf4ad101f8a569d6e4
 Section: user/network
 Priority: optional
 Description: Native RSS/Atom and podcast feed reader on top of sfeed
@@ -4815,7 +5063,7 @@ Description: Native RSS/Atom and podcast feed reader on top of sfeed
 Xb-Maemo-Display-Name: Feed reader
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
- AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxEMJDragFLf
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAAHdElNRQfqCxMUCSJR+qol
  AAAKyElEQVRYw72YeXQVRRaHv+p+W7aXxAAhYQkxSBJiWBNZZFFwCCjiEkBxwAUUd8SFowMDOKAQ
  UEYWZY14QBCVQUVGRFEjDGCEABIyskW2kIQ8sr3krXnvdc0f3RHHDRzPeP/59amu6q6vbtW9VSUw
  rFOnHj0GDuRHFt1T145DEQiIS6QaL4oYFfqLPMswKuUEuZ0rQLlLrOAYiBEs4TiI5WIwdUAICUAT
