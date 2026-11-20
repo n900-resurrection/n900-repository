@@ -1204,6 +1204,92 @@ Xb-Maemo-Icon-26:
  WbAz6yB8EhcC5HS+xAZiJJEX5LmrLmN974WrLjQaI2txGy9beZRzKED7VaZd1ZhJDDKyHA4z8xru
  uOpC438BgfyQvHf6fEkAAAAASUVORK5CYII=
 
+Package: chess-tui
+Version: 2.8.1-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream chess-tui by Thomas Mauran and contributors)
+Installed-Size: 5140
+Depends: libc6
+Filename: pool/main/chess-tui/chess-tui_2.8.1-1maemo1_armel.deb
+Size: 2419232
+MD5sum: 53c960a2704df60524e1ce94e91040df
+SHA1: 391b68c49d19a8f8cbabd2975fad8ed286164fea
+SHA256: 9ea0bb99b4fe07da957f5e6e2d4dbb871a120740a1f08e75f0932d08341224df
+Section: user/games
+Priority: optional
+Description: chess-tui 2.8.1 chess for the terminal
+ chess-tui 2.8.1: a chess game for the terminal (a board drawn with characters, skins, a viewer of PGN files). Two players on one phone,
+ a UCI engine as the opponent (the package stockfish is used when it is installed; else chess-tui -e /path/to/engine) or Lichess online with a token. Built for Maemo 5 with Rust as a static
+ binary, 5 MB; it needs no libraries. The menu entry opens it in the terminal.
+ Upstream: https://github.com/thomas-mauran/chess-tui
+Xb-Maemo-Display-Name: Chess (chess-tui)
+Xb-Maemo-Icon-26:
+ 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
+ OHEiKwv+BzGu8++4Hg2UAAAAAElFTkSuQmCC
+
 Package: cmatrix
 Version: 2.0-1maemo1
 Architecture: armel
@@ -2477,6 +2563,91 @@ Xb-Maemo-Icon-26:
  IeerjbXL5H21P3h1DW5ho9HYaxaCsPD93vOaN0nouH8i2G660fgfEwxvE2uhh2UAAAAASUVORK5C
  YII=
 
+Package: less
+Version: 710-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream less by Mark Nudelman)
+Installed-Size: 584
+Depends: libc6 (>= 2.4)
+Filename: pool/main/less/less_710-1maemo1_armel.deb
+Size: 227796
+MD5sum: 5a3d18e363cd5e179efdeaca50f96813
+SHA1: 3c12f93a1ff9c5ad2b4de607feb3bb44e4376564
+SHA256: 64b23d1cdde6b895197009d5455c29afeff8d4c5bb76c1c634849de4abf2a29e
+Section: user/utilities
+Priority: optional
+Description: GNU less 710 pager
+ GNU less 710 for Maemo 5: the pager of the phone is the small one of BusyBox, which has no --version, no marks and no incremental search.
+ This less lives in /opt/less/bin/less and does not replace the system pager; programs that want it (offpunk does) put /opt/less/bin first in PATH,
+ and you can do it in your shell: export PATH=/opt/less/bin:$PATH. UTF-8 text, ANSI colours with -R, search with / and ?, q quits.
+ Upstream: https://www.greenwoodsoftware.com/less/
+Xb-Maemo-Display-Name: less
+
+Package: lf
+Version: 41-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream lf by Gokcehan Kara and contributors)
+Installed-Size: 5736
+Depends: libc6
+Filename: pool/main/lf/lf_41-1maemo1_armel.deb
+Size: 2246602
+MD5sum: 50e83837cf2ca003cce4d20c83ee7218
+SHA1: daa6dac0a7a2ac3b0613331ca827a86c838fb30c
+SHA256: eaf2e3f0e3feac6aa70be7a0d08f899d315883eb22c96874e561bf9cdcf0cb7f
+Section: user/utilities
+Priority: optional
+Description: lf r41 terminal file manager
+ lf r41 (list files): a file manager for the terminal in the style of ranger, written in Go. Three columns (parent, current, preview),
+ vi-like keys (h j k l, / search, space select, y d p copy, move and paste, a Enter opens), a preview of text files and your own commands through
+ the configuration file ~/.config/lf/lfrc (an example is in /opt/lf/share/doc/lf/lfrc.example). Built for Maemo 5 as a static binary (about 3 MB).
+ Upstream: https://github.com/gokcehan/lf
+Xb-Maemo-Display-Name: lf (file manager)
+Xb-Maemo-Icon-26:
+ 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
+
 Package: libsignal-purple
 Version: 0.1-1maemo1
 Architecture: armel
@@ -2753,6 +2924,25 @@ Size: 649908
 MD5sum: 17a1a3d1362fe671e7bdc78b36354716
 SHA1: 080880111a1f70b3c99bbf7f68a5724ca1cb6560
 SHA256: f93fe3b6d7301e207563a75d85bef1e09c77d80c9dacfd3128fa2dab9c10cf31
+Section: user/network
+Priority: optional
+Description: MaeShare for Nokia N900
+ LocalSend compatible LAN file transfer for Maemo 5 (Fremantle).
+ Peer to peer over HTTPS inside the local network, no server involved.
+
+Package: maeshare
+Version: 1.0.1
+Architecture: armel
+Maintainer: Chih
+Installed-Size: 2376
+Depends: libqt4-declarative (>= 4.7.0), libqt4-gui (>= 4.7.0), libqt4-network (>= 4.7.0), libqt4-core (>= 4.7.0), libqt4-svg (>= 4.7.0)
+Conflicts: localsend
+Replaces: localsend
+Filename: pool/main/maeshare/maeshare_1.0.1_armel.deb
+Size: 655988
+MD5sum: 03d945536dfe6c04f55f7d1fa50c399f
+SHA1: ccd6816cedca0b66085e905a0e1d4cace16c69c1
+SHA256: b3f6c202038e293a9d133c1d7d057de3034af52abe43ee948504514509a4e694
 Section: user/network
 Priority: optional
 Description: MaeShare for Nokia N900
@@ -3639,6 +3829,28 @@ Description: Video player with ffmpeg: 360p H.264 and AAC, no conversion
  Usage: nplay [-n] [-N] [-s SECONDS] [-f] [-v] VIDEO [AUDIO]. Esc quits, space pauses.
 Xb-Maemo-Display-Name: nplay
 
+Package: nplay
+Version: 0.1-1maemo3
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 5196
+Depends: libc6 (>= 2.5), libsdl1.2
+Filename: pool/main/nplay/nplay_0.1-1maemo3_armel.deb
+Size: 2402738
+MD5sum: c32784315d4acc643de214936508df19
+SHA1: cf369b2f23ac948e54d4d401d8c5348d26c656de
+SHA256: 647f7fdec3ba5adfdd0eda9d4e111eefd3e2192df5328e6859e6a85e3df2cf75
+Section: user/multimedia
+Priority: optional
+Description: Video player with ffmpeg: 360p H.264 and AAC, no conversion
+ nplay 0.1, a small video player for the N900 built on the libraries of ffmpeg 9 (with NEON) and SDL. It plays the
+ H.264/AAC (MP4, fragmented MP4, Matroska/WebM) files that the old Media Player of the phone cannot: 240p smoothly, 360p mostly.
+ It can play the picture and the sound from two separate files (the way video sites deliver them) without joining them, uses the
+ hardware overlay of the phone, keeps the picture in step with the sound (dropping frames, then simplifying the decoding when the phone
+ cannot keep up) and uses and changes the volume of the phone (Up/Down and a slider), shows its controls with a tap on the picture like the player of the phone (a seek bar with the times, play/pause, 10 s back/forward) and Backspace quits.
+ Usage: nplay [-n] [-N] [-s SECONDS] [-f] [-v] VIDEO [AUDIO]. Esc quits, space pauses.
+Xb-Maemo-Display-Name: nplay
+
 Package: ntp-sync
 Version: 0.2-1maemo1
 Architecture: armel
@@ -3701,6 +3913,75 @@ Xb-Maemo-Icon-26:
  jBJgu/KzaA/KG1YfNQ+UHeYdahpgJRd/cD3bUO8KAJKopoWrtSm4iWR0N0mWPOnmccPGmr1ax8m3
  3sZSMF+3E4WI2XQFmdL8rXYJGv/z09z6PUB7XmYlgOGIANHMwyACxD1GyinXpFxbbazvDLuv9Aev
  +OAONhoVo1liNZolynWedy8SGrb/kWy33Gj8L0gJpgj1Ma0eAAAAAElFTkSuQmCC
+
+Package: offpunk
+Version: 3.1-1maemo1
+Architecture: armel
+Maintainer: elPytel (packaging of upstream offpunk by Ploum and contributors)
+Installed-Size: 8704
+Depends: python3.11, curl, file, less
+Filename: pool/main/offpunk/offpunk_3.1-1maemo1_armel.deb
+Size: 2810520
+MD5sum: c661fc094935c82d80b8762de9b74f69
+SHA1: 73342e8942fbf8a413856cfb7def1335824875a1
+SHA256: 374de856f243f6c1eb623898ffe65ef71fcd1ac61d6261f58664446cb41e4250
+Section: user/network
+Priority: optional
+Description: offpunk 3.1 offline-first reader of Gemini, Gopher, web and RSS
+ offpunk 3.1: a reader for the terminal that keeps everything it has shown in a cache, so it works without the network. Type a
+ URL (gemini://, gopher://, https://) or a number of a link; "offline" works with the cache only, "sync" fetches the pages of your lists and
+ bookmarks while you have a connection, and "help" lists the commands. It reads feeds, too. It runs on the Python 3.11 of the package python3.11 and
+ has no C parts: web pages are simplified with BeautifulSoup (no lxml). The commands offpunk, ansicat (shows a file or a page in the terminal),
+ netcache and openk are installed. Upstream: https://offpunk.net
+Xb-Maemo-Display-Name: Offpunk
+Xb-Maemo-Icon-26:
+ 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
 
 Package: openssh
 Version: 10.6p2-1maemo1
@@ -5256,6 +5537,26 @@ Xb-Maemo-Icon-26:
  UB9tqFdDgXSq8dKyNgWtCEZ/kWROlt/HeRvrtmU6j7v0MpaC7Uf5K1xMIRrksKYC7Qw0Ltn3cv1n
  QFueZSGAMRChookMEKGisxFyyg9C7mJlrK2G7nP1wXNjcBULjfpaM+HERMva88OfJDTcPxFsl1xo
  /C+6PHGCsBAfLgAAAABJRU5ErkJggg==
+
+Package: stockfish
+Version: 11-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream Stockfish by the Stockfish developers)
+Installed-Size: 1232
+Depends: libc6
+Filename: pool/main/stockfish/stockfish_11-1maemo1_armel.deb
+Size: 515058
+MD5sum: 3e5c45e9aec9cde89a6a69ad7e9720df
+SHA1: 2e70ac951f441507cfaa65db15f0ecf6ee540b78
+SHA256: 69f22af2dfb2500c1acf2ab4f24ba30ca7dcf519b1f00710b9fe4a99021a0ded
+Section: user/games
+Priority: optional
+Description: Stockfish 11 chess engine (UCI)
+ Stockfish 11, a strong open source chess engine with the classical evaluation (no neural network file). It speaks UCI on stdin
+ and stdout, so a chess program uses it as the opponent; chess-tui does it with -e /usr/bin/stockfish. About 30 000 nodes per second on the N900:
+ depth 12 in 3 seconds. Built for Maemo 5 as a static binary, 1.1 MB.
+ Upstream: https://github.com/official-stockfish/Stockfish
+Xb-Maemo-Display-Name: Stockfish
 
 Package: strace
 Version: 6.19-1maemo1
