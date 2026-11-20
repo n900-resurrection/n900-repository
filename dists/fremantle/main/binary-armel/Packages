@@ -1377,6 +1377,148 @@ Xb-Maemo-Icon-26:
  604KqW6dbXhJGSs+ohUoY5UEaNEAP2BJW/xAQ1pKNwCkEiC3KmNtcOMuKWNd2+v/XwqN/wWTs8o5
  ST2JRQAAAABJRU5ErkJggg==
 
+Package: cmus
+Version: 2.13.0-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream cmus by Timo Hirvonen, Kevin Ko and contributors)
+Installed-Size: 5376
+Depends: libc6, libpulse0
+Filename: pool/main/cmus/cmus_2.13.0-1maemo1_armel.deb
+Size: 2489034
+MD5sum: 9f92864a6bba0b6d2ae9d0e491c297da
+SHA1: 383d1525fa87264983822e0c996066261e454788
+SHA256: a36b577d9ce97d5e16c6c01a999bd6a716ea1d5d79dbb9fb088c7169ee6b2a0e
+Section: user/multimedia
+Priority: optional
+Description: cmus 2.13.0 music player for the terminal
+ cmus 2.13.0: a small and fast music player for the terminal with a library, playlists, a play queue, search and filters, and a
+ remote control (cmus-remote). Keys: 1-7 change the views, :add ~/MyDocs/.sounds adds a folder, Enter plays, c pauses, b/v next/stop, z/x
+ previous/play, / searches, :q quits. It plays mp3, aac/m4a, opus, ogg vorbis, flac, alac, ape and wav through one input plugin made with the
+ ffmpeg of this project, and sounds through PulseAudio, so the volume of the phone is the volume of the player. The menu entry opens it in the
+ terminal. Upstream: https://cmus.github.io
+Xb-Maemo-Display-Name: cmus (music player)
+Xb-Maemo-Icon-26:
+ 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
+ Gv8DuNwEGJs8Gd4AAAAASUVORK5CYII=
+
+Package: cointop
+Version: 1.6.10-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream cointop by Miguel Mota and contributors)
+Installed-Size: 11388
+Depends: libc6, curl
+Filename: pool/main/cointop/cointop_1.6.10-1maemo1_armel.deb
+Size: 4444104
+MD5sum: 851317fc66d2d7cd1954f353535f83ec
+SHA1: 0c5afca61f034088cc5ce842724145283510eef0
+SHA256: 1999326e77c66d3b32b3f361dbd0166d04fc45c4c213666fe81c45e4c441f16a
+Section: user/utilities
+Priority: optional
+Description: cointop 1.6.10 cryptocurrency prices in the terminal
+ cointop 1.6.10: a table of the cryptocurrencies with their price, change and market capitalisation, charts, favourites and a portfolio
+ (holdings), for the terminal. The data come from the free CoinGecko API over HTTPS, which limits the calls per minute (wait and refresh with r).
+ Built for Maemo 5 with Go as a static binary (11 MB). The upstream repository is archived (2024), the last release still works.
+ Upstream: https://github.com/cointop-sh/cointop
+Xb-Maemo-Display-Name: cointop (crypto prices)
+Xb-Maemo-Icon-26:
+ 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
+
 Package: curl
 Version: 8.23.0-1maemo1
 Architecture: armel
@@ -1694,6 +1836,27 @@ Size: 2666582
 MD5sum: 1da0f12f87c67deb82e67e51b82912fc
 SHA1: 3b9bc15dfd28802dd256be9a4424b9a20c206d34
 SHA256: 23536470381fab648c126281c523e9e20907059f2c4ee5ee04953b7843bb6abb
+Section: user/multimedia
+Priority: optional
+Description: ffmpeg: remux and decode MP4/Matroska, H.264 and AAC (NEON)
+ ffmpeg 9.0.2 built for Maemo 5 (armel, glibc 2.5, NEON), a minimal static build: MP4, Matroska/WebM, MP3,
+ Ogg and AAC input; H.264, MPEG-4, VP8, AAC, Opus and MP3 decoding; MP4, NUT and raw output. No network protocols
+ (files and pipes only). It is much faster than the old codecs of the phone: 360p H.264 at about 39 frames per second.
+ Used for example to turn the fragmented MP4 files of video sites into plain MP4 (ffmpeg -i video.mp4 -i audio.mp4 -c copy out.mp4).
+ Upstream: https://ffmpeg.org/
+Xb-Maemo-Display-Name: ffmpeg
+
+Package: ffmpeg
+Version: 9.0.2-1maemo2
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 5896
+Depends: libc6 (>= 2.5)
+Filename: pool/main/ffmpeg/ffmpeg_9.0.2-1maemo2_armel.deb
+Size: 2807046
+MD5sum: fb242fa808b2ce26c3fa502250654455
+SHA1: 580c07f0f2f7f7a53055bca1ec2309b231984aac
+SHA256: 2c07b1ea6c26991f95a057ff69947cbfc81eea31e455b5eaa988dc9320e406f1
 Section: user/multimedia
 Priority: optional
 Description: ffmpeg: remux and decode MP4/Matroska, H.264 and AAC (NEON)
@@ -3093,6 +3256,27 @@ Description: mc 4.8.33 two-panel file manager
  Built for Maemo 5 with static GLib 2.66 and ncursesw (UTF-8), without X11, GPM, SFTP and NLS. Upstream: https://midnight-commander.org
 Xb-Maemo-Display-Name: Midnight Commander
 
+Package: mdcat
+Version: 2.20.2-1maemo1
+Architecture: armel
+Maintainer: elPytel (build of upstream mdcat by Sebastian Wiesner and contributors)
+Installed-Size: 20324
+Depends: libc6
+Filename: pool/main/mdcat/mdcat_2.20.2-1maemo1_armel.deb
+Size: 10116406
+MD5sum: c4567d2eda83565c4ab57700a570c1cf
+SHA1: 4ef840e7b6f8898a5a3119697ffbaed3f4ee87f2
+SHA256: d1a72d7478836b7e96644c5e75f2ff2162f3207684e050d12815fc725db37b03
+Section: user/utilities
+Priority: optional
+Description: mdcat 2.20.2 shows Markdown files in the terminal
+ mdcat 2.20.2: like cat, but for Markdown. It renders headings, lists, quotes, tables, links and highlighted code blocks with the colours and
+ styles of the terminal. mdcat README.md shows a file, mdless README.md pages it (needs a pager: the package less is the better one), and
+ mdcat --help lists the options. Images need a terminal that can show them (the terminal of the phone cannot). Built for Maemo 5 with Rust as a
+ static binary (20 MB, most of it the syntax definitions for code blocks). The upstream repository is archived (2026), the last release still works.
+ Upstream: https://github.com/swsnr/mdcat
+Xb-Maemo-Display-Name: mdcat
+
 Package: micro
 Version: 2.0.15-1maemo1
 Architecture: armel
@@ -3833,13 +4017,13 @@ Package: nplay
 Version: 0.1-1maemo3
 Architecture: armel
 Maintainer: elPytel
-Installed-Size: 5196
+Installed-Size: 5376
 Depends: libc6 (>= 2.5), libsdl1.2
 Filename: pool/main/nplay/nplay_0.1-1maemo3_armel.deb
-Size: 2402738
-MD5sum: c32784315d4acc643de214936508df19
-SHA1: cf369b2f23ac948e54d4d401d8c5348d26c656de
-SHA256: 647f7fdec3ba5adfdd0eda9d4e111eefd3e2192df5328e6859e6a85e3df2cf75
+Size: 2527950
+MD5sum: a8228ba0d684f40b80c191c287cc3710
+SHA1: 4ede5f864a97a272bd07cf2b9f684673cab26fe6
+SHA256: 9ed5a435b6dd44762070d5ff7f23e60aa80a22194e9143fd4dcfd2901bb5476f
 Section: user/multimedia
 Priority: optional
 Description: Video player with ffmpeg: 360p H.264 and AAC, no conversion
