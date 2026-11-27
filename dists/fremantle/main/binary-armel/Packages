@@ -2931,6 +2931,65 @@ Xb-Maemo-Icon-26:
  e1jrI8min9wzVivnn8pD4/8Bf/fWwIpuAMoAAAAASUVORK5CYII=
 
 Package: gothi
+Version: 0.15.0-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 4620
+Depends: python3.11, python3-pysdl2 (>= 0.9.17), libsdl2 (>= 2.30)
+Recommends: wifi-switcher
+Filename: pool/main/gothi/gothi_0.15.0-1maemo1_armel.deb
+Size: 695930
+MD5sum: 76d8b423e01d53fb2836421f882d178e
+SHA1: 556348564a77800c493e4a3ff5877480605eb8db
+SHA256: 4777665270a4ea8084e720c4084c58ef4ec6f12ef297f4a7261537bd6ddcfbaa
+Section: user/utilities
+Priority: optional
+Description: A Flipper Zero style interface: menu, clock, battery, animations (keyboard and touch)
+ gothi shows the 128x64 one-bit screen of the Flipper Zero with its original graphics and six keys: with the keyboard slid out the screen fills the display and the arrows, Enter and Backspace control it, with the keyboard closed there is a cross and a Back button for the touch screen. Applications: clock, battery, key test, a player of the firmware animations. Colour and screen size are set in Settings.
+ Written in Python 3 (SDL 2 through PySDL2). The graphics of the Flipper Zero firmware (GPL-3.0, Flipper Devices Inc.) are included; this package is not affiliated with Flipper Devices.
+ Upstream: https://github.com/n900-resurrection/n900-gothi
+Xb-Maemo-Display-Name: gothi
+Xb-Maemo-Icon-26:
+ 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
+
+Package: gothi
 Version: 0.8.1-1maemo1
 Architecture: armel
 Maintainer: elPytel
@@ -3088,6 +3147,26 @@ Description: Module for gothi: data of the GPS (fix, satellites, position, speed
  Upstream: https://github.com/n900-resurrection/nokia-n900-apps
 Xb-Maemo-Display-Name: gothi: GPS
 
+Package: gothi-gps
+Version: 0.3.0-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 52
+Depends: gothi (>= 0.11.0), python-location, python3.11
+Filename: pool/main/gothi-gps/gothi-gps_0.3.0-1maemo1_armel.deb
+Size: 12430
+MD5sum: 3f7620e5983e7a9eb5cb2f2ccbf1ed30
+SHA1: 68c13f8669363c112b8aa75299becd19a6e9fc7f
+SHA256: 6a380ab635398c2200f17a21de45ab3d1d7921ad63221c81f5df9f4c4213cc3e
+Section: user/utilities
+Priority: optional
+Description: Modules for gothi: GPS data, A-GPS and a track recorder with GPX export
+ Adds the entry GPS to the menu Modules of gothi (restart gothi after the installation): the screen shows whether the GPS has a fix, the satellites in view and in use and, with a fix, the position, altitude, speed and track. The GPS is switched on while the page is open and off when you leave it.
+ The entry GPS track records where you went (in the background, also when gothi is closed or the screen is off) into ~/MyDocs/gothi/tracks and exports the track as a GPX file; it lists the tracks with statistics.
+ It needs a view of the sky (it does not work in a flat). The GPS is started with the satellite method only, nothing is sent to a server. The system switch of the GPS (Settings, Location) is turned on for the time of the run and put back afterwards.
+ Upstream: https://github.com/n900-resurrection/nokia-n900-apps
+Xb-Maemo-Display-Name: gothi: GPS
+
 Package: gothi-ir
 Version: 0.1.2-1maemo1
 Architecture: armel
@@ -3100,6 +3179,27 @@ Size: 13896
 MD5sum: 7bf9a79cf82e53b7fbe9021e2887e77e
 SHA1: 74b680fbc96d0a94be03e4bf7398e46e307b6096
 SHA256: 8924245b343612a053b9802f0856859cf0013a394dec08aa61ba6321cd9da69e
+Section: user/utilities
+Priority: optional
+Description: Module for gothi: infrared remotes (Flipper .ir files)
+ Adds the entry Infrared to the menu Modules of gothi (restart gothi after the installation): a list of remotes, a list of their buttons, OK sends the button with the IR transmitter of the N900.
+ The remotes are Flipper .ir files. Put them in MyDocs/gothi/ir (copy from a computer over USB, or upload with the file server module) or in ~/.config/gothi/ir; they are found every time the module is opened. A sample remote (a Samsung TV) is installed in /opt/gothi/ir.
+ Protocols: NEC (also ext, 42, 42ext), Samsung32, SIRC (12, 15, 20 bits), RC5 and raw signals. The N900 can only send, it cannot learn a remote. The IR driver is loaded through pierogi and unloaded again when you leave the module.
+ Upstream: https://github.com/n900-resurrection/nokia-n900-apps
+Xb-Maemo-Display-Name: gothi: infrared
+
+Package: gothi-ir
+Version: 0.2.0-1maemo1
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 72
+Depends: gothi (>= 0.13.0), python3.11
+Recommends: pierogi
+Filename: pool/main/gothi-ir/gothi-ir_0.2.0-1maemo1_armel.deb
+Size: 20472
+MD5sum: ec038bebe97dbbfb9f9fa954c47eff12
+SHA1: 2a9defdfae9ccc975ecde953c33221b2725be580
+SHA256: c1bfc4b35716ea99cdb4c0138ba0fa4bc8aaded3c6dec547b1a58e9abde34a6a
 Section: user/utilities
 Priority: optional
 Description: Module for gothi: infrared remotes (Flipper .ir files)
@@ -4193,6 +4293,27 @@ Description: A chat window for tiny story-telling language models (llama2.c)
  ~/.llama-chat/models.json. Only models that fit in the RAM of the phone are offered. Upstream: this project (MIT); the engine is llama2.c by Andrej Karpathy (MIT).
 Xb-Maemo-Display-Name: Story teller (chat window)
 
+Package: llama-chat
+Version: 0.1-1maemo3
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 64
+Depends: python3.11, python3-hildonlite (>= 0.4.0), llama2c (>= 0.0.20240529-1maemo2), curl
+Filename: pool/main/llama-chat/llama-chat_0.1-1maemo3_armel.deb
+Size: 23402
+MD5sum: 4a8eb2d0c03ac90ce1d23e4092332ead
+SHA1: 96b396eaf364c4b0ef390ea2aa3215aee8c0cc7b
+SHA256: b61beb0cd516a9c9b4bc07e0b57d1ec07f58de1ae0a083ae6f921e8d67e4b26e
+Section: user/games
+Priority: optional
+Description: A chat window for tiny story-telling language models (llama2.c)
+ A touch application on top of llama2c. You write the first words or a turn of a story, the model continues it token by token (about three tokens
+ per second on the N900, roughly the speed of reading). The menu of the title bar opens the settings: the model, the temperature, the length of a turn, top-p
+ and how much of the story the model remembers. The list of models shows the ones that can be downloaded (stories15M, 61 MB; TinyStories 25M, 98 MB,
+ which is converted on the phone from the Hugging Face checkpoint); the downloads are checked by SHA-256, and your own models can be added in
+ ~/.llama-chat/models.json. Only models that fit in the RAM of the phone are offered. Upstream: this project (MIT); the engine is llama2.c by Andrej Karpathy (MIT).
+Xb-Maemo-Display-Name: Story teller (chat window)
+
 Package: llama2c
 Version: 0.0.20240529-1maemo2
 Architecture: armel
@@ -4204,6 +4325,71 @@ Size: 1254690
 MD5sum: 7e31dfbaead6dead5913672c83af0830
 SHA1: cd9a482da6b6dd9843807e8f4ce9ac1ca22dbbdf
 SHA256: 9b33f0784bbe3a643e890d829c48bd9e6f1f64ac97daa09b36470a91514f008a
+Section: user/games
+Priority: optional
+Description: A tiny language model that tells stories (llama2.c)
+ llama2.c is Karpathy's inference engine for the Llama 2 architecture, one C file without dependencies. With the small TinyStories models it continues a few first words into a children's story: stories15M (15 million weights) runs at about 3 tokens per second on the N900.
+ llama-story asks for the first words of the story. The model of 61 MB is downloaded once to ~/llama2c on request; the tiny stories260K (1 MB) is in the package. llama2c is the engine itself (llama2c model.bin -i "Once upon a time"), llama2c-q8 reads int8 quantized models.
+ A model has to fit in RAM: bigger ones (stories42M, 167 MB) read the flash for every token and take half a minute per token.
+ Upstream: https://github.com/karpathy/llama2.c
+Xb-Maemo-Display-Name: Story teller (llama2.c)
+Xb-Maemo-Icon-26:
+ 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
+
+Package: llama2c
+Version: 0.0.20240529-1maemo3
+Architecture: armel
+Maintainer: elPytel
+Installed-Size: 1600
+Depends: libc6 (>= 2.5), curl
+Filename: pool/main/llama2c/llama2c_0.0.20240529-1maemo3_armel.deb
+Size: 1255016
+MD5sum: eb5f6772b23d2d52bac6a529b1a46d14
+SHA1: bb15f627454cd5e9884680629de1781566a51623
+SHA256: 13943c55f061e9616b0ac8bd98a2b03bd5e25e21c8eb81c4b25ede529c577769
 Section: user/games
 Priority: optional
 Description: A tiny language model that tells stories (llama2.c)
@@ -5448,6 +5634,70 @@ Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), along
  Client: ssh-modern, scp-modern, sftp-modern, ssh-keygen-modern (ed25519 keys, modern key exchange, works with current servers).
  Server: /opt/openssh/sbin/sshd on port 2222, keys only, no root login (see /opt/openssh/etc/sshd_config). It is not started by the package.
  Not tested on a real N900 when it was packaged: the sandbox of sshd is the rlimit one (the 2.6.28 kernel has no seccomp filter).
+Xb-Maemo-Display-Name: OpenSSH 10.6p2
+Xb-Maemo-Icon-26:
+ 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
+ rkJggg==
+
+Package: openssh
+Version: 1:10.6p2-1maemo5
+Architecture: armel
+Maintainer: elPytel (build of upstream OpenSSH by the OpenBSD project)
+Installed-Size: 25036
+Depends: libc6 (>= 2.5)
+Filename: pool/main/openssh/openssh_10.6p2-1maemo5_armel.deb
+Size: 11582390
+MD5sum: db8d6ec7623fb67ebec544135f59f54e
+SHA1: 7864c6a458c3056016f314943aa552454efc4077
+SHA256: 4f09ef5af0467e2cfa97ec29e404d174fd9611808ce91efe7c0ff58d34c48eaa
+Section: user/network
+Priority: optional
+Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), alongside the system one
+ OpenSSH 10.6p2 portable for Maemo 5 with a private static OpenSSL 3 and zlib, installed in /opt/openssh. The system OpenSSH 5.1 stays as it is.
+ Client: ssh-modern, scp-modern, sftp-modern, ssh-keygen-modern (ed25519 keys, modern key exchange, works with current servers).
+ Server: /opt/openssh/sbin/sshd on port 2222, keys only, root only with a key (see /opt/openssh/etc/sshd_config). It is not started by the package.
+ openssh-switch moves the server to port 22 for a trial with a safety timer (the old server comes back unless you confirm).
+ The sandbox of sshd is the rlimit one (the 2.6.28 kernel has no seccomp filter).
 Xb-Maemo-Display-Name: OpenSSH 10.6p2
 Xb-Maemo-Icon-26:
  iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
