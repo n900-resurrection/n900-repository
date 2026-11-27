@@ -5743,6 +5743,72 @@ Xb-Maemo-Icon-26:
  lJ+U3NXGWNtMv1vmgy0xuImDRmOvqThRubT3Agg0CR3PLxTbNQ8a/wtjr4ko1kL6lgAAAABJRU5E
  rkJggg==
 
+Package: openssh
+Version: 1:10.6p2-1maemo7
+Architecture: armel
+Maintainer: elPytel (build of upstream OpenSSH by the OpenBSD project)
+Installed-Size: 25044
+Depends: libc6 (>= 2.5)
+Conflicts: openssh-client, openssh-server, openssh-common
+Replaces: openssh-client, openssh-server, openssh-common
+Provides: openssh-client, openssh-server, openssh-common
+Filename: pool/main/openssh/openssh_10.6p2-1maemo7_armel.deb
+Size: 11584156
+MD5sum: 546f44c2c07654d5cda7b6399e9f64fd
+SHA1: e0d1a3ff942e4d924fe7d9360ee2c9496b5ce906
+SHA256: 1880916d918f8f76482da69dcdf1dcab0c7eef23fff303f8979d73f2654ef4bb
+Section: user/network
+Priority: optional
+Description: OpenSSH 10.6p2 client and server (modern ciphers, OpenSSL 3), replaces the system OpenSSH 5.1
+ OpenSSH 10.6p2 portable for Maemo 5 with a private static OpenSSL 3 and zlib, installed in /opt/openssh. It REPLACES the system OpenSSH 5.1 (openssh-client, openssh-server, openssh-common are removed when it is installed).
+ Install it only after the server was tried with openssh-switch (trial, then confirm): it needs your public key in /home/user/.ssh/authorized_keys or /root/.ssh/authorized_keys, because passwords are refused.
+ Client: ssh, scp, sftp, ssh-keygen, ssh-add, ssh-agent (ed25519 keys, modern key exchange, works with current servers). Server: the upstart job sshd on port 22, keys only, root only with a key (see /opt/openssh/etc/sshd_config).
+ The sandbox of sshd is the rlimit one (the 2.6.28 kernel has no seccomp filter); not included: ssh-keyscan, ssh-copy-id.
+Xb-Maemo-Display-Name: OpenSSH 10.6p2
+Xb-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAABoAAAAaEAYAAAD52pCNAAAAIGNIUk0AAHomAACAhAAA+gAAAIDo
+ AAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGYktHRP///////wlY99wAAAiuSURBVFjD1Zh5cFRVFsZ/
+ 971Od9JLQkhAE4IEEsK0SUHCloRCtiAwOJCyBBWZ0ULBFUcEnZrKoEC5FCo4MC7IKhVQVhEVNCEY
+ lpFJwpaEhIABZZFFwYSELJ3uznt3/nivg4IOAcSq+apefb3cOnW+c849794jMJGQ0LPnwIFchrBe
+ BsePMDgi2mAx1lxwlpuLKIPkOoOrzhh8NMfg2n2BhZWV+/fv2AHi50LEYoMHmYamDDG4V7HBzixz
+ 4RKT626yIJfJEw2qf9XgfSkGz8s3eLsZWDnpMkGDL5r+qgZ3sd9kh28Q3zaaejWDt4UqxodQ848p
+ H/x/CAkg4GfA79BGU1BXc4/0mvG7+WJBRQVZIHezH2SdVGUkyPlygVwGWLBgaa2xgN9dR5iCIsYY
+ 7Iz7vfTIAvZQDJYllkfVRAj3t/GHnQGbzbbUlggyR25lByAQiKtZC/gdMcYUJO43/8m+Yq1pUG6R
+ 2/g3yCAZKeNBBsv2MgHkWrlBbgIkEgkoKCggi+ReSkC2lbGyB0hNOmVHkIvlcrkK5B36ffo06PhR
+ By3KDa8envHD3+6GtE97T04+BppTT9ceB/mOXCyzAfk/FWUHdASSGmi/WsuSEIIJBtlXZshMUEvU
+ lWo6uN5yLnQ8D7hw4oSGoMaPPROgWWvWmjWQj8pn5N9BKVI2KOfAtcC53jUdlM3KYjEDGhyNGz2j
+ oGl+03veWrAl2zbbLNA1tUtZbD20ORX2cagLHKPsSSHTQY/Uc2Um+O71PeSbCuJTsVosAbx48bV4
+ G+i2jVdWqZlg6ZZ9ZQaEXnTFOvvDgyHjyu8phR5aUom7HmSZrJc+2Du4eGxZV3h/ygc71u0Ci9Xy
+ inoRHnh8TEbmAkj7vs/4FDfIBtnAcqjwfP3skW7wXqelhSu9IHNltawArYs2WpsO/WenR/RphhGz
+ hsYOdMDpqWdrf3gGFry5dNaKEVDlqr69ZhWIcCGE/yeVYUK5QpBqbFbdq9+ip0PicHdeghfuOTS6
+ 6Y8boahwb0jJXHi/xwcn1rng6CPfvn78OMg39RV6HnSZFPvQbd1hXNCYotExUF56aHxlDCzrtKJm
+ zQA4uOZQ70oPyGJKKQc8ePCAuk6dZkkF60nra0FuOPrRse0nBAx/bsjoASXQ/cXEne49oMfqd+h/
+ vlTal+PKDOnoSBB54hOxEi70qwmtfQJqttZuvfg5DP58QHX61+Ca4XzXcRTyB+4885850JyprdJK
+ oG5UXYf6SDhX8KO1agL0d6dt770KbPdYs61rYfuWrzYVFIKvwJfoewNEGa8TDtIrx+iNkD95Z1VB
+ FyiLqKg5XAnDJw+pHpAFYYWhNtde4CTfcRpo8/PM/HqGdHR0ELVKmbIJjrz7ze5jSTD9+Zd7znkb
+ tg3bGV8wFpJf7L4ycS5kHZq2/qkfIOZC9F1RL8HJqFNHz3wFMyyvLvpnGWzKzg3PPwZdc+Pmx6bD
+ P+KeOz3ZCXF3dU7t5AE9QibrmSB9MkRGQ/NK/5nmJBAdiBK3gDwv/dIFdCCaWwEbNqxGo2ydINXs
+ UnP0bH0LdKTDyOip0HVwXHjnjbA/s7Rf+SQo/kNpu/IMaDMkbFRYBoRkhHwRHAvt57RLiyyCpFx3
+ t4S/QHlCRd7Xr0BRu72ZJcXgHOaY69gFLrvzTsezwPec4zworyuPKP1A9Ffcoh0wl5eZDupr6iNq
+ PxAO4RfngQYa8Zi7ndYICqg+yGEqQSwXs8XTkBbT+9vk8fD4gYe/GB8Nidvd3btNhNUjN0z7zA4n
+ V5+aenoCqJFKg3IAkh3d0xK7wWMjJmQ8sA3SZvfpnbIINuR/9nZOGVTuOKocexY8eU2p3nwoWVn2
+ QsV8qHqrKudCA3iim5Y3pUDxgQOrD26B8yOqZlYfAPaIfPHJr+Wn5XA6vNT4usZs22Ep+PDhB0Yy
+ jMFg222daG0A+z57eshC0MZps7T1UNe3vrGhAHSrHq8PBbFZrBPvg/VE0OwgN9iH2teECJCnZaMM
+ hrrO9d81bAbthBauZYC6U31PmQy2SOtaW1/wLfSf8w8BPURP0IdD8L22s7Yp4D/mT/LPhOZmLV3L
+ AhKIp3NARq15eL5P/fXDhQ0rQcAmcvgSmhZ57/d+CE1Pe1O8VUA1BygEJovVYimIJHG72EXL+8H7
+ oc/vmwPex3w7fVmAEycOYBFrRSGIfiJVNIN+QQ+VS6BxpsfvWQZ0Y4IYCaKT6EgeNM71vOVZDtxN
+ vBgGYoBIIPXSXm99hq4dl5evfh02rhOXMqTcmCFAIRgFqJTjKAP5jp4sZwFH5EOUAToe8/xx1RPZ
+ b4HrFyRQECCLZCTbICiy/UGrHezr3fOcM0F50j5BOQ5yl7TILYCX42Z3uvEgtkKQeUNtuSFeHdJ8
+ FEJQQA7SCmQM2Np2mhj8BESsu7v/Lb3BNaXPlLA9wP1iOk8CHipo+M11BPyOMgXJ1eYPD16DEaNt
+ OulJKMgq/8N6Luiq53k9G8Qb1qWiHJT77GFqIXArk+gA6HjNEgwE87coxQcDOswuV7Xe4PpvDA67
+ ugmz5PiehfIUKJudDksf0KMaK7RBUO3d+MK5k9DcuWZacy7IOfoy2QOYTxwvAJILSCBdNDIURIaI
+ EZmARLvKVeEXEPC7ar0ZpSPmFGXfrGvIj4YEMUhEiD+Bv9vZE14n1G3c0752PPj3V+t+C4iUoI7i
+ KQh5Ij7ODtjz3KXOf4F91+1+5zKwprafZOsFXJSF1ADX1R0Dfh/JMTN00bybzzOHJEnmjKEVs4VA
+ RG10JBjEo0qOyALOyGEcB7Yqh0U4KC85Hep+UL60famOBZzsJgy0h+vrtLZABtUY1wHjEbSiGAND
+ knnjAzoue7FuX2PwxGsfYynYfta/YkQWXUBmNm3Rf4SGD0terPsKCOevLAcwA9FWNHEniLbiNrPk
+ lJ+U3NXGWNtMv1vmgy0xuImDRmOvqThRubT3Agg0CR3PLxTbNQ8a/wtjr4ko1kL6lgAAAABJRU5E
+ rkJggg==
+
 Package: openxcom
 Version: 1.0-1maemo1
 Architecture: armel
